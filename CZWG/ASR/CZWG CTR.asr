@@ -1,0 +1,250 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Airports:CYAV:name
+Airports:CYAV:symbol
+Airports:CYBR:name
+Airports:CYBR:symbol
+Airports:CYDN:name
+Airports:CYDN:symbol
+Airports:CYFO:name
+Airports:CYFO:symbol
+Airports:CYGQ:name
+Airports:CYGQ:symbol
+Airports:CYGX:name
+Airports:CYGX:symbol
+Airports:CYHD:name
+Airports:CYHD:symbol
+Airports:CYIB:name
+Airports:CYIB:symbol
+Airports:CYMJ:name
+Airports:CYMJ:symbol
+Airports:CYNE:name
+Airports:CYNE:symbol
+Airports:CYPA:name
+Airports:CYPA:symbol
+Airports:CYPG:name
+Airports:CYPG:symbol
+Airports:CYQD:name
+Airports:CYQD:symbol
+Airports:CYQK:name
+Airports:CYQK:symbol
+Airports:CYQR:name
+Airports:CYQR:symbol
+Airports:CYQV:name
+Airports:CYQV:symbol
+Airports:CYQW:name
+Airports:CYQW:symbol
+Airports:CYRL:name
+Airports:CYRL:symbol
+Airports:CYTH:name
+Airports:CYTH:symbol
+Airports:CYVC:name
+Airports:CYVC:symbol
+Airports:CYWG:name
+Airports:CYWG:symbol
+Airports:CYXE:name
+Airports:CYXE:symbol
+Airports:CYXL:name
+Airports:CYXL:symbol
+Airports:CYYL:name
+Airports:CYYL:symbol
+Airports:CYYN:name
+Airports:CYYN:symbol
+Airports:CYYQ:name
+Airports:CYYQ:symbol
+ARTCC boundary:CZWG FIR Border:
+ARTCC boundary:KZMP - KZSC Border:
+ARTCC boundary:KZMP - ZYZ Border:
+ARTCC boundary:ZEG - KZSC Border:
+ARTCC boundary:ZEG - ZUL Border:
+ARTCC boundary:ZUL - ZYZ Border:
+ARTCC high boundary:CZWG High Border (FL290+):
+ARTCC low boundary:Airspace C CYWG Control Zone:
+ARTCC low boundary:Airspace C CYWG TCA_C (2k-3k):
+ARTCC low boundary:Airspace C CYWG TCA_C (3k-4k):
+ARTCC low boundary:Airspace C CYWG TCA_C(4k-12.5k):
+ARTCC low boundary:Airspace C KROX Control Zone:
+ARTCC low boundary:Airspace D CYAV Control Zone:
+ARTCC low boundary:Airspace D CYMJ Control Zone:
+ARTCC low boundary:Airspace D CYPG Control Zone:
+ARTCC low boundary:Airspace D CYQR Control Zone:
+ARTCC low boundary:Airspace D CYQT Control Zone:
+ARTCC low boundary:Airspace D CYXE Control Zone:
+ARTCC low boundary:Airspace E CYBR Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYBR Control Zone:
+ARTCC low boundary:Airspace E CYBR Transition Area:
+ARTCC low boundary:Airspace E CYDN Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYDN Control Zone:
+ARTCC low boundary:Airspace E CYDN Transition Area:
+ARTCC low boundary:Airspace E CYFO Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYFO Control Zone:
+ARTCC low boundary:Airspace E CYFO Transition Area:
+ARTCC low boundary:Airspace E CYGQ Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYGQ Control Zone:
+ARTCC low boundary:Airspace E CYGQ Transition Area:
+ARTCC low boundary:Airspace E CYGX Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYGX Control Zone:
+ARTCC low boundary:Airspace E CYGX Transition Area:
+ARTCC low boundary:Airspace E CYHD Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYHD Control Zone:
+ARTCC low boundary:Airspace E CYHD Transition Area:
+ARTCC low boundary:Airspace E CYIB Control Area Extension:
+ARTCC low boundary:Airspace E CYIB Transition Area:
+ARTCC low boundary:Airspace E CYMJ MTCA_E:
+ARTCC low boundary:Airspace E CYNE Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYNE Control Zone:
+ARTCC low boundary:Airspace E CYNE Transition Area:
+ARTCC low boundary:Airspace E CYPA Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYPA Control Zone:
+ARTCC low boundary:Airspace E CYPA Transition Area:
+ARTCC low boundary:Airspace E CYPG Transition Area:
+ARTCC low boundary:Airspace E CYQD Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYQD Control Zone:
+ARTCC low boundary:Airspace E CYQD Transition Area:
+ARTCC low boundary:Airspace E CYQK Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYQK Control Zone:
+ARTCC low boundary:Airspace E CYQK Transition Area:
+ARTCC low boundary:Airspace E CYQT Control Area Extension (2.2k-12.5k):
+ARTCC low boundary:Airspace E CYQV Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYQV Control Zone:
+ARTCC low boundary:Airspace E CYQV Transition Area:
+ARTCC low boundary:Airspace E CYQW Control Area Extension (12.5k+):
+ARTCC low boundary:Airspace E CYQW Control Zone:
+ARTCC low boundary:Airspace E CYQW Transition Area:
+ARTCC low boundary:Airspace E CYRL Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYRL Control Zone:
+ARTCC low boundary:Airspace E CYRL Transition Area:
+ARTCC low boundary:Airspace E CYTH Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYTH Control Zone:
+ARTCC low boundary:Airspace E CYTH Transition Area:
+ARTCC low boundary:Airspace E CYVC Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYVC Control Zone:
+ARTCC low boundary:Airspace E CYVC Transition Area:
+ARTCC low boundary:Airspace E CYWG Control Area Extension (6.5k-7k):
+ARTCC low boundary:Airspace E CYWG Control Area Extension (7k+):
+ARTCC low boundary:Airspace E CYWG Transition Area:
+ARTCC low boundary:Airspace E CYXE Transition Area:
+ARTCC low boundary:Airspace E CYXL Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYXL Control Zone:
+ARTCC low boundary:Airspace E CYXL Transition Area:
+ARTCC low boundary:Airspace E CYYL Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYYL Control Zone:
+ARTCC low boundary:Airspace E CYYL Transition Area:
+ARTCC low boundary:Airspace E CYYN Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYYN Control Zone:
+ARTCC low boundary:Airspace E CYYN Transition Area:
+ARTCC low boundary:Airspace E CYYQ Control Area Extension:
+ARTCC low boundary:Airspace E CYYQ Control Zone:
+ARTCC low boundary:Airspace E CYYQ Transition Area:
+ARTCC low boundary:Airspace E KBDE Control Zone:
+ARTCC low boundary:Airspace E KINL Control Zone:
+ARTCC low boundary:Airspace E KINL TRACON:
+ARTCC low boundary:Airspace E KPMB Control Zone:
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA304):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA305):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA306):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA307):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA308):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA310):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA311):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA315):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA316):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA317):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA403):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA404):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA407):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA408):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA411):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA413):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA420):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F203):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F204):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F207):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F221):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F222 | 18k-unlimited):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F223):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F225):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F229):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F231):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F236):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F268):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F269):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F270):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F301):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F302):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F303):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F309):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F316):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F401):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F405):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F406):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F409):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F410):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F412):
+ARTCC low boundary:Airspace F CYR Restricted Airspace F224:
+ARTCC low boundary:Airspace F CYR Restricted Area (F230):
+ARTCC low boundary:AoR CTR CYBR Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYDN Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYFO Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYGX Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYHD Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYNE Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYPA Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYQD Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYQK Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYQR Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYQT Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYQV Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYQW Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYRL Control Area Extenstion (12.5k+):
+ARTCC low boundary:AoR CTR CYTH Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYVC Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYXE Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYXL Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYYL Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYYN Control Area Extension (12.5k+):
+ARTCC low boundary:AoR CTR CYYQ Control Area Extension (12.5k+):
+ARTCC low boundary:CZWG Low Border (-FL290):
+ARTCC low boundary:FIR border GP Great Plains:
+ARTCC low boundary:FIR border NL North Low:
+ARTCC low boundary:FIR border QK Kenora:
+ARTCC low boundary:FIR border QT Thunder Bay:
+ARTCC low boundary:FIR border SP Marathon:
+ARTCC low boundary:FIR border TL Trout Lake:
+ARTCC low boundary:FIR border VC La Ronge:
+ARTCC low boundary:FIR border WE Winnipeg East:
+ARTCC low boundary:FIR border WG - YZ Border:
+ARTCC low boundary:FIR border WK Waskesiu:
+ARTCC low boundary:FIR border WW Winnipeg West:
+ARTCC low boundary:FIR border XE Saskatoon:
+Free Text:CZWG /MSP and SLC Handoff Points\ARCHIE:freetext
+Free Text:CZWG /MSP and SLC Handoff Points\BALDWYN:freetext
+Free Text:CZWG /MSP and SLC Handoff Points\CARL:freetext
+Free Text:CZWG /MSP and SLC Handoff Points\CHARLIE:freetext
+Free Text:CZWG /MSP and SLC Handoff Points\DONNA:freetext
+Free Text:CZWG /MSP and SLC Handoff Points\TRI CENTRE:freetext
+Geo:CZWG Rivers and Lakes:
+Geo:CZWG Roads and Highways:
+VORs:HML:name
+VORs:HML:symbol
+VORs:INL:name
+VORs:INL:symbol
+VORs:YQT:name
+VORs:YQT:symbol
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:10
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:CSiT
+WINDOWAREA:48.401714:-105.074564:53.305261:-90.862701

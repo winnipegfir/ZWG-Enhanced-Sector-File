@@ -1,0 +1,317 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Airports:CYBR:symbol
+Airports:CYDN:symbol
+Airports:CYFO:symbol
+Airports:CYGQ:symbol
+Airports:CYGX:symbol
+Airports:CYHD:symbol
+Airports:CYIB:symbol
+Airports:CYNE:symbol
+Airports:CYPA:symbol
+Airports:CYQD:symbol
+Airports:CYQK:symbol
+Airports:CYQV:symbol
+Airports:CYQW:symbol
+Airports:CYRL:symbol
+Airports:CYTH:symbol
+Airports:CYVC:symbol
+Airports:CYXL:symbol
+Airports:CYYL:symbol
+Airports:CYYN:symbol
+Airports:CYYQ:symbol
+ARTCC boundary:CZWG Solid Border:
+ARTCC boundary:KZMP - KZSC Border:
+ARTCC boundary:KZMP - ZYZ Border:
+ARTCC boundary:ZEG - KZSC Border:
+ARTCC boundary:ZEG - ZUL Border:
+ARTCC boundary:ZUL - ZYZ Border:
+ARTCC high boundary:CZWG High Border (FL290+):
+ARTCC low boundary:Airspace C CYWG Control Zone:
+ARTCC low boundary:Airspace C CYWG TCA_C (3k-4k):
+ARTCC low boundary:Airspace C CYWG TCA_C(4k-12.5k):
+ARTCC low boundary:Airspace D CYAV Control Zone:
+ARTCC low boundary:Airspace D CYMJ Control Zone:
+ARTCC low boundary:Airspace D CYPG Control Zone:
+ARTCC low boundary:Airspace D CYQR Control Zone:
+ARTCC low boundary:Airspace D CYQT Control Zone:
+ARTCC low boundary:Airspace D CYXE Control Zone:
+ARTCC low boundary:Airspace E CYBR Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYBR Control Zone:
+ARTCC low boundary:Airspace E CYDN Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYDN Control Zone:
+ARTCC low boundary:Airspace E CYFO Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYFO Control Zone:
+ARTCC low boundary:Airspace E CYGQ Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYGQ Control Zone:
+ARTCC low boundary:Airspace E CYGX Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYGX Control Zone:
+ARTCC low boundary:Airspace E CYHD Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYHD Control Zone:
+ARTCC low boundary:Airspace E CYIB Control Area Extension:
+ARTCC low boundary:Airspace E CYMJ MTCA_T:
+ARTCC low boundary:Airspace E CYNE Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYNE Control Zone:
+ARTCC low boundary:Airspace E CYPA Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYPA Control Zone:
+ARTCC low boundary:Airspace E CYQD Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYQD Control Zone:
+ARTCC low boundary:Airspace E CYQK Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYQK Control Zone:
+ARTCC low boundary:Airspace E CYQR Control Area Transition (12.5k-):
+ARTCC low boundary:Airspace E CYQV Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYQV Control Zone:
+ARTCC low boundary:Airspace E CYQW Control Area Extension (12.5k+):
+ARTCC low boundary:Airspace E CYQW Control Zone:
+ARTCC low boundary:Airspace E CYRL Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYRL Control Zone:
+ARTCC low boundary:Airspace E CYTH Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYTH Control Zone:
+ARTCC low boundary:Airspace E CYVC Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYVC Control Zone:
+ARTCC low boundary:Airspace E CYXL Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYXL Control Zone:
+ARTCC low boundary:Airspace E CYYL Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYYL Control Zone:
+ARTCC low boundary:Airspace E CYYN Control Area Extension (12.5k-):
+ARTCC low boundary:Airspace E CYYN Control Zone:
+ARTCC low boundary:Airspace E CYYQ Control Area Extension:
+ARTCC low boundary:Airspace E CYYQ Control Zone:
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA304):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA305):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA306):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA307):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA308):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA310):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA311):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA315):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA316):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA317):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA403):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA404):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA407):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA408):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA411):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA413):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA420):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA515):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F203):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F204):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F207):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F221):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F222 | 18k-unlimited):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F223):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F225):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F229):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F231):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F236):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F268):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F269):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F270):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F301):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F302):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F303):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F309):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F316):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F401):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F405):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F406):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F409):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F410):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F412):
+ARTCC low boundary:Airspace F CYR Restricted Airspace F224:
+ARTCC low boundary:Airspace F CYR Restricted Area (F230):
+ARTCC low boundary:CYWG Airspace B TCA_B:
+ARTCC low boundary:CZWG Low Border (-FL290):
+ARTCC low boundary:FIR border GP Great Plains:
+ARTCC low boundary:FIR border NL North Low:
+ARTCC low boundary:FIR border QK Kenora:
+ARTCC low boundary:FIR border QT Thunder Bay:
+ARTCC low boundary:FIR border SP Marathon:
+ARTCC low boundary:FIR border TL Trout Lake:
+ARTCC low boundary:FIR border VC La Ronge:
+ARTCC low boundary:FIR border WE Winnipeg East:
+ARTCC low boundary:FIR border WG - YZ Border:
+ARTCC low boundary:FIR border WK Waskesiu:
+ARTCC low boundary:FIR border WW Winnipeg West:
+ARTCC low boundary:FIR border XE Saskatoon:
+Fixes:AMBIL:symbol
+Fixes:ANTOS:symbol
+Fixes:BEFAN:symbol
+Fixes:CAREN:symbol
+Fixes:DUNEM:symbol
+Fixes:GORAK:symbol
+Fixes:KEBRU:symbol
+Fixes:KELTO:symbol
+Fixes:KEMKA:symbol
+Fixes:KENBI:symbol
+Fixes:LIBUK:symbol
+Fixes:MAVOB:symbol
+Fixes:NORAK:symbol
+Fixes:NOTER:symbol
+Fixes:ODGOV:symbol
+Fixes:TIGAG:symbol
+Geo:CZWG Shorelines:
+Low airways:A11:line
+Low airways:A13:line
+Low airways:A14:line
+Low airways:A19:line
+Low airways:A4:line
+Low airways:B15:line
+Low airways:B6:line
+Low airways:G1:line
+Low airways:G7:line
+Low airways:R10:line
+Low airways:R23:line
+Low airways:R34:line
+Low airways:R6:line
+Low airways:T622:line
+Low airways:T628:line
+Low airways:T644:line
+Low airways:T678:line
+Low airways:T682:line
+Low airways:T702:line
+Low airways:T715:line
+Low airways:T745:line
+Low airways:T747:line
+Low airways:T755:line
+Low airways:T767:line
+Low airways:T797:line
+Low airways:V129:line
+Low airways:V13:line
+Low airways:V133:line
+Low airways:V161:line
+Low airways:V175:line
+Low airways:V180:line
+Low airways:V181:line
+Low airways:V242:line
+Low airways:V300:line
+Low airways:V302:line
+Low airways:V303:line
+Low airways:V304:line
+Low airways:V306:line
+Low airways:V325:line
+Low airways:V327:line
+Low airways:V328:line
+Low airways:V333:line
+Low airways:V334:line
+Low airways:V344:line
+Low airways:V345:line
+Low airways:V348:line
+Low airways:V353:line
+Low airways:V356:line
+Low airways:V357:line
+Low airways:V36:line
+Low airways:V367:line
+Low airways:V37:line
+Low airways:V41:line
+Low airways:V74:line
+Low airways:V8:line
+NDBs:BY:symbol
+NDBs:FO:symbol
+NDBs:IB:symbol
+NDBs:PA:symbol
+NDBs:QD:symbol
+NDBs:QR:symbol
+NDBs:QT:symbol
+NDBs:RL:symbol
+NDBs:TH:symbol
+NDBs:UDE:symbol
+NDBs:VC:symbol
+NDBs:WG:symbol
+NDBs:XD:symbol
+NDBs:YGX:symbol
+NDBs:YHD:symbol
+NDBs:YL:symbol
+NDBs:YNE:symbol
+NDBs:YQK:symbol
+NDBs:YXL:symbol
+Runways:CYAV 04-22:centerline
+Runways:CYAV 13-31:centerline
+Runways:CYAV 18-36:centerline
+Runways:CYMJ 03-21:centerline
+Runways:CYMJ 11L-29R:centerline
+Runways:CYMJ 11R-29L:centerline
+Runways:CYPG 02-20:centerline
+Runways:CYPG 09-27:centerline
+Runways:CYPG 13L-31R:centerline
+Runways:CYPG 13R-31L:centerline
+Runways:CYQR 08-26:centerline
+Runways:CYQR 13-31:centerline
+Runways:CYQT 07-25:centerline
+Runways:CYQT 12-30:centerline
+Runways:CYWG 13-31:centerline
+Runways:CYWG 18-36:centerline
+Runways:CYXE 09-27:centerline
+Runways:CYXE 15-33:centerline
+VORs:CMX:symbol
+VORs:CTB:symbol
+VORs:DLH:symbol
+VORs:DVL:symbol
+VORs:GFK:symbol
+VORs:GGW:symbol
+VORs:GPZ:symbol
+VORs:HML:symbol
+VORs:HVR:symbol
+VORs:IDJ:symbol
+VORs:INL:symbol
+VORs:ISN:symbol
+VORs:IWD:symbol
+VORs:MOT:symbol
+VORs:ROX:symbol
+VORs:SAW:symbol
+VORs:SSM:symbol
+VORs:UAU:symbol
+VORs:UOD:symbol
+VORs:VBI:symbol
+VORs:VLN:symbol
+VORs:VLR:symbol
+VORs:YBR:symbol
+VORs:YDN:symbol
+VORs:YDR:symbol
+VORs:YEA:symbol
+VORs:YEG:symbol
+VORs:YGQ:symbol
+VORs:YMJ:symbol
+VORs:YMM:symbol
+VORs:YMO:symbol
+VORs:YPA:symbol
+VORs:YPG:symbol
+VORs:YQD:symbol
+VORs:YQL:symbol
+VORs:YQT:symbol
+VORs:YQV:symbol
+VORs:YRL:symbol
+VORs:YRT:symbol
+VORs:YSM:symbol
+VORs:YSP:symbol
+VORs:YTH:symbol
+VORs:YTS:symbol
+VORs:YVC:symbol
+VORs:YWG:symbol
+VORs:YXE:symbol
+VORs:YXZ:symbol
+VORs:YYC:symbol
+VORs:YYL:symbol
+VORs:YYN:symbol
+VORs:YYQ:symbol
+SHOWC:1
+SHOWSB:1
+BELOW:0
+ABOVE:0
+LEADER:-3
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:7
+SIMULATION_MODE:1
+DISABLEPANNING:1
+DISABLEZOOMING:0
+DisplayRotation:357.00000
+TAGFAMILY:NEW
+WINDOWAREA:46.391241:-123.560043:66.863521:-63.642744
+PLUGIN:VATCANSitu:altFilterHigh:0
+PLUGIN:VATCANSitu:altFilterLow:8
+PLUGIN:VATCANSitu:DisplayTypeName:IFR

@@ -1,0 +1,242 @@
+DisplayTypeName:SMR radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Free Text:CYAV St. Andrews Taxiways\A:freetext
+Free Text:CYAV St. Andrews Taxiways\B:freetext
+Free Text:CYAV St. Andrews Taxiways\B:freetext
+Free Text:CYAV St. Andrews Taxiways\B:freetext
+Free Text:CYAV St. Andrews Taxiways\C:freetext
+Free Text:CYAV St. Andrews Taxiways\D:freetext
+Free Text:CYAV St. Andrews Taxiways\E:freetext
+Free Text:CYAV St. Andrews Taxiways\E:freetext
+Free Text:CYAV St. Andrews Taxiways\E:freetext
+Free Text:CYAV St. Andrews Taxiways\G:freetext
+Free Text:CYAV St. Andrews Taxiways\H:freetext
+Free Text:CYMJ Moose Jaw Ramps\Belle Plaine:freetext
+Free Text:CYMJ Moose Jaw Taxiways\A:freetext
+Free Text:CYMJ Moose Jaw Taxiways\B:freetext
+Free Text:CYMJ Moose Jaw Taxiways\B:freetext
+Free Text:CYMJ Moose Jaw Taxiways\C:freetext
+Free Text:CYMJ Moose Jaw Taxiways\C:freetext
+Free Text:CYMJ Moose Jaw Taxiways\D:freetext
+Free Text:CYMJ Moose Jaw Taxiways\D:freetext
+Free Text:CYMJ Moose Jaw Taxiways\F:freetext
+Free Text:CYPG Portage Taxiways\B:freetext
+Free Text:CYPG Portage Taxiways\D:freetext
+Free Text:CYPG Portage Taxiways\D:freetext
+Free Text:CYPG Portage Taxiways\G:freetext
+Free Text:CYPG Portage Taxiways\R:freetext
+Free Text:CYQR Regina Ramps\10:freetext
+Free Text:CYQR Regina Ramps\10A:freetext
+Free Text:CYQR Regina Ramps\11:freetext
+Free Text:CYQR Regina Ramps\11A:freetext
+Free Text:CYQR Regina Ramps\2A:freetext
+Free Text:CYQR Regina Ramps\2B:freetext
+Free Text:CYQR Regina Ramps\3:freetext
+Free Text:CYQR Regina Ramps\4:freetext
+Free Text:CYQR Regina Ramps\5:freetext
+Free Text:CYQR Regina Ramps\6:freetext
+Free Text:CYQR Regina Ramps\7:freetext
+Free Text:CYQR Regina Ramps\8:freetext
+Free Text:CYQR Regina Ramps\8A:freetext
+Free Text:CYQR Regina Ramps\9:freetext
+Free Text:CYQR Regina Taxiways\A:freetext
+Free Text:CYQR Regina Taxiways\A:freetext
+Free Text:CYQR Regina Taxiways\B:freetext
+Free Text:CYQR Regina Taxiways\B:freetext
+Free Text:CYQR Regina Taxiways\B:freetext
+Free Text:CYQR Regina Taxiways\B:freetext
+Free Text:CYQR Regina Taxiways\B1:freetext
+Free Text:CYQR Regina Taxiways\C:freetext
+Free Text:CYQR Regina Taxiways\K:freetext
+Free Text:CYQR Regina Taxiways\M:freetext
+Free Text:CYQR Regina Taxiways\P:freetext
+Free Text:CYQT Thunder Bay Taxiways\A:freetext
+Free Text:CYQT Thunder Bay Taxiways\A:freetext
+Free Text:CYQT Thunder Bay Taxiways\A:freetext
+Free Text:CYQT Thunder Bay Taxiways\B:freetext
+Free Text:CYQT Thunder Bay Taxiways\C:freetext
+Free Text:CYQT Thunder Bay Taxiways\D:freetext
+Free Text:CYQT Thunder Bay Taxiways\D:freetext
+Free Text:CYQT Thunder Bay Taxiways\E:freetext
+Free Text:CYQT Thunder Bay Taxiways\F:freetext
+Free Text:CYQT Thunder Bay Taxiways\G:freetext
+Free Text:CYQT Thunder Bay Taxiways\H:freetext
+Free Text:CYWG Winnipeg Ramps\1:freetext
+Free Text:CYWG Winnipeg Ramps\10:freetext
+Free Text:CYWG Winnipeg Ramps\11:freetext
+Free Text:CYWG Winnipeg Ramps\12:freetext
+Free Text:CYWG Winnipeg Ramps\15:freetext
+Free Text:CYWG Winnipeg Ramps\16:freetext
+Free Text:CYWG Winnipeg Ramps\17:freetext
+Free Text:CYWG Winnipeg Ramps\18:freetext
+Free Text:CYWG Winnipeg Ramps\19:freetext
+Free Text:CYWG Winnipeg Ramps\1A:freetext
+Free Text:CYWG Winnipeg Ramps\2:freetext
+Free Text:CYWG Winnipeg Ramps\2:freetext
+Free Text:CYWG Winnipeg Ramps\20:freetext
+Free Text:CYWG Winnipeg Ramps\21:freetext
+Free Text:CYWG Winnipeg Ramps\2A:freetext
+Free Text:CYWG Winnipeg Ramps\3:freetext
+Free Text:CYWG Winnipeg Ramps\3:freetext
+Free Text:CYWG Winnipeg Ramps\3A:freetext
+Free Text:CYWG Winnipeg Ramps\4:freetext
+Free Text:CYWG Winnipeg Ramps\4:freetext
+Free Text:CYWG Winnipeg Ramps\4A:freetext
+Free Text:CYWG Winnipeg Ramps\4A:freetext
+Free Text:CYWG Winnipeg Ramps\5:freetext
+Free Text:CYWG Winnipeg Ramps\6:freetext
+Free Text:CYWG Winnipeg Ramps\7:freetext
+Free Text:CYWG Winnipeg Ramps\8:freetext
+Free Text:CYWG Winnipeg Ramps\9:freetext
+Free Text:CYWG Winnipeg Ramps\Air Canada:freetext
+Free Text:CYWG Winnipeg Ramps\Air Canada Cargo:freetext
+Free Text:CYWG Winnipeg Ramps\Airfield Maintenance & Emergency Response:freetext
+Free Text:CYWG Winnipeg Ramps\Aviation Museum:freetext
+Free Text:CYWG Winnipeg Ramps\Blast Wall:freetext
+Free Text:CYWG Winnipeg Ramps\Calm Air:freetext
+Free Text:CYWG Winnipeg Ramps\Cargojet:freetext
+Free Text:CYWG Winnipeg Ramps\CDF:freetext
+Free Text:CYWG Winnipeg Ramps\CDF 1:freetext
+Free Text:CYWG Winnipeg Ramps\CDF 2:freetext
+Free Text:CYWG Winnipeg Ramps\CDF 3:freetext
+Free Text:CYWG Winnipeg Ramps\CDF 4:freetext
+Free Text:CYWG Winnipeg Ramps\CDF 5:freetext
+Free Text:CYWG Winnipeg Ramps\CDF 6:freetext
+Free Text:CYWG Winnipeg Ramps\CFB Winnipeg:freetext
+Free Text:CYWG Winnipeg Ramps\ESSO:freetext
+Free Text:CYWG Winnipeg Ramps\Fast Air:freetext
+Free Text:CYWG Winnipeg Ramps\FedEx:freetext
+Free Text:CYWG Winnipeg Ramps\First Air Cargo:freetext
+Free Text:CYWG Winnipeg Ramps\Helipad H:freetext
+Free Text:CYWG Winnipeg Ramps\Kelly Western:freetext
+Free Text:CYWG Winnipeg Ramps\Perimeter Aviation:freetext
+Free Text:CYWG Winnipeg Ramps\Purolator:freetext
+Free Text:CYWG Winnipeg Ramps\Red River College:freetext
+Free Text:CYWG Winnipeg Ramps\Shell:freetext
+Free Text:CYWG Winnipeg Ramps\STARS:freetext
+Free Text:CYWG Winnipeg Ramps\Tower:freetext
+Free Text:CYWG Winnipeg Ramps\UPS:freetext
+Free Text:CYWG Winnipeg Taxiways\A:freetext
+Free Text:CYWG Winnipeg Taxiways\B:freetext
+Free Text:CYWG Winnipeg Taxiways\C:freetext
+Free Text:CYWG Winnipeg Taxiways\C:freetext
+Free Text:CYWG Winnipeg Taxiways\C:freetext
+Free Text:CYWG Winnipeg Taxiways\E:freetext
+Free Text:CYWG Winnipeg Taxiways\F:freetext
+Free Text:CYWG Winnipeg Taxiways\F:freetext
+Free Text:CYWG Winnipeg Taxiways\F:freetext
+Free Text:CYWG Winnipeg Taxiways\G:freetext
+Free Text:CYWG Winnipeg Taxiways\G:freetext
+Free Text:CYWG Winnipeg Taxiways\H:freetext
+Free Text:CYWG Winnipeg Taxiways\H:freetext
+Free Text:CYWG Winnipeg Taxiways\H:freetext
+Free Text:CYWG Winnipeg Taxiways\K:freetext
+Free Text:CYWG Winnipeg Taxiways\K:freetext
+Free Text:CYWG Winnipeg Taxiways\K:freetext
+Free Text:CYWG Winnipeg Taxiways\L:freetext
+Free Text:CYWG Winnipeg Taxiways\P:freetext
+Free Text:CYWG Winnipeg Taxiways\P:freetext
+Free Text:CYWG Winnipeg Taxiways\Q:freetext
+Free Text:CYWG Winnipeg Taxiways\S:freetext
+Free Text:CYWG Winnipeg Taxiways\T:freetext
+Free Text:CYWG Winnipeg Taxiways\T:freetext
+Free Text:CYWG Winnipeg Taxiways\V:freetext
+Free Text:CYWG Winnipeg Taxiways\V:freetext
+Free Text:CYWG Winnipeg Taxiways\W:freetext
+Free Text:CYXE Saskatoon Ramps\1:freetext
+Free Text:CYXE Saskatoon Ramps\1A:freetext
+Free Text:CYXE Saskatoon Ramps\2:freetext
+Free Text:CYXE Saskatoon Ramps\2A:freetext
+Free Text:CYXE Saskatoon Ramps\3:freetext
+Free Text:CYXE Saskatoon Ramps\4:freetext
+Free Text:CYXE Saskatoon Ramps\4A:freetext
+Free Text:CYXE Saskatoon Ramps\5:freetext
+Free Text:CYXE Saskatoon Ramps\5A:freetext
+Free Text:CYXE Saskatoon Ramps\6:freetext
+Free Text:CYXE Saskatoon Ramps\7:freetext
+Free Text:CYXE Saskatoon Ramps\8:freetext
+Free Text:CYXE Saskatoon Ramps\8A:freetext
+Free Text:CYXE Saskatoon Ramps\9:freetext
+Free Text:CYXE Saskatoon Taxiways\A:freetext
+Free Text:CYXE Saskatoon Taxiways\A:freetext
+Free Text:CYXE Saskatoon Taxiways\A:freetext
+Free Text:CYXE Saskatoon Taxiways\B:freetext
+Free Text:CYXE Saskatoon Taxiways\B:freetext
+Free Text:CYXE Saskatoon Taxiways\B:freetext
+Free Text:CYXE Saskatoon Taxiways\C:freetext
+Free Text:CYXE Saskatoon Taxiways\F:freetext
+Geo:CYAV Hold Lines:
+Geo:CYMJ Hold Lines:
+Geo:CYPG Hold Lines:
+Geo:CYQR Hold Lines:
+Geo:CYQT Hold Lines:
+Geo:CYWG Hold Lines:
+Geo:CYXE Hold Lines:
+Regions:CYAV St. Andrews:polygon
+Regions:CYMJ Moose Jaw:polygon
+Regions:CYQR Regina:polygon
+Regions:CYQT Thunder Bay:polygon
+Regions:CYWG Winnipeg:polygon
+Regions:CYXE Saskatoon:polygon
+Runways:CYAV 04-22:name
+Runways:CYAV 13-31:name
+Runways:CYAV 18-36:name
+Runways:CYMJ 03-21:name
+Runways:CYMJ 11L-29R:name
+Runways:CYMJ 11R-29L:name
+Runways:CYPG 02-20:name
+Runways:CYPG 09-27:name
+Runways:CYPG 13L-31R:name
+Runways:CYPG 13R-31L:name
+Runways:CYQR 08-26:name
+Runways:CYQR 13-31:name
+Runways:CYQT 07-25:name
+Runways:CYQT 12-30:name
+Runways:CYWG 13-31:name
+Runways:CYWG 18-36:name
+Runways:CYXE 09-27:name
+Runways:CYXE 15-33:name
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:350.00000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:52.160344:-106.735250:52.185871:-106.660539
+PLUGIN:vSMR:ActiveProfile:Default
+PLUGIN:vSMR:Afterglow:1
+PLUGIN:vSMR:Airport:CYXE
+PLUGIN:vSMR:AppTrailsDots:4
+PLUGIN:vSMR:FontSize:1
+PLUGIN:vSMR:GndTrailsDots:4
+PLUGIN:vSMR:PredictedLine:0
+PLUGIN:vSMR:SRW1BottomRightX:600
+PLUGIN:vSMR:SRW1BottomRightY:500
+PLUGIN:vSMR:SRW1Display:0
+PLUGIN:vSMR:SRW1Filter:5500
+PLUGIN:vSMR:SRW1OffsetX:0
+PLUGIN:vSMR:SRW1OffsetY:0
+PLUGIN:vSMR:SRW1Rotation:0
+PLUGIN:vSMR:SRW1Scale:15
+PLUGIN:vSMR:SRW1TopLeftX:200
+PLUGIN:vSMR:SRW1TopLeftY:200
+PLUGIN:vSMR:SRW2BottomRightX:600
+PLUGIN:vSMR:SRW2BottomRightY:500
+PLUGIN:vSMR:SRW2Display:0
+PLUGIN:vSMR:SRW2Filter:5500
+PLUGIN:vSMR:SRW2OffsetX:0
+PLUGIN:vSMR:SRW2OffsetY:0
+PLUGIN:vSMR:SRW2Rotation:0
+PLUGIN:vSMR:SRW2Scale:15
+PLUGIN:vSMR:SRW2TopLeftX:200
+PLUGIN:vSMR:SRW2TopLeftY:200

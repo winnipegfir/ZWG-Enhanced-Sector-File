@@ -1,0 +1,457 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+Airports:CJL5:symbol
+Airports:CKA8:symbol
+ARTCC low boundary:Airspace C CYWG Control Zone:
+ARTCC low boundary:Airspace C CYWG TCA_C (2k-3k):
+ARTCC low boundary:Airspace C CYWG TCA_C (3k-4k):
+ARTCC low boundary:Airspace C CYWG TCA_C(4k-12.5k):
+ARTCC low boundary:Airspace D CYAV Control Zone:
+ARTCC low boundary:Airspace D CYMJ Control Zone:
+ARTCC low boundary:Airspace D CYPG Control Zone:
+ARTCC low boundary:Airspace D CYQR Control Zone:
+ARTCC low boundary:Airspace D CYQT Control Zone:
+ARTCC low boundary:Airspace D CYXE Control Zone:
+ARTCC low boundary:Airspace E CYBR Control Zone:
+ARTCC low boundary:Airspace E CYDN Control Zone:
+ARTCC low boundary:Airspace E CYFO Control Zone:
+ARTCC low boundary:Airspace E CYGQ Control Zone:
+ARTCC low boundary:Airspace E CYGX Control Zone:
+ARTCC low boundary:Airspace E CYHD Control Zone:
+ARTCC low boundary:Airspace E CYNE Control Zone:
+ARTCC low boundary:Airspace E CYPA Control Zone:
+ARTCC low boundary:Airspace E CYQD Control Zone:
+ARTCC low boundary:Airspace E CYQK Control Zone:
+ARTCC low boundary:Airspace E CYQV Control Zone:
+ARTCC low boundary:Airspace E CYQW Control Zone:
+ARTCC low boundary:Airspace E CYRL Control Zone:
+ARTCC low boundary:Airspace E CYTH Control Zone:
+ARTCC low boundary:Airspace E CYVC Control Zone:
+ARTCC low boundary:Airspace E CYXL Control Zone:
+ARTCC low boundary:Airspace E CYYL Control Zone:
+ARTCC low boundary:Airspace E CYYN Control Zone:
+ARTCC low boundary:Airspace E CYYQ Control Zone:
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA304):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA305):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA306):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA307):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA308):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA310):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA311):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA315):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA316):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA317):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA403):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA404):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA407):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA408):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA411):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA413):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA420):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F203):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F204):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F207):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F221):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F223):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F225):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F229):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F231):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F236):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F268):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F269):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F270):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F301):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F302):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F303):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F309):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F316):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F401):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F405):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F406):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F409):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F410):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F412):
+ARTCC low boundary:Airspace F CYR Restricted Airspace F224:
+ARTCC low boundary:Airspace F CYR Restricted Area (F230):
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Geo:CZWG Rivers and Lakes:
+Geo:CZWG Roads and Highways:
+NDBs:4K:symbol
+NDBs:4W:symbol
+NDBs:5W:symbol
+NDBs:AA:symbol
+NDBs:AIT:symbol
+NDBs:B5:symbol
+NDBs:BK:symbol
+NDBs:BM:symbol
+NDBs:BR:symbol
+NDBs:BY:symbol
+NDBs:CI:symbol
+NDBs:CKC:symbol
+NDBs:CRR:symbol
+NDBs:DL:symbol
+NDBs:DN:symbol
+NDBs:ENY:symbol
+NDBs:FF:symbol
+NDBs:FO:symbol
+NDBs:FOZ:symbol
+NDBs:GF:symbol
+NDBs:GP:symbol
+NDBs:GWR:symbol
+NDBs:HTN:symbol
+NDBs:IB:symbol
+NDBs:IN:symbol
+NDBs:ISN:symbol
+NDBs:K5:symbol
+NDBs:L4:symbol
+NDBs:LF:symbol
+NDBs:M3:symbol
+NDBs:M4:symbol
+NDBs:MHA:symbol
+NDBs:MO:symbol
+NDBs:OGM:symbol
+NDBs:OLG:symbol
+NDBs:PA:symbol
+NDBs:PFT:symbol
+NDBs:PG:symbol
+NDBs:PK:symbol
+NDBs:PWC:symbol
+NDBs:Q1:symbol
+NDBs:QD:symbol
+NDBs:QN:symbol
+NDBs:QR:symbol
+NDBs:QT:symbol
+NDBs:QW:symbol
+NDBs:RL:symbol
+NDBs:RT:symbol
+NDBs:RUG:symbol
+NDBs:RXW:symbol
+NDBs:SB:symbol
+NDBs:SCG:symbol
+NDBs:SF:symbol
+NDBs:SW:symbol
+NDBs:TH:symbol
+NDBs:UDE:symbol
+NDBs:V2:symbol
+NDBs:VC:symbol
+NDBs:VCY:symbol
+NDBs:VK:symbol
+NDBs:VX:symbol
+NDBs:WG:symbol
+NDBs:XCR:symbol
+NDBs:XE:symbol
+NDBs:YAG:symbol
+NDBs:YAQ:symbol
+NDBs:YCS:symbol
+NDBs:YEK:symbol
+NDBs:YEL:symbol
+NDBs:YER:symbol
+NDBs:YFA:symbol
+NDBs:YGX:symbol
+NDBs:YHD:symbol
+NDBs:YIV:symbol
+NDBs:YL:symbol
+NDBs:YLD:symbol
+NDBs:YNE:symbol
+NDBs:YOG:symbol
+NDBs:YPL:symbol
+NDBs:YPO:symbol
+NDBs:YQK:symbol
+NDBs:YSF:symbol
+NDBs:YTL:symbol
+NDBs:YXL:symbol
+NDBs:YXN:symbol
+NDBs:YYW:symbol
+NDBs:YZS:symbol
+NDBs:ZHD:symbol
+NDBs:ZHT:symbol
+NDBs:ZPA:symbol
+NDBs:ZQR:symbol
+NDBs:ZQT:symbol
+NDBs:ZRS:symbol
+NDBs:ZSB:symbol
+NDBs:ZSJ:symbol
+NDBs:ZSS:symbol
+NDBs:ZTH:symbol
+NDBs:ZWG:symbol
+NDBs:ZWN:symbol
+NDBs:ZWW:symbol
+NDBs:ZXE:symbol
+Runways:CYAV 04-22:centerline
+Runways:CYAV 04-22:extended centerline 1
+Runways:CYAV 04-22:extended centerline 1 left ticks
+Runways:CYAV 04-22:extended centerline 1 right ticks
+Runways:CYAV 04-22:extended centerline 2
+Runways:CYAV 04-22:extended centerline 2 left ticks
+Runways:CYAV 04-22:extended centerline 2 right ticks
+Runways:CYAV 13-31:centerline
+Runways:CYAV 13-31:extended centerline 1
+Runways:CYAV 13-31:extended centerline 1 left ticks
+Runways:CYAV 13-31:extended centerline 1 right ticks
+Runways:CYAV 13-31:extended centerline 2
+Runways:CYAV 13-31:extended centerline 2 left ticks
+Runways:CYAV 13-31:extended centerline 2 right ticks
+Runways:CYAV 18-36:centerline
+Runways:CYAV 18-36:extended centerline 1
+Runways:CYAV 18-36:extended centerline 1 right ticks
+Runways:CYAV 18-36:extended centerline 2
+Runways:CYAV 18-36:extended centerline 2 left ticks
+Runways:CYAV 18-36:extended centerline 2 right ticks
+Runways:CYMJ 03-21:centerline
+Runways:CYMJ 03-21:extended centerline 1 right ticks
+Runways:CYMJ 03-21:extended centerline 2 right ticks
+Runways:CYMJ 11L-29R:centerline
+Runways:CYMJ 11L-29R:extended centerline 1
+Runways:CYMJ 11L-29R:extended centerline 1 left vectoring
+Runways:CYMJ 11L-29R:extended centerline 1 right ticks
+Runways:CYMJ 11L-29R:extended centerline 1 right vectoring
+Runways:CYMJ 11L-29R:extended centerline 2
+Runways:CYMJ 11L-29R:extended centerline 2 left vectoring
+Runways:CYMJ 11L-29R:extended centerline 2 right ticks
+Runways:CYMJ 11L-29R:extended centerline 2 right vectoring
+Runways:CYMJ 11R-29L:centerline
+Runways:CYPG 02-20:centerline
+Runways:CYPG 02-20:extended centerline 1 right ticks
+Runways:CYPG 02-20:extended centerline 2 right ticks
+Runways:CYPG 09-27:centerline
+Runways:CYPG 09-27:extended centerline 1 right ticks
+Runways:CYPG 09-27:extended centerline 2 right ticks
+Runways:CYPG 13L-31R:centerline
+Runways:CYPG 13R-31L:centerline
+Runways:CYPG 13R-31L:extended centerline 1 right ticks
+Runways:CYPG 13R-31L:extended centerline 2 right ticks
+Runways:CYQR 08-26:centerline
+Runways:CYQR 08-26:extended centerline 1 right ticks
+Runways:CYQR 08-26:extended centerline 2 right ticks
+Runways:CYQR 13-31:centerline
+Runways:CYQR 13-31:extended centerline 1 right ticks
+Runways:CYQR 13-31:extended centerline 2 right ticks
+Runways:CYQT 07-25:centerline
+Runways:CYQT 07-25:extended centerline 1 right ticks
+Runways:CYQT 07-25:extended centerline 2 right ticks
+Runways:CYQT 12-30:centerline
+Runways:CYQT 12-30:extended centerline 1 right ticks
+Runways:CYQT 12-30:extended centerline 2 right ticks
+Runways:CYWG 13-31:centerline
+Runways:CYWG 13-31:extended centerline 1
+Runways:CYWG 13-31:extended centerline 1 left ticks
+Runways:CYWG 13-31:extended centerline 1 right ticks
+Runways:CYWG 13-31:extended centerline 2
+Runways:CYWG 13-31:extended centerline 2 left ticks
+Runways:CYWG 13-31:extended centerline 2 right ticks
+Runways:CYWG 18-36:centerline
+Runways:CYWG 18-36:extended centerline 1
+Runways:CYWG 18-36:extended centerline 1 left ticks
+Runways:CYWG 18-36:extended centerline 1 right ticks
+Runways:CYWG 18-36:extended centerline 2
+Runways:CYWG 18-36:extended centerline 2 left ticks
+Runways:CYWG 18-36:extended centerline 2 right ticks
+Runways:CYXE 09-27:centerline
+Runways:CYXE 09-27:extended centerline 1 right ticks
+Runways:CYXE 09-27:extended centerline 2 right ticks
+Runways:CYXE 15-33:centerline
+Runways:CYXE 15-33:extended centerline 1 right ticks
+Runways:CYXE 15-33:extended centerline 2 right ticks
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:81.50000
+TAGFAMILY:CSiT
+WINDOWAREA:49.618789:-98.177986:50.196540:-96.443673
+PLUGIN:VATCANSitu:altFilterHigh:60
+PLUGIN:VATCANSitu:altFilterLow:9
+PLUGIN:VATCANSitu:DisplayTypeName:IFR

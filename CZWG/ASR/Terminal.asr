@@ -1,0 +1,611 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+ARTCC boundary:CZWG Solid Border:
+ARTCC boundary:KZMP - KZSC Border:
+ARTCC boundary:KZMP - ZYZ Border:
+ARTCC boundary:ZEG - KZSC Border:
+ARTCC boundary:ZEG - ZUL Border:
+ARTCC boundary:ZUL - ZYZ Border:
+ARTCC high boundary:CZWG High Border (FL290+):
+ARTCC low boundary:Airspace C CYWG Control Zone:
+ARTCC low boundary:Airspace C CYWG TCA_C (2k-3k):
+ARTCC low boundary:Airspace C CYWG TCA_C (3k-4k):
+ARTCC low boundary:Airspace C CYWG TCA_C(4k-12.5k):
+ARTCC low boundary:Airspace D CYAV Control Zone:
+ARTCC low boundary:Airspace D CYMJ Control Zone:
+ARTCC low boundary:Airspace D CYPG Control Zone:
+ARTCC low boundary:Airspace D CYQR Control Zone:
+ARTCC low boundary:Airspace D CYQT Control Zone:
+ARTCC low boundary:Airspace D CYXE Control Zone:
+ARTCC low boundary:Airspace E CYMJ MTCA_T:
+ARTCC low boundary:Airspace E CYQR Control Area Transition (12.5k-):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA304):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA305):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA306):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA307):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA308):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA310):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA311):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA315):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA316):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA317):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA403):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA404):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA407):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA408):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA411):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA413):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA420):
+ARTCC low boundary:Airspace F CYA Advisory Airspace (CYA515):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F203):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F204):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F207):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F221):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F222 | 18k-unlimited):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F223):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F225):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F229):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F231):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F236):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F268):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F269):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F270):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F301):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F302):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F303):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F309):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F316):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F401):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F405):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F406):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F409):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F410):
+ARTCC low boundary:Airspace F CYR Restricted Airspace (F412):
+ARTCC low boundary:Airspace F CYR Restricted Airspace F224:
+ARTCC low boundary:Airspace F CYR Restricted Area (F230):
+ARTCC low boundary:CYWG Airspace B TCA_B:
+ARTCC low boundary:CZWG Low Border (-FL290):
+ARTCC low boundary:FIR border GP Great Plains:
+ARTCC low boundary:FIR border NL North Low:
+ARTCC low boundary:FIR border QK Kenora:
+ARTCC low boundary:FIR border QT Thunder Bay:
+ARTCC low boundary:FIR border SP Marathon:
+ARTCC low boundary:FIR border TL Trout Lake:
+ARTCC low boundary:FIR border VC La Ronge:
+ARTCC low boundary:FIR border WE Winnipeg East:
+ARTCC low boundary:FIR border WG - YZ Border:
+ARTCC low boundary:FIR border WK Waskesiu:
+ARTCC low boundary:FIR border WW Winnipeg West:
+ARTCC low boundary:FIR border XE Saskatoon:
+Fixes:AGBEM:symbol
+Fixes:ALKOG:symbol
+Fixes:AMBIL:symbol
+Fixes:ANTOS:symbol
+Fixes:APDIM:symbol
+Fixes:APNEN:symbol
+Fixes:APNIX:symbol
+Fixes:ATURU:symbol
+Fixes:AVSUN:symbol
+Fixes:BEFAN:symbol
+Fixes:BESEN:symbol
+Fixes:BOBKU:symbol
+Fixes:BOTUR:symbol
+Fixes:CAREN:symbol
+Fixes:CHEPS:symbol
+Fixes:DATIB:symbol
+Fixes:DEGLO:symbol
+Fixes:DENTU:symbol
+Fixes:DEPLI:symbol
+Fixes:DUKPI:symbol
+Fixes:DUNEM:symbol
+Fixes:DUTRU:symbol
+Fixes:DUXUS:symbol
+Fixes:EBGOX:symbol
+Fixes:EBKIL:symbol
+Fixes:EBLEP:symbol
+Fixes:EBLUN:symbol
+Fixes:ELETO:symbol
+Fixes:ELVUX:symbol
+Fixes:ERDAP:symbol
+Fixes:ESVOX:symbol
+Fixes:FESET:symbol
+Fixes:GABIG:symbol
+Fixes:GABUR:symbol
+Fixes:GORAK:symbol
+Fixes:GOSAR:symbol
+Fixes:GOXAG:symbol
+Fixes:IGTOL:symbol
+Fixes:IGVEX:symbol
+Fixes:IKLOS:symbol
+Fixes:IPRUN:symbol
+Fixes:IPSIV:symbol
+Fixes:IRLON:symbol
+Fixes:KANEV:symbol
+Fixes:KAVKI:symbol
+Fixes:KAXUG:symbol
+Fixes:KEBIV:symbol
+Fixes:KEBRU:symbol
+Fixes:KEBTU:symbol
+Fixes:KELTO:symbol
+Fixes:KEMKA:symbol
+Fixes:KENBI:symbol
+Fixes:KEPGA:symbol
+Fixes:KERBI:symbol
+Fixes:KESGA:symbol
+Fixes:LESIS:symbol
+Fixes:LIBUK:symbol
+Fixes:LIDAN:symbol
+Fixes:LIVBI:symbol
+Fixes:LONBI:symbol
+Fixes:MAVOB:symbol
+Fixes:MIBMO:symbol
+Fixes:MODUL:symbol
+Fixes:MOGOV:symbol
+Fixes:MUSIB:symbol
+Fixes:MUVAN:symbol
+Fixes:NADAG:symbol
+Fixes:NADUP:symbol
+Fixes:NORAK:symbol
+Fixes:NORUN:symbol
+Fixes:NOTER:symbol
+Fixes:NOXAM:symbol
+Fixes:NUBEN:symbol
+Fixes:NUBOM:symbol
+Fixes:OBSAX:symbol
+Fixes:ODGOV:symbol
+Fixes:OLANI:symbol
+Fixes:OMLOT:symbol
+Fixes:OMSOV:symbol
+Fixes:ORORK:symbol
+Fixes:PIBNU:symbol
+Fixes:PIKRA:symbol
+Fixes:RADIP:symbol
+Fixes:RORMA:symbol
+Fixes:SATIL:symbol
+Fixes:SUTUK:symbol
+Fixes:TABAK:symbol
+Fixes:TIGAG:symbol
+Fixes:ULDOL:symbol
+Fixes:VERLI:symbol
+Fixes:VILPA:symbol
+Fixes:VIVUN:symbol
+Fixes:VODUN:symbol
+Fixes:VOGIG:symbol
+Free Text:CYQR Regina Taxiways\A:freetext
+Free Text:CYQR Regina Taxiways\A:freetext
+Free Text:CYQR Regina Taxiways\B:freetext
+Free Text:CYQR Regina Taxiways\B:freetext
+Free Text:CYQR Regina Taxiways\B:freetext
+Free Text:CYQR Regina Taxiways\B:freetext
+Free Text:CYQR Regina Taxiways\B1:freetext
+Free Text:CYQR Regina Taxiways\C:freetext
+Free Text:CYQR Regina Taxiways\C:freetext
+Free Text:CYQR Regina Taxiways\K:freetext
+Free Text:CYQR Regina Taxiways\M:freetext
+Free Text:CYQR Regina Taxiways\P:freetext
+Free Text:CYQT Thunder Bay Taxiways\A:freetext
+Free Text:CYQT Thunder Bay Taxiways\A:freetext
+Free Text:CYQT Thunder Bay Taxiways\A:freetext
+Free Text:CYQT Thunder Bay Taxiways\B:freetext
+Free Text:CYQT Thunder Bay Taxiways\C:freetext
+Free Text:CYQT Thunder Bay Taxiways\D:freetext
+Free Text:CYQT Thunder Bay Taxiways\D:freetext
+Free Text:CYQT Thunder Bay Taxiways\E:freetext
+Free Text:CYQT Thunder Bay Taxiways\F:freetext
+Free Text:CYQT Thunder Bay Taxiways\G:freetext
+Free Text:CYQT Thunder Bay Taxiways\H:freetext
+Free Text:CYXE Saskatoon Taxiways\A:freetext
+Free Text:CYXE Saskatoon Taxiways\A:freetext
+Free Text:CYXE Saskatoon Taxiways\A:freetext
+Free Text:CYXE Saskatoon Taxiways\B:freetext
+Free Text:CYXE Saskatoon Taxiways\B:freetext
+Free Text:CYXE Saskatoon Taxiways\B:freetext
+Free Text:CYXE Saskatoon Taxiways\C:freetext
+Free Text:CYXE Saskatoon Taxiways\F:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:Obstacles\^:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:SCT2\·:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Free Text:VFR Callup Points\+:freetext
+Geo:CYQR Airways:
+Geo:CYQR Arrows:
+Geo:CYQT Airways:
+Geo:CYQT Arrows:
+Geo:CYWG Airways:
+Geo:CYWG Arrows:
+Geo:CYWG TCU Corridors:
+Geo:CYXE Airways:
+Geo:CYXE Arrows:
+Geo:CZWG Shorelines:
+NDBs:ZHT:symbol
+NDBs:ZWN:symbol
+NDBs:ZWW:symbol
+Regions:CYQR Regina:polygon
+Regions:CYQT Thunder Bay:polygon
+Regions:CYXE Saskatoon:polygon
+Runways:CYAV 04-22:centerline
+Runways:CYAV 13-31:centerline
+Runways:CYAV 18-36:centerline
+Runways:CYMJ 03-21:centerline
+Runways:CYMJ 11L-29R:centerline
+Runways:CYMJ 11R-29L:centerline
+Runways:CYPG 02-20:centerline
+Runways:CYPG 09-27:centerline
+Runways:CYPG 13L-31R:centerline
+Runways:CYPG 13R-31L:centerline
+Runways:CYQR 08-26:centerline
+Runways:CYQR 13-31:centerline
+Runways:CYQT 07-25:centerline
+Runways:CYQT 12-30:centerline
+Runways:CYWG 13-31:centerline
+Runways:CYWG 18-36:centerline
+Runways:CYXE 09-27:centerline
+Runways:CYXE 15-33:centerline
+Sids:CYQT TCU:
+Sids:CYXE TCU:
+VORs:GFK:name
+VORs:GFK:symbol
+SHOWC:1
+SHOWSB:1
+BELOW:0
+ABOVE:0
+LEADER:-3
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:7
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:357.00000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:49.327913:-99.147147:50.662120:-95.242253
+PLUGIN:VATCANSitu:altFilterHigh:250
+PLUGIN:VATCANSitu:altFilterLow:8
+PLUGIN:VATCANSitu:DisplayTypeName:IFR
