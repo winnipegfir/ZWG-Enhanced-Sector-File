@@ -1,0 +1,63 @@
+VOICE
+AG:CYAV_ATIS:125.800
+AG:CYAV_GND St. Andrews Ground:121.800
+AG:CYAV_TWR St. Andrews Tower:118.500
+AG:CYMJ_APP Moose Jaw Terminal:119.000
+AG:CYMJ_ATIS:131.300
+AG:CYMJ_DEL Moose Jaw Delivery:135.300
+AG:CYMJ_GND Moose Jaw Ground:121.800
+AG:CYMJ_TWR Moose Jaw Tower:126.200
+AG:CYPG_ATIS:120.850
+AG:CYPG_GND Southport Ground:121.700
+AG:CYPG_TWR Southport Tower:126.200
+AG:CYQR_ATIS:127.000
+AG:CYQR_GND Regina Ground:121.900
+AG:CYQR_TWR Regina Tower:118.600
+AG:CYQT_APP Thunder Bay Terminal:119.200
+AG:CYQT_ATIS:128.800
+AG:CYQT_GND Thunder Bay Ground:121.900
+AG:CYQT_TWR Thunder Bay Tower:118.100
+AG:CYWG_APP Winnipeg Arrival:119.500
+AG:CYWG_ATIS:120.200
+AG:CYWG_DEL Winnipeg Delivery:121.300
+AG:CYWG_E_DEP Winnipeg Departure:119.900
+AG:CYWG_GND Winnipeg Ground:121.900
+AG:CYWG_TWR Winnipeg Tower:118.300
+AG:CYWG_DEP Winnipeg Departure:121.000
+AG:CYWG_W_DEP Winnipeg Departure:121.000
+AG:CYXE_APP Saskatoon Terminal:119.900
+AG:CYXE_ATIS:128.400
+AG:CYXE_GND Saskatoon Ground:121.900
+AG:CYXE_TWR Saskatoon Tower:118.300
+AG:CZWG_CTR Winnipeg Centre:124.000
+AG:WPG_CL_CTR Winnipeg Centre:119.700
+AG:WPG_CTR Winnipeg Centre:124.000
+AG:WPG_DR_CTR Winnipeg Centre:132.900
+AG:WPG_EH_CTR Winnipeg Centre:134.150
+AG:WPG_EL_CTR Winnipeg Centre:132.100
+AG:WPG_ER_CTR Winnipeg Centre:135.000
+AG:WPG_FL_CTR Winnipeg Centre:134.170
+AG:WPG_GM_CTR Winnipeg Centre:120.500
+AG:WPG_GP_CTR Winnipeg Centre:123.800
+AG:WPG_HD_CTR Winnipeg Centre:124.000
+AG:WPG_HU_CTR Winnipeg Centre:132.070
+AG:WPG_H_CTR Winnipeg Centre:124.000
+AG:WPG_LN_CTR Winnipeg Centre:134.970
+AG:WPG_L_CTR Winnipeg Centre:134.620
+AG:WPG_NH_CTR Winnipeg Centre:132.020
+AG:WPG_NL_CTR Winnipeg Centre:134.600
+AG:WPG_PA_CTR Winnipeg Centre:133.100
+AG:WPG_QK_CTR Winnipeg Centre:132.200
+AG:WPG_QV_CTR Winnipeg Centre:124.300
+AG:WPG_SP_CTR Winnipeg Centre:132.120
+AG:WPG_SU_CTR Winnipeg Centre:133.250
+AG:WPG_TH_CTR Winnipeg Centre:134.500
+AG:WPG_TL_CTR Winnipeg Centre:135.150
+AG:WPG_VC_CTR Winnipeg Centre:126.400
+AG:WPG_WE_CTR Winnipeg Centre:118.000
+AG:WPG_WH_CTR Winnipeg Centre:134.950
+AG:WPG_WK_CTR Winnipeg Centre:134.320
+AG:WPG_WL_CTR Winnipeg Centre:123.820
+AG:WPG_WW_CTR Winnipeg Centre:132.250
+AG:WPG_YW_CTR Winnipeg Centre:135.220
+END
