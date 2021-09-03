@@ -1,6 +1,6 @@
-# ZWG Enhanced Sector File
+![Winnipeg FIR](https://winnipegfir.ca/storage/files/uploads/1612961752.png)
 
-## Installation Instructions
+# Sector File Installation Instructions
 1. Download latest stable release (source code zip).
 2. Unzip the downloaded file. You can store the unzipped folder anywhere on your computer.
 3. Open the folder and open "CZWG.prf" with Euroscope.
