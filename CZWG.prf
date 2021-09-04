@@ -15,7 +15,7 @@ Settings	SettingsfilePLUGINS	\CZWG\Settings\Plug-ins.txt
 Settings	SettingsfileARR	\CZWG\Settings\Arrival List.txt
 Settings	SettingsfileFP	\CZWG\Settings\Flight Plan List.txt
 Settings	sector	\CZWG.sct
-Settings	SettingsfilePROFILE	\CZWG\Settings\Login Profiles.txt
+Settings	SettingsfilePROFILE	\CZWG\Settings\Login_Profiles.txt
 Settings	SettingsfileVOICE	\CZWG\Settings\VoiceChannels.txt
 Sounds	Sound0	\CZWG\Sounds\handoff_request.wav
 Sounds	Sound1	\CZWG\Sounds\handoff_accept.wav
