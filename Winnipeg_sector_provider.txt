@@ -1,0 +1,187 @@
+EuroScope Sector File Provider File
+
+NAME:AeroNav GNG Sector File Provider
+URL:http://files.aero-nav.com/AeroNav_Sector_Provider.txt
+DOWNLOADINTERVAL:12
+
+
+PROVIDER_NAME:AeroNav GNG ADRIA VATSIM Adria
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_ADRIA_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG AFRX Africa UIR/FSS Control Stations
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_AFRX_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG CZEG Edmonton FIR
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_CZEG_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG CZQQ Moncton Gander FIR
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_CZQQ_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG CZUL FIR de Montréal
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_CZUL_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG CZVR Vancouver FIR
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_CZVR_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG CZWG Winnipeg FIR
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_CZWG_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG CZYZ Toronto FIR
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_CZYZ_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG EDXX VATSIM Germany
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_EDXX_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG EETT VACC Estonia
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_EETT_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG EHAA Dutch VACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_EHAA_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG EISN vACC VATeir
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_EISN_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG EPWW Polish VACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_EPWW_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG EURO EuroCenter vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_EURO_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG EVRR vACC Latvia
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_EVRR_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG EXCXO Shanwick & Gander Oceanic
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_EXCXO_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG GMMM VATSIM Morocco
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_GMMM_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG GULF Gulf FSS Control Stations
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_GULF_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG HCSM Mogadishu
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_HCSM_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG HECC Egypt vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_HECC_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG HHAA Asmara
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_HHAA_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG HSSS Khartoum
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_HSSS_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LBSR vACC Bulgaria
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LBSR_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LCCC vACC Cyprus
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LCCC_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LEXX vACC Spain
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LEXX_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LFXX French vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LFXX_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LGGG Hellenic vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LGGG_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LHCC vACC Hungary
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LHCC_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LIXX vACC Italy
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LIXX_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LLLL VATSIM ISRAEL Division
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LLLL_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LOVV Vacc Austria
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LOVV_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LPPC Portugal vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LPPC_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LPPO Portugal VACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LPPO_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LRBB ROvACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LRBB_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LSAS vACC Switzerland
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LSAS_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LTXX Turkish vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LTXX_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG LZBB Vacc Slovakia
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_LZBB_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG MKJK Kingston FIR
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_MKJK_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG OBBB Bahrain vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_OBBB_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG OEJD vACC Saudi Arabia
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_OEJD_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG OIIX vACC Iran
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_OIIX_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG OJAC Jordan vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_OJAC_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG OKAC Kuwait vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_OKAC_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG OMAE UAE vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_OMAE_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG OOMM Oman vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_OOMM_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG OPXX vACC Pakistan
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_OPXX_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG ORBB Iraq vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_ORBB_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG OSTT Syrian vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_OSTT_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG OYSC Yemen vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_OYSC_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG PHZH Honolulu Control Facility
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_PHZH_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG SBXX VATSIM Brasil
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_SBXX_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG SCA VATSIM Scandinavia
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_SCA_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG SPIM Lima
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_SPIM_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG TNCF Curacao FIR
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_TNCF_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG UGGG vACC Georgia
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_UGGG_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG UTTR VATRUS
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_UTTR_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG VCCF vACC Sri Lanka & Maldives
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_VCCF_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG VNSM VATSIM Nepal vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_VNSM_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG VRMF Male
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_VRMF_by_Aerosoft_NavDataPro.txt
+
+PROVIDER_NAME:AeroNav GNG VXXX India vACC
+PROVIDER_URL:http://files.aero-nav.com/AeroNav_VXXX_by_Aerosoft_NavDataPro.txt
+
