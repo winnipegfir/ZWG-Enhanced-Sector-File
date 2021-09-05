@@ -1,12 +1,12 @@
 EuroScope Sector File Provider File
 
 NAME:AeroNav GNG CZWG Winnipeg FIR
-URL:http://files.aero-nav.com/AeroNav_CZWG_by_Aerosoft_NavDataPro.txt
+URL:https://raw.githubusercontent.com/jrn11/ZWG-Enhanced-Sector-File/v1.2/CZWG_sector.txt
 DOWNLOADINTERVAL:12
 
 
-SECTOR_NAME:CZWG Euroscope
-SECTOR_FILE_NAME:CZWG-Full-Package---ES
-SECTOR_VERSION:20210903061306-210801-0003
-SECTOR_URL:http://files.aero-nav.com/CZWG/Euroscope_20210903061306-210801-3.7z
+SECTOR_NAME:CZWG Enhanced-Euroscope
+SECTOR_FILE_NAME:CZWG_Enhanced_File
+SECTOR_VERSION:1.2
+SECTOR_URL:https://github.com/jrn11/ZWG-Enhanced-Sector-File/archive/refs/tags/v1.2.zip
 
