@@ -1,7 +1,7 @@
 EuroScope Sector File Provider File
 
 NAME:AeroNav GNG CZWG Winnipeg FIR
-URL:https://raw.githubusercontent.com/jrn11/ZWG-Enhanced-Sector-File/v1.2/CZWG_sector.txt
+URL:https://raw.githubusercontent.com/jrn11/ZWG-Enhanced-Sector-File/main/CZWG_enhanced_sector.txt
 DOWNLOADINTERVAL:12
 
 
