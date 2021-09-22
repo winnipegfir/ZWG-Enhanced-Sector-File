@@ -1,0 +1,9 @@
+NAME:Winnipeg Sector File Providers
+URL:http://files.aero-nav.com/AeroNav_Sector_Provider.txt
+LOCALFILE:./winnipeg_sector_providers.txt
+
+NAME:AeroNav GNG CZWG Winnipeg FIR
+URL:http://files.aero-nav.com/AeroNav_CZWG_by_Aerosoft_NavDataPro.txt
+
+NAME:CZWG Winnipeg FIR Enhanced File
+URL:https://raw.githubusercontent.com/jrn11/ZWG-Enhanced-Sector-File/main/CZWG_enhanced_sector.txt
