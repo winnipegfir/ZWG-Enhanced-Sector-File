@@ -1,6 +1,6 @@
 m_ShowControllers:1
 m_ShowAircraft:0
-m_ShowTextMessages:1
+m_ShowTextMessages:0
 m_ShowTitle:1
 m_ShowTitleFileName:1
 m_ShowTitleController:1
@@ -36,12 +36,12 @@ m_ScreenMaximized:0
 m_ShowTitleSelectedAc:1
 m_PlanesListX:833
 m_PlanesListY:318
-m_MetarListX:1779
-m_MetarListY:261
+m_MetarListX:1793
+m_MetarListY:283
 m_VoiceListX:1846
 m_VoiceListY:24
 m_ControllerListX:1787
-m_ControllerListY:470
+m_ControllerListY:622
 m_ShowPlaneRangeRingsTracked:0
 m_ShowPlaneRangeRingsUntracked:0
 m_PlaneRangeRingsDistance1:5.0
