@@ -157,7 +157,7 @@ jobs:
       - name: Compress files to archive for full release
         run: |
           zip -qr ${{ runner.temp }}/CZWG_Full_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ steps.tag-name.outputs.tag }}.zip *
-          7z a ${{ runner.temp }}/CZWG_Full_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ steps.tag-name.outputs.tag }}.7z * > /dev/null
+          7z -mlzma a ${{ runner.temp }}/CZWG_Full_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ steps.tag-name.outputs.tag }}.7z * > /dev/null
 
       - name: Compress files to archive for update packages
         run : |
@@ -165,7 +165,7 @@ jobs:
           rm -R CZWG/Settings
           
           zip -qr ${{ runner.temp }}/CZWG_Update_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ steps.tag-name.outputs.tag }}.zip *
-          7z a ${{ runner.temp }}/CZWG_Update_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ steps.tag-name.outputs.tag }}.7z * > /dev/null
+          7z -mlzma a ${{ runner.temp }}/CZWG_Update_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ steps.tag-name.outputs.tag }}.7z * > /dev/null
 
       - name: Upload files to release
         uses: AButler/upload-release-assets@v2.0
