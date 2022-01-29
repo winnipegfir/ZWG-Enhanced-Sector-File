@@ -150,21 +150,21 @@ jobs:
 
       - name: Compress files to archive for full release
         run: |
-          zip -q CZWG_Full_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}.zip *
-          7z a CZWG_Full_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}.7z * > /dev/null
+          zip -qr ${{ runner.temp }}/CZWG_Full_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}.zip *
+          7z a ${{ runner.temp }}/CZWG_Full_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}.7z * > /dev/null
 
       - name: Compress files to archive for update packages
         run : |
           rm CZWG.prf
           rm -R CZWG/Settings
           
-          zip -q CZWG_Update_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}.zip *
-          7z a CZWG_Update_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}.7z * > /dev/null
+          zip -qr ${{ runner.temp }}/CZWG_Update_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}.zip *
+          7z a ${{ runner.temp }}/CZWG_Update_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}.7z * > /dev/null
 
-      - name: "Upload files to release"
+      - name: Upload files to release
         uses: AButler/upload-release-assets@v2.0
         with:
-          files: '*.zip;*.7z'
+          files: '${{ runner.temp }}/*.zip;${{ runner.temp }}/*.7z'
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Clean artifacts
