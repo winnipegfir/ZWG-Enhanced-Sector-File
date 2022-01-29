@@ -41,7 +41,7 @@ Settings	SettingsfileVCCS	\CZWG\Settings\General.txt
 Settings	SettingsfilePILOTING	\CZWG\Settings\General.txt
 Settings	airportcoords	\CZWG\NavData\icao.txt
 Settings	airways	\CZWG\NavData\airway.txt
-Plugins	Plugin0	\CZWG\Plugins\VATCANSitu.dll
+Plugins	Plugin0	\CZWG\Plugins\VATCANSitu-latest.dll
 Plugins	Plugin0Display0	Standard ES radar screen
 Plugins	Plugin1	\CZWG\Plugins\vSMR.dll
 Plugins	Plugin1Display0	SMR radar display
