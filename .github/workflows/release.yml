@@ -2,6 +2,7 @@ name: release
 
 on:
   release:
+    types: [created]
 
 env:
   SITU_OWNER: ronyan
@@ -160,7 +161,11 @@ jobs:
           zip -q CZWG_Update_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}.zip *
           7z a CZWG_Update_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}.7z * > /dev/null
 
-      # Upload files
+      - name: "Upload files to release"
+        uses: AButler/upload-release-assets@v2.0
+        with:
+          files: '*.zip;*.7z'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Clean artifacts
         if: always()
