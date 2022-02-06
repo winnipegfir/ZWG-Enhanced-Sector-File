@@ -181,64 +181,64 @@ jobs:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: ${{runner.temp}}/*.zip
 
-    package-7z:
-      name: Package files
-      if: ${{ always() && needs.update-navdata.result != 'failure' && needs.latest-situ-release.result != 'failure' }}
-      needs: [ prepare-aeronav, update-navdata, latest-situ-release, build-situ-source ]
-      runs-on: ubuntu-latest
+  package-7z:
+    name: Package files
+    if: ${{ always() && needs.update-navdata.result != 'failure' && needs.latest-situ-release.result != 'failure' }}
+    needs: [ prepare, update-navdata, latest-situ-release, build-situ-source ]
+    runs-on: ubuntu-latest
 
-      env:
-        AIRAC_VERSION: ${{ needs.prepare.outputs.airac_version }}
-        AIRAC_UPDATE_VERSION: ${{ needs.prepare.outputs.airac_update_version }}
-        RELEASE_TAG: ${{ needs.prepare.outputs.release_tag}}
+    env:
+      AIRAC_VERSION: ${{ needs.prepare.outputs.airac_version }}
+      AIRAC_UPDATE_VERSION: ${{ needs.prepare.outputs.airac_update_version }}
+      RELEASE_TAG: ${{ needs.prepare.outputs.release_tag}}
 
-      steps:
-        - uses: actions/checkout@v2
+    steps:
+      - uses: actions/checkout@v2
 
-        - name: Get sector data
-          uses: actions/download-artifact@v2
-          with:
-            name: sector-data
+      - name: Get sector data
+        uses: actions/download-artifact@v2
+        with:
+          name: sector-data
 
-        - name: Get latest VATCAN Situ
-          uses: actions/download-artifact@v2
-          with:
-            name: vatcan-situ-latest
-            path: CZWG\Plugins
+      - name: Get latest VATCAN Situ
+        uses: actions/download-artifact@v2
+        with:
+          name: vatcan-situ-latest
+          path: CZWG\Plugins
 
-        - name: Get nightly VATCAN Situ
-          uses: actions/download-artifact@v2
-          continue-on-error: true
-          with:
-            name: vatcan-situ-nightly
-            path: CZWG\Plugins
+      - name: Get nightly VATCAN Situ
+        uses: actions/download-artifact@v2
+        continue-on-error: true
+        with:
+          name: vatcan-situ-nightly
+          path: CZWG\Plugins
 
-        - name: Remove extra directories
-          run: |
-            rm -r -fo .git
-            rm -r -fo .github
+      - name: Remove extra directories
+        run: |
+          rm -r -fo .git
+          rm -r -fo .github
 
-        - name: Compress files
-          env: 
-            VERSION: ${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ env.RELEASE_TAG }}
-          run: |
-            # Full package
-            mv *.ese CZWG_Full_"$VERSION".ese && mv *.sct CZWG_Full_"$VERSION".sct
-            
-            7z a -m0=LZMA CZWG_Full_"$VERSION".7z *
+      - name: Compress files
+        env: 
+          VERSION: ${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ env.RELEASE_TAG }}
+        run: |
+          # Full package
+          mv *.ese CZWG_Full_"$VERSION".ese && mv *.sct CZWG_Full_"$VERSION".sct
 
-            # Update package
-            rm CZWG.prf
-            rm -R CZWG/Settings
-            mv *.ese CZWG_Update_"$VERSION".ese && mv *.sct CZWG_Update_"$VERSION".sct
-            
-            7z a -m0=LZMA CZWG_Update_"$VERSION".7z *
-            
-        - name: Upload files to release
-          uses: shogo82148/actions-upload-release-asset@v1
-          with:
-            upload_url: ${{ github.event.release.upload_url }}
-            asset_path: ${{runner.temp}}/*.7z
+          7z a -m0=LZMA CZWG_Full_"$VERSION".7z *
+
+          # Update package
+          rm CZWG.prf
+          rm -R CZWG/Settings
+          mv *.ese CZWG_Update_"$VERSION".ese && mv *.sct CZWG_Update_"$VERSION".sct
+
+          7z a -m0=LZMA CZWG_Update_"$VERSION".7z *
+
+      - name: Upload files to release
+        uses: shogo82148/actions-upload-release-asset@v1
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ${{runner.temp}}/*.7z
 
   cleanup:
     name: Cleanup
@@ -246,11 +246,11 @@ jobs:
     needs: [ package-zip, package-7z ]
     runs-on: ubuntu-latest
 
-    jobs:
+    steps:
       - name: Clean artifacts
-          uses: geekyeggo/delete-artifact@v1
-          with:
-            name: |
-              sector-data
-              vatcan-situ-latest
-              vatcan-situ-nightly
+        uses: geekyeggo/delete-artifact@v1
+        with:
+          name: |
+            sector-data
+            vatcan-situ-latest
+            vatcan-situ-nightly
