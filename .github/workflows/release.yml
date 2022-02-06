@@ -3,17 +3,20 @@ name: release
 on:
   release:
     types: [created]
+  push:
 
 env:
   SITU_OWNER: ronyan
   SITU_REPOSITORY: VATCANSitu
 
 jobs:
-  prepare-aeronav:
-    name: Prepare AeroNav files
+  prepare:
+    name: Prepare
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v2
+
       - name: Get latest AeroNav data provider
         run: curl -s http://files.aero-nav.com/AeroNav_CZWG_by_Aerosoft_NavDataPro.txt | grep -A3 'SECTOR_NAME:CZWG NAV_Data' > SectorProvider.txt
 
@@ -24,14 +27,17 @@ jobs:
           echo "::set-output name=airac_version::$( grep -Po '(?<=SECTOR_VERSION:([0-9]{14})-).[[:digit:]]+(?=-)' SectorProvider.txt | cut -c 1-4 )"
           echo "::set-output name=airac_update_version::$( grep -Po '(?<=SECTOR_VERSION:([0-9]{14})-).[[:digit:]]+(?=-)' SectorProvider.txt | cut -c 5-6 )"
 
+          echo "::set-output name=situ_urls::$( cd $GITHUB_WORKSPACE/.github/workflows && python3 -c 'import functions; print(functions.get_latest_release_download('${{ env.SITU_OWNER }}', '${{ env.SITU_REPOSITORY }}'))' )"
+
     outputs:
       data_url: ${{ steps.variables.outputs.data_url }}
       airac_version: ${{ steps.variables.outputs.airac_version }}
       airac_update_version: ${{ steps.variables.outputs.airac_update_version }}
+      situ_urls: ${{ steps.variables.outputs.situ_urls }}
 
   update-navdata:
     name: Update NavData
-    needs: prepare-aeronav
+    needs: prepare
     runs-on: ubuntu-latest
 
     steps:
@@ -42,7 +48,7 @@ jobs:
 
       - name: Download and extract sector data
         run: |
-          curl -s -H "User-Agent: EuroScope" -o temp.7z ${{ needs.prepare-aeronav.outputs.data_url }}
+          curl -s -H "User-Agent: EuroScope" -o temp.7z ${{ needs.prepare.outputs.data_url }}
           7z x temp.7z -y -o/tmp/sector-data >> /dev/null
           rm temp.7z
 
@@ -63,7 +69,7 @@ jobs:
           yes | cp -f /tmp/sector-data/*.ese ./*.ese
 
           # Update name in [INFO]
-          awk '/\[INFO\]/{ n=NR+1 } NR==n{ $0="CZWG ${{ needs.prepare-aeronav.outputs.airac_version }} ${{ steps.tag-name.outputs.tag }}" }1' *.sct >> /dev/null
+          awk '/\[INFO\]/{ n=NR+1 } NR==n{ $0="CZWG ${{ needs.prepare.outputs.airac_version }} ${{ steps.tag-name.outputs.tag }}" }1' *.sct >> *.sct
 
       - name: Upload sector data
         uses: actions/upload-artifact@v2
@@ -83,8 +89,7 @@ jobs:
       - name: Get latest release
         working-directory: ${{ runner.temp }}
         run: |
-          wget -q \
-            $( cd $GITHUB_WORKSPACE/.github/workflows && python3 -c "import functions; print(functions.get_latest_release_download('${{ env.SITU_OWNER }}', '${{ env.SITU_REPOSITORY }}'))" )
+          wget ${{ needs.prepare.outputs.situ_urls }}
           mv *.dll VATCANSitu-latest.dll
 
       - name: Upload artifact
@@ -118,18 +123,21 @@ jobs:
   package-files:
     name: Package files
     if: ${{ always() && needs.update-navdata.result != 'failure' && needs.latest-situ-release.result != 'failure' }}
-    needs: [ prepare-aeronav, update-navdata, latest-situ-release, build-situ-source ]
-    runs-on: ubuntu-latest
+    needs: [ prepare, update-navdata, latest-situ-release, build-situ-source ]
+    runs-on: windows-2022
 
     env:
-      AIRAC_VERSION: ${{ needs.prepare-aeronav.outputs.airac_version }}
-      AIRAC_UPDATE_VERSION: ${{ needs.prepare-aeronav.outputs.airac_update_version }}
+      AIRAC_VERSION: ${{ needs.prepare.outputs.airac_version }}
+      AIRAC_UPDATE_VERSION: ${{ needs.prepare.outputs.airac_update_version }}
 
     steps:
       - uses: actions/checkout@v2
 
       - uses: olegtarasov/get-tag@v2.1
         id: tag-name
+
+      - name: Get 7za.exe
+        run: Invoke-WebRequest -OutFile ${{ runner.temp }}\7za.exe -Uri https://winnipegfir.ca/storage/files/uploads/1643686737.exe
 
       - name: Get sector data
         uses: actions/download-artifact@v2
@@ -140,38 +148,51 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: vatcan-situ-latest
-          path: CZWG/Plugins
+          path: CZWG\Plugins
 
       - name: Get nightly VATCAN Situ
         uses: actions/download-artifact@v2
         continue-on-error: true
         with:
           name: vatcan-situ-nightly
-          path: CZWG/Plugins
+          path: CZWG\Plugins
 
       - name: Remove extra directories
         run: |
-          rm -R .git
-          rm -R .github
+          rm -r -fo .git
+          rm -r -fo .github
 
       - name: Compress files to archive for full release
+        env: 
+          FILE_NAME: CZWG_Full_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ steps.tag-name.outputs.tag }}
         run: |
-          zip -qr ${{ runner.temp }}/CZWG_Full_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ steps.tag-name.outputs.tag }}.zip *
-          7za a ${{ runner.temp }}/CZWG_Full_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ steps.tag-name.outputs.tag }}.7z * > /dev/null
+          mv *.ese ${{ env.FILE_NAME }}.ese && mv *.sct ${{ env.FILE_NAME }}.sct
+          
+          Compress-Archive . -DestinationPath ${{ runner.temp }}\${{ env.FILE_NAME }}.zip > NUL
+          ${{ runner.temp }}\7za.exe a ${{ runner.temp }}\${{ env.FILE_NAME }}.7z * > NUL
 
       - name: Compress files to archive for update packages
+        env: 
+          FILE_NAME: CZWG_Update_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ steps.tag-name.outputs.tag }}
         run : |
           rm CZWG.prf
           rm -R CZWG/Settings
+          mv *.ese "$env:FILE_NAME_SAFE.ese" && mv *.sct "$env:FILE_NAME_SAFE.sct"
           
-          zip -qr ${{ runner.temp }}/CZWG_Update_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ steps.tag-name.outputs.tag }}.zip *
-          7za a ${{ runner.temp }}/CZWG_Update_${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ steps.tag-name.outputs.tag }}.7z * > /dev/null
-
-      - name: Upload files to release
-        uses: AButler/upload-release-assets@v2.0
+          powershell Compress-Archive . -DestinationPath "${{ runner.temp }}\$env:FILE_NAME_SAFE.zip" > NUL
+          ${{ runner.temp }}\7za.exe a "${{ runner.temp }}\$env:FILE_NAME_SAFE.7z" * > NUL
+          
+      - name: Upload 7z files to release
+        uses: shogo82148/actions-upload-release-asset@v1
         with:
-          files: '${{ runner.temp }}/*.zip;${{ runner.temp }}/*.7z'
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ${{runner.temp}}/*.7z
+          
+      - name: Upload zip files to release
+        uses: shogo82148/actions-upload-release-asset@v1
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ${{runner.temp}}/*.zip
 
       - name: Clean artifacts
         if: always()
