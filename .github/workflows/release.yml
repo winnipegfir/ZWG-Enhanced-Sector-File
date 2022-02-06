@@ -166,14 +166,14 @@ jobs:
           # Full package
           mv *.ese CZWG_Full_"$VERSION".ese && mv *.sct CZWG_Full_"$VERSION".sct
           
-          zip -r ${{ runner.temp }}\CZWG_Full_"$VERSION".zip
+          zip -r ${{ runner.temp }}/CZWG_Full_"$VERSION".zip .
 
           # Update package
           rm CZWG.prf
           rm -R CZWG/Settings
           mv *.ese CZWG_Update_"$VERSION".ese && mv *.sct CZWG_Update_"$VERSION".sct
           
-          zip -r ${{ runner.temp }}\CZWG_Update_"$VERSION".zip
+          zip -r ${{ runner.temp }}/CZWG_Update_"$VERSION".zip .
           
       - name: Upload files to release
         uses: shogo82148/actions-upload-release-asset@v1
@@ -225,14 +225,14 @@ jobs:
           # Full package
           mv *.ese CZWG_Full_"$VERSION".ese && mv *.sct CZWG_Full_"$VERSION".sct
 
-          7z a -m0=LZMA CZWG_Full_"$VERSION".7z *
+          7z a -m0=LZMA ${{ runner.temp }}/CZWG_Full_"$VERSION".7z *
 
           # Update package
           rm CZWG.prf
           rm -R CZWG/Settings
           mv *.ese CZWG_Update_"$VERSION".ese && mv *.sct CZWG_Update_"$VERSION".sct
 
-          7z a -m0=LZMA CZWG_Update_"$VERSION".7z *
+          7z a -m0=LZMA ${{ runner.temp }}/CZWG_Update_"$VERSION".7z *
 
       - name: Upload files to release
         uses: shogo82148/actions-upload-release-asset@v1
