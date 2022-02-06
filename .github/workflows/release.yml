@@ -70,7 +70,8 @@ jobs:
           cp -f /tmp/sector-data/*.ese ./*.ese
 
           # Update name in [INFO]
-          awk '/\[INFO\]/{ n=NR+1 } NR==n{ $0="CZWG ${{ needs.prepare.outputs.airac_version }} ${{ needs.prepare.outputs.release_tag }}" }1' /tmp/sector-data/*.sct >> *.sct
+          awk '/\[INFO\]/{ n=NR+1 } NR==n{ $0="CZWG ${{ needs.prepare.outputs.airac_version }} ${{ needs.prepare.outputs.release_tag }}" }1' *.sct
+          awk '/\[INFO\]/{ n=NR+1 } NR==n{ $0="CZWG ${{ needs.prepare.outputs.airac_version }} ${{ needs.prepare.outputs.release_tag }}" }1' *.sct >> *.sct
 
       - name: Upload sector data
         uses: actions/upload-artifact@v2
