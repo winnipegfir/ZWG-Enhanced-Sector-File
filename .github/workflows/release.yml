@@ -70,7 +70,7 @@ jobs:
           cp -f /tmp/sector-data/*.ese ./*.ese
 
           # Update name in [INFO]
-          awk '/\[INFO\]/{ n=NR+1 } NR==n{ $0="CZWG ${{ needs.prepare.outputs.airac_version }} ${{ needs.prepare.outputs.release_tag }}" }1' *.sct > *.sct
+          gawk -i inplace '/\[INFO\]/{ n=NR+1 } NR==n{ $0="CZWG ${{ needs.prepare.outputs.airac_version }} ${{ needs.prepare.outputs.release_tag }}" }1' *.sct > *.sct
 
       - name: Upload sector data
         uses: actions/upload-artifact@v2
@@ -225,14 +225,16 @@ jobs:
           # Full package
           mv *.ese CZWG_Full_"$VERSION".ese && mv *.sct CZWG_Full_"$VERSION".sct
 
-          7z a -m0=LZMA ${{ runner.temp }}/CZWG_Full_"$VERSION".7z *
+          7z a -m0=LZMA -xr!CZWG/Sounds ${{ runner.temp }}/CZWG_Full_"$VERSION".7z *
+          7z a -m0=Copy ${{ runner.temp }}/CZWG_Full_"$VERSION".7z CZWG/Sounds
 
           # Update package
           rm CZWG.prf
           rm -R CZWG/Settings
           mv *.ese CZWG_Update_"$VERSION".ese && mv *.sct CZWG_Update_"$VERSION".sct
 
-          7z a -m0=LZMA ${{ runner.temp }}/CZWG_Update_"$VERSION".7z *
+          7z a -m0=LZMA -xr!CZWG/Sounds ${{ runner.temp }}/CZWG_Update_"$VERSION".7z *
+          7z a -m0=Copy ${{ runner.temp }}/CZWG_Update_"$VERSION".7z CZWG/Sounds
 
       - name: Upload files to release
         uses: shogo82148/actions-upload-release-asset@v1
