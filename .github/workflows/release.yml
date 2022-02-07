@@ -171,6 +171,7 @@ jobs:
           # Update package
           rm CZWG.prf
           rm -R CZWG/Settings
+          rm SectorFileProviderDescriptor.txt WinnipegSectorProvider.txt
           mv *.ese CZWG_Update_"$VERSION".ese && mv *.sct CZWG_Update_"$VERSION".sct
           
           zip -r ${{ runner.temp }}/CZWG_Update_"$VERSION".zip .
@@ -225,14 +226,17 @@ jobs:
           # Full package
           mv *.ese CZWG_Full_"$VERSION".ese && mv *.sct CZWG_Full_"$VERSION".sct
 
-          7z a -mm=LZMA ${{ runner.temp }}/CZWG_Full_"$VERSION".7z *
+          7z a -mm=LZMA -xr!CZWG/Sounds ${{ runner.temp }}/CZWG_Full_"$VERSION".7z *
+          7z a -mx=0 ${{ runner.temp }}/CZWG_Full_"$VERSION".7z CZWG/Sounds
 
           # Update package
           rm CZWG.prf
           rm -R CZWG/Settings
+          rm SectorFileProviderDescriptor.txt WinnipegSectorProvider.txt
           mv *.ese CZWG_Update_"$VERSION".ese && mv *.sct CZWG_Update_"$VERSION".sct
 
-          7z a -mm=LZMA ${{ runner.temp }}/CZWG_Update_"$VERSION".7z *
+          7z a -mm=LZMA -xr!CZWG/Sounds ${{ runner.temp }}/CZWG_Update_"$VERSION".7z *
+          7z a -mx=0 ${{ runner.temp }}/CZWG_Update_"$VERSION".7z CZWG/Sounds
 
       - name: Upload files to release
         uses: shogo82148/actions-upload-release-asset@v1
