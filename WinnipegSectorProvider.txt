@@ -1,0 +1,10 @@
+EuroScope Sector File Provider File
+
+NAME:Winnipeg FIR Sector Provider
+URL:http://files.winnipegfir.ca/
+DOWNLOADINTERVAL:4
+
+SECTOR_NAME:Latest release
+SECTOR_FILE_NAME:CZWG_Latest
+SECTOR_VERSION:WAIT_FOR_PROVIDER_UPDATE
+SECTOR_URL:http://files.winnipegfir.ca/
