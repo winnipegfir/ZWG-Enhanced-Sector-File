@@ -1,106 +1,89 @@
+; Ref: https://www.euroscope.hu/wp/built-in-functions/ for EuroScope's alias variables.
+
 ;*** Amendments and Comms ***
-.x squawk $squawk.
-.ss squawk standby please.
-.sc squawk mode C please.
-.vr are you able voice receive?
-.wx The $1 weather is $metar($1)
-.cw Contact Winnpeg Center, 124.00 Good Day!
-.amd Please plan $1
-.lvl For your direction of flight, would you prefer FL$2 or FL$3
-.clvl Roger. Check $1 for your final cruising altitude.
+.s squawk $asquawk.
+.ss squawk standby.
+.sc squawk mode C.
+.vr are you able to receive voice?
+.wx the $1 weather is $metar($1)
+.lvl for your direction of flight, would you prefer FL$1 or FL$2?
+.clvl roger. Check $1 for your final cruising altitude.
+.c contact $radioname($1) on $freq($1).
+.atis the $1 ATIS is currently $2.
 
 ;*** Approaches ***
-.expi you are $dist($arr) miles from $arr, expect ILS runway $1 approach.
-.expv you are $dist($arr) miles from $arr, expect visual runway $1 approach.
-.ex you are $dist($arr) miles from $arr, expect $1 runway $2 approach.
+.expi expect ILS runway $arrrwy approach.
+.expv expect visual runway $arrrwy approach.
+.expr expect RNAV runway $arrrwy approach.
+.exp expect $1 runway $arrrwy approach.
 .rwyis airport is at your $oclock($arr) at $dist($arr) miles, report runway in sight.
-.ils turn $1 heading $2, cleared ILS Zulu runway $3 approach.
+.ils turn $1 heading $2, cleared ILS runway $arrrwy approach.
+.appr cleared $1, runway $arrrwy.
 
 ;*** Centre ***
-.ctryeg Contact Edmonton Centre on $1. Good day.
-.ctryyz Contact Toronto Centre on $1. Good day.
-.ctrmsp Contact Montreal Centre on $1. Good day.
-.con Contact $1, on frequency $2. So long!
-.no Sorry, I do not control $1. Please contact $2 on $3. Bye bye!
-.bye You are leaving my airspace to the $1, $2 Centre is offline, Radar services terminated, Frequency change approved. See ya!
-.byen You are leaving my airspace to the $1, $2 Centre is offline, Surveillance services terminated, Cleared en-route. G'day!
-.byecon You're leaving controlled airspace, radar services termincated, cleared en-route. Give me a call back $1 miles from the $2 $3.
-.handoff1 $1, it's $2 calling. Manual Handoff for you when ready.
-.handoff2 $1, Squawking $2, FL$3, $4NM from &5, Enroute to $6.
-.star it's a $1 arrival, runway $2.
-.msp handoff, $1 miles from $2 on a $squawk code, $aircraft at $calt.
+.no sorry, I do not control $1. Please contact $radioname($2) on $freq($2).
+.bye you are leaving my airspace to the $1, $2 Centre is offline, surveillance services terminated. Change to en-route frequencies.
+.byecon you are leaving controlled airspace, surveillance services terminated. Change to en-route frequencies. Advise this frequency $1 miles from $2.
+.star plan the $star arrival, runway $arrrwy.
+.usa handoff, $1 miles from $uc($2) on a $squawk code, $aircraft at $calt.
+.ri identified, $alt. Welcome aboard.
 
 ;*** Clearance Delivery ***
-.track what track are you flying today?
-.ct contact delivery on &1.
-.pdcold .msg $aircraft WINNIPEG PRE-DEPARTURE CLEARANCE | $dep $aircraft | TIME ISSUED $time | CREW MESSAGE $aircraft | TRANSPONDER $squawk | AIRCRAFT $type | CRUISE ALTITUDE $alt | FILED ROUTE $route | USE SID $sid | RUNWAY $deprwy | DESTINATION $arr | CONTACT ATC UPON RECEIVE WITH PDC NUMBER $1 AND ATIS TO CONFIRM CLEARANCE
-.clrd Cleared to $arr airport via the $1 departure, flight planned route, depart runway $2, squawk $squawk
-.sidthen Cleared to $arr airport via the $1 departure via $2 then flight planned route, depart runway $3, squawk $squawk
-.nosid cleared to $arr airport, flight planned route, on departure, fly heading $1, climb $2, depart runway $3, squawk $squawk
-.nosidthen cleared to $arr airport via $1 then flight planned route, fly heading $1, climb $2, expect vectors, depart runway $3, squawk $squawk
-.vfr Your VFR flight plan is approved, depart runway $1, squawk $squawk
-.push readback correct. Pushback and start up is at your discretion. Call when ready for taxi.
-.rbsj Readback correct, time $time zulu, Winds $wind($dep), Altimeter is $altim($dep). Released for Departure. Call me once airborne.
-.pdc PDC | $aircraft $dep | $type | $route | USE SID $sid | TRANSPONDER $squawk | DEPARTURE RUNWAY $deprwy | DESTINATION $arr | CONTACT ATC WITH IDENTIFIER - $1 | - END -
+.clrd cleared to $arr airport via the $sid departure, flight planned route, depart runway $deprwy, squawk $asquawk.
+.clrdthen cleared to $arr airport via the $sid departure, $2 then flight planned route, depart runway $deprwy, squawk $asquawk.
+.clrdv roger, depart runway $deprwy, squawk $asquawk. Advise ready for taxi.
+.nosid cleared to $arr airport, flight planned route, on departure, fly heading $1, climb $2, depart runway $deprwy, squawk $asquawk.
+.nosidthen cleared to $arr airport via $1 then flight planned route, fly heading $2, climb $3, expect vectors, depart runway $deprwy, squawk $asquawk.
+.rb readback correct. Pushback and start up is at your discretion. Call when ready for taxi.
+.rbuc readback correct, time $time zulu, Winds $wind($dep), Altimeter is $altim($dep). Released for departure. Monitor local frequency, call this frequency once airborne.
+.pdc PDC | $aircraft $dep | $type | $route | USE SID $sid | TRANSPONDER $asquawk | DEPARTURE RUNWAY $deprwy | DESTINATION $arr | CONTACT ATC WITH IDENTIFIER - $1 | - END -
 
-;*** Departure Control Radar Conact ***
-.dep departure identified, altitude indicates $calt, climb $temp.
-.rct departure identified, altitude indicates $calt, fly heading $1, climb and maintain $temp.
-.rcvfrd radar contact, $calt, $1 departure approved, maintain VFR at or below 1500, resume own navigation.
-.rck3 radar contact, $calt, fly heading 180, expect radar vectors to 5 miles south of Diamond Head, maintain VFR at or below 1500.
-.rcs Radar Contact, Squawk $1
-.rc radar contact, $calt, turn heading &2, climb $3
+;*** Departure ***
+.dep identified, altitude indicates $alt, climb $temp.
+.depfh identified, altitude indicates $alt, fly heading $1, climb $temp.
+.depvfr identified, altitude indicates $alt, maintain VFR, not above $temp.
+.depc identified, altitude indicates $alt, fly heading $1, climb $temp.
 
 ;*** Emergency ***
-.emerg Your emergency has been acknowledged. How many souls on board, and how much fuel are you carrying?
-.problem Please confirm, the problem?
-.prior You will get priority landing for the best available runway.
-.tellemerg We have an emergency aircraft inbound, you can expect some delay and holding.
+.emerg emergency has been acknowledged. How many souls on board, and how much fuel are you carrying?
+.problem please confirm the problem?
+.tellemerg we have an emergency aircraft inbound, you can expect some delay and holding.
 
-;*** Holding Instructions ***
-.rwyhold continue holding short, traffic is a $1 on the runway.
-.landhold continue holding short, traffic is a $1 on final. 
-.lineup line up and wait, runway $1
+;*** Pre-Takeoff Instructions ***
+.hstfc continue holding short, traffic is a $1 on the runway.
+.hsfinal continue holding short, traffic is a $1 on final. 
+.lu line up and wait, runway $deprwy.
 
 ;*** Landing Instructions ***
-.landf number $1, follow the $2 on $3, wind $wind($arr), cleared to land runway $4
-.landwt caution wake turbulence, $1 $2 runway $3, wind $wind($arr), cleared to land runway $4
-.landfwt number $1, follow the $2 on $3, caution wake turbulence, wind $wind($arr), cleared to land runway $4
-.land Winds $wind($arr), cleared to land RWY $1
-.gnd welcome to $1, exit $2 when able, contact ground on $3. Good day!
-.welcome welcome to $1, exit $2 when able and taxi to the gate via $3, montior this frequency. Good day!
+.landnum number $1, wind $wind($arr), cleared to land runway $arrrwy.
+.landwt caution wake turbulence, wind $wind($arr), cleared to land runway $arrrwy.
+.land wind $wind($arr), cleared to land runway $arrrwy.
+.gnd welcome to $arr, exit $1 when able, contact $radioname($2) on $freq($2).
+.nognd welcome to $arr, taxi via $1.
 
 ;*** Pattern Entry Instructions ***
-.pattern enter $1 $2 for runway $3, wind $wind($arr), altimeter $altim($arr), report $2
+.pattern enter $1 for runway $arrrwy, wind $wind($arr), altimeter $altim($arr), report $1.
 
 ;*** Taxi and Takeoff ***
-.taxi Runway $1, altimeter $altim($dep), taxi via $2
-.toc contact $1 on $2 when airborne, winds $wind($dep), cleared takeoff runway $3 . Good day!
-.wind $wind(ICAO)
-.depi radar identified, turn $1 heading $2 direct $3 on course, climb $alt
-.depv radar identified, turn $1 heading $2 to intercept $3 airway, on course, maintain $alt
-.ri Radar Identified, FL$1. Welcome aboard.
-.ridep Radar identified climbing through $calt, turn $1 direct $2, climb $3.
+.taxi runway $deprwy, wind $wind($dep), altimeter $altim($dep), taxi via $1.
+.toc when airborne, contact $radioname($1) on $freq($1), winds $wind($dep), cleared takeoff runway $deprwy.
+.wind $wind($1)
 
 ;*** Traffic Control ***
-.bus *Auto Reply Message* Sorry but I'm busy doing ATC right now and I am not able to respond to personal messages. If you are a pilot trying to contact ATC then communicate on the ATC freq. 
-.busa *Auto Reply Message* Sorry but I'm busy doing ATC right now and I am not able to respond to personal messages.
-.busyall *Auto Reply Message* Sorry but I'm busy doing ATC right now and I am not able to respond to personal messages.
-.traf $1 is at your $2 o?clock and $3 miles, report the traffic in sight.
-.rs Report your speed.
-.red Reduce speed $1 kts.
-.redl Reduce speed $1 kts or less.
-.redm Reduce speed to your minimum clean.
-.redf Reduce to final approach speed.
-.unicom No further ATC available, monitor UNICOM on 122.80. Good day!
-.sad I hate to say it but this is where our time together ends. You're leaving my airspace to the $1, $2 is offline, radar sercives terminated; frequency changed approved.
+.traf traffic is at your $oclock($1) o'clock and $dist($1) miles, $type($1) at $alt($1), report the traffic in sight.
+.rs report your speed.
+.red reduce speed $1 kts.
+.redl reduce speed $1 kts or less.
+.redm reduce speed to your minimum clean.
+.redf reduce to final approach speed.
+.unicom no further ATC available, monitor UNICOM on 122.80.
 
 ;*** Turns and Altitude ***
-.tr Turn right heading $1
-.tl Turn left heading $1
-.clm Climb $1
-.main Maintain $1
+.tr turn right heading $1
+.tl turn left heading $1
+.cm climb $temp
+.main maintain $1
 .dct turn now, direct $1
 .alt $1 altimeter $altim($1)
-.des Descend now, $1
-.vect vectors for the $1 $2, turn $3 heading $4
+.ds descend, $temp
+.vect vectors for the $1, turn $3 heading $4
