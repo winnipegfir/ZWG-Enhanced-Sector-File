@@ -570,8 +570,6 @@ Geo:CYWG Arrows:
 Geo:CYWG TCU Corridors:
 Geo:CYXE Airways:
 Geo:CYXE Arrows:
-Geo:TCUS Rivers and Lakes:
-Geo:TCUS Roads and Highways:
 NDBs:ZHT:symbol
 NDBs:ZWN:symbol
 NDBs:ZWW:symbol
@@ -598,8 +596,6 @@ Runways:CYXE 09-27:centerline
 Runways:CYXE 15-33:centerline
 Sids:CYQT TCU:
 Sids:CYXE TCU:
-VORs:GFK:name
-VORs:GFK:symbol
 SHOWC:1
 SHOWSB:1
 BELOW:0
