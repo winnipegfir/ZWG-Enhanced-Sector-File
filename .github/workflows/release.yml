@@ -164,12 +164,12 @@ jobs:
           VERSION: ${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ env.RELEASE_TAG }}
         run: |
           # Full package
-          mv *.ese CZWG_Full_"$VERSION".ese && mv *.sct CZWG_Full_"$VERSION".sct
+          mv *.ese CZWG_Latest_"$VERSION".ese && mv *.sct CZWG_Latest_"$VERSION".sct
           
           # Insert 'sector' line into profile
-          sed -i "1s/^/Settings	sector	CZWG_Full_$VERSION.sct\n/" *.prf
+          sed -i "1s/^/Settings	sector	CZWG_Latest_$VERSION.sct\n/" *.prf
           
-          zip -r ${{ runner.temp }}/CZWG_Full_"$VERSION".zip .
+          zip -r ${{ runner.temp }}/CZWG_Starter_"$VERSION".zip .
 
           # Update package
           rm CZWG.prf
@@ -227,13 +227,13 @@ jobs:
           VERSION: ${{ env.AIRAC_VERSION }}_${{ env.AIRAC_UPDATE_VERSION }}_${{ env.RELEASE_TAG }}
         run: |
           # Full package
-          mv *.ese CZWG_Full_"$VERSION".ese && mv *.sct CZWG_Full_"$VERSION".sct
+          mv *.ese CZWG_Latest_"$VERSION".ese && mv *.sct CZWG_Latest_"$VERSION".sct
           
           # Insert 'sector' line into profile
-          sed -i "1s/^/Settings	sector	CZWG_Full_$VERSION.sct\n/" *.prf
+          sed -i "1s/^/Settings	sector	CZWG_Latest_$VERSION.sct\n/" *.prf
 
-          7z a -mm=LZMA -xr!CZWG/Sounds ${{ runner.temp }}/CZWG_Full_"$VERSION".7z *
-          7z a -mx=0 ${{ runner.temp }}/CZWG_Full_"$VERSION".7z CZWG/Sounds
+          7z a -mm=LZMA -xr!CZWG/Sounds ${{ runner.temp }}/CZWG_Starter_"$VERSION".7z *
+          7z a -mx=0 ${{ runner.temp }}/CZWG_Starter_"$VERSION".7z CZWG/Sounds
 
           # Update package
           rm CZWG.prf

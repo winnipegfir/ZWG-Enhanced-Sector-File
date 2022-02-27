@@ -29,11 +29,10 @@ We understand that some people don't know how to edit sector files... and that's
 - Please don't spam with unnecessary issues
 
 ## First-time Installation Instructions
-1. [Download latest release](https://github.com/winnipegfir/ZWG-Enhanced-Sector-File/releases) (any file starting with `CZWG_Full`, .zip file is more common).
+1. [Download latest release](https://github.com/winnipegfir/ZWG-Enhanced-Sector-File/releases) (any file starting with `CZWG_Starter`, .zip file is more common).
 2. Unzip the downloaded file. You can store the unzipped folder anywhere on your computer.
 3. Open the folder and open `CZWG.prf` with Euroscope.
 *Make sure you use `Open with` function on Windows if your computer doesn't launch the file in Euroscope automatically. Do not use the open button in Euroscope to open a .prf file!*
-4. Once `CZWG.prf` has opened in Euroscope, you can click `Open SCT` then `Load sector file` to load the .sct file included with the package.
 
 ## Auto-installation
 The sector file is designed with automatic installation in mind using Euroscope's built-in functionality.
