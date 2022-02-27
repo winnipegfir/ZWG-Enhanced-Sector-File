@@ -167,7 +167,7 @@ jobs:
           mv *.ese CZWG_Full_"$VERSION".ese && mv *.sct CZWG_Full_"$VERSION".sct
           
           # Insert 'sector' line into profile
-          sed -i '1s/^/Settings	sector	"$VERSION".sct\n/' *.prf
+          sed -i "1s/^/Settings	sector	$VERSION.sct\n/" *.prf
           
           zip -r ${{ runner.temp }}/CZWG_Full_"$VERSION".zip .
 
@@ -230,7 +230,7 @@ jobs:
           mv *.ese CZWG_Full_"$VERSION".ese && mv *.sct CZWG_Full_"$VERSION".sct
           
           # Insert 'sector' line into profile
-          sed -i '1s/^/Settings	sector	"$VERSION".sct\n/' *.prf
+          sed -i "1s/^/Settings	sector	$VERSION.sct\n/" *.prf
 
           7z a -mm=LZMA -xr!CZWG/Sounds ${{ runner.temp }}/CZWG_Full_"$VERSION".7z *
           7z a -mx=0 ${{ runner.temp }}/CZWG_Full_"$VERSION".7z CZWG/Sounds
