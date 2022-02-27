@@ -1,20 +1,20 @@
 Settings	ipaddr	\..\ipaddr.txt
 Settings	alias	\CZWG\Alias\alias.txt
-Settings	SettingsfileARR	\CZWG\Settings\Arrival	List.txt
-Settings	SettingsfileCONFLICT	\CZWG\Settings\Conflict	List.txt
-Settings	SettingsfileDEP	\CZWG\Settings\Departure	List.txt
-Settings	SettingsfileFP	\CZWG\Settings\Flight	Plan	List.txt
+Settings	SettingsfileARR	\CZWG\Settings\Arrival List.txt
+Settings	SettingsfileCONFLICT	\CZWG\Settings\Conflict List.txt
+Settings	SettingsfileDEP	\CZWG\Settings\Departure List.txt
+Settings	SettingsfileFP	\CZWG\Settings\Flight Plan List.txt
 Settings	Settingsfile	\CZWG\Settings\General.txt
 Settings	SettingsfileVCCS	\CZWG\Settings\General.txt
 Settings	SettingsfilePILOTING	\CZWG\Settings\General.txt
-Settings	SettingsfilePROFILE	\CZWG\Settings\Login	Profiles.txt
+Settings	SettingsfilePROFILE	\CZWG\Settings\Login Profiles.txt
 Settings	SettingsfilePLUGINS	\CZWG\Settings\Plug-ins.txt
 Settings	SettingsfileSCREEN	\CZWG\Settings\Screen.txt
-Settings	SettingsfileSEL	\CZWG\Settings\Sector	Exit	List.txt
-Settings	SettingsfileSIL	\CZWG\Settings\Sector	Inbound	List.txt
+Settings	SettingsfileSEL	\CZWG\Settings\Sector Exit List.txt
+Settings	SettingsfileSIL	\CZWG\Settings\Sector Inbound List.txt
 Settings	SettingsfileSYMBOLOGY	\CZWG\Settings\Symbology.txt
-Settings	SettingsfileTAGS	\CZWG\Settings\Tag	Settings.txt
-Settings	SettingsfileVOICE	\CZWG\Settings\Voice	Channels.txt
+Settings	SettingsfileTAGS	\CZWG\Settings\Tag Settings.txt
+Settings	SettingsfileVOICE	\CZWG\Settings\Voice Channels.txt
 Sounds	Sound0	\CZWG\Sounds\handoff_request.wav
 Sounds	Sound1	\CZWG\Sounds\handoff_accept.wav
 Sounds	Sound2	\CZWG\Sounds\conflict_alert.wav
@@ -37,5 +37,5 @@ Sounds	Sound18	\CZWG\Sounds\startup.wav
 Plugins	Plugin0	\CZWG\Plugins\VATCANSitu-latest.dll
 Plugins	Plugin0Display0	Standard ES radar screen
 Plugins	Plugin1	\CZWG\Plugins\vSMR.dll
-Plugins	Plugin1Display0	SMR	radar display
+Plugins	Plugin1Display0	SMR radar display
 Plugins	Plugin1Display1	Standard ES radar screen
