@@ -1,0 +1,61 @@
+VOICE
+AG:CYAV_ATIS:125.800:novoice:CYAV_ATIS
+AG:CYAV_GND St. Andrews Ground:121.800:novoice:CYAV_GND
+AG:CYAV_TWR St. Andrews Tower:118.500:novoice:CYAV_TWR
+AG:CYMJ_APP Moose Jaw Terminal:119.000:novoice:CYMJ_APP
+AG:CYMJ_ATIS:131.300:novoice:CYMJ_ATIS
+AG:CYMJ_DEL Moose Jaw Delivery:135.300:novoice:CYMJ_DEL
+AG:CYMJ_GND Moose Jaw Ground:121.800:novoice:CYMJ_GND
+AG:CYMJ_TWR Moose Jaw Tower:126.200:novoice:CYMJ_TWR
+AG:CYPG_ATIS:120.850:novoice:CYPG_ATIS
+AG:CYPG_GND Southport Ground:121.700:novoice:CYPG_GND
+AG:CYPG_TWR Southport Tower:126.200:novoice:CYPG_TWR
+AG:CYQR_ATIS:127.000:novoice:CYQR_ATIS
+AG:CYQR_GND Regina Ground:121.900:novoice:CYQR_GND
+AG:CYQR_TWR Regina Tower:118.600:novoice:CYQR_TWR
+AG:CYQT_APP Thunder Bay Terminal:119.200:novoice:CYQT_APP
+AG:CYQT_ATIS:128.800:novoice:CYQT_ATIS
+AG:CYQT_GND Thunder Bay Ground:121.900:novoice:CYQT_GND
+AG:CYQT_TWR Thunder Bay Tower:118.100:novoice:CYQT_TWR
+AG:CYWG_APP Winnipeg Arrival:119.500:novoice:CYWG_APP
+AG:CYWG_ATIS:120.200:novoice:CYWG_ATIS
+AG:CYWG_DEL Winnipeg Delivery:121.300:novoice:CYWG_DEL
+AG:CYWG_DEP Winnipeg Departure:121.000:novoice:CYWG_DEP
+AG:CYWG_E_DEP Winnipeg Departure:119.900:novoice:CYWG_E_DEP
+AG:CYWG_GND Winnipeg Ground:121.900:novoice:CYWG_GND
+AG:CYWG_TWR Winnipeg Tower:118.300:novoice:CYWG_TWR
+AG:CYXE_APP Saskatoon Terminal:119.900:novoice:CYXE_APP
+AG:CYXE_ATIS:128.400:novoice:CYXE_ATIS
+AG:CYXE_GND Saskatoon Ground:121.900:novoice:CYXE_GND
+AG:CYXE_TWR Saskatoon Tower:118.300:novoice:CYXE_TWR
+AG:WPG_CL_CTR Winnipeg Centre:119.700:novoice:WPG_CL_CTR
+AG:WPG_CTR Winnipeg Centre:124.000:novoice:WPG_CTR
+AG:WPG_DR_CTR Winnipeg Centre:132.900:novoice:WPG_DR_CTR
+AG:WPG_EH_CTR Winnipeg Centre:134.150:novoice:WPG_EH_CTR
+AG:WPG_EL_CTR Winnipeg Centre:132.100:novoice:WPG_EL_CTR
+AG:WPG_ER_CTR Winnipeg Centre:135.000:novoice:WPG_ER_CTR
+AG:WPG_FL_CTR Winnipeg Centre:134.170:novoice:WPG_FL_CTR
+AG:WPG_GM_CTR Winnipeg Centre:120.500:novoice:WPG_GM_CTR
+AG:WPG_GP_CTR Winnipeg Centre:123.800:novoice:WPG_GP_CTR
+AG:WPG_HD_CTR Winnipeg Centre:124.000:novoice:WPG_HD_CTR
+AG:WPG_HU_CTR Winnipeg Centre:132.070:novoice:WPG_HU_CTR
+AG:WPG_H_CTR Winnipeg Centre:124.000:novoice:WPG_H_CTR
+AG:WPG_LN_CTR Winnipeg Centre:134.970:novoice:WPG_LN_CTR
+AG:WPG_L_CTR Winnipeg Centre:134.620:novoice:WPG_L_CTR
+AG:WPG_NH_CTR Winnipeg Centre:132.020:novoice:WPG_NH_CTR
+AG:WPG_NL_CTR Winnipeg Centre:134.600:novoice:WPG_NL_CTR
+AG:WPG_PA_CTR Winnipeg Centre:133.100:novoice:WPG_PA_CTR
+AG:WPG_QK_CTR Winnipeg Centre:132.200:novoice:WPG_QK_CTR
+AG:WPG_QV_CTR Winnipeg Centre:124.300:novoice:WPG_QV_CTR
+AG:WPG_SP_CTR Winnipeg Centre:132.120:novoice:WPG_SP_CTR
+AG:WPG_SU_CTR Winnipeg Centre:133.250:novoice:WPG_SU_CTR
+AG:WPG_TH_CTR Winnipeg Centre:134.500:novoice:WPG_TH_CTR
+AG:WPG_TL_CTR Winnipeg Centre:135.150:novoice:WPG_TL_CTR
+AG:WPG_VC_CTR Winnipeg Centre:126.400:novoice:WPG_VC_CTR
+AG:WPG_WE_CTR Winnipeg Centre:118.000:novoice:WPG_WE_CTR
+AG:WPG_WH_CTR Winnipeg Centre:134.950:novoice:WPG_WH_CTR
+AG:WPG_WK_CTR Winnipeg Centre:134.320:novoice:WPG_WK_CTR
+AG:WPG_WL_CTR Winnipeg Centre:123.820:novoice:WPG_WL_CTR
+AG:WPG_WW_CTR Winnipeg Centre:132.250:novoice:WPG_WW_CTR
+AG:WPG_YW_CTR Winnipeg Centre:135.220:novoice:WPG_YW_CTR
+END

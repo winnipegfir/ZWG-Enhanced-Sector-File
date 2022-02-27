@@ -4,10 +4,10 @@
 .sc squawk mode C please.
 .vr are you able voice receive?
 .wx The $1 weather is $metar($1)
-.cw Contact Winnpeg Center, 124.00 Good Day!
 .amd Please plan $1
 .lvl For your direction of flight, would you prefer FL$2 or FL$3
 .clvl Roger. Check $1 for your final cruising altitude.
+.c contact $radioname($1) on $freq($1)
 
 ;*** Approaches ***
 .expi you are $dist($arr) miles from $arr, expect ILS runway $1 approach.
@@ -17,14 +17,9 @@
 .ils turn $1 heading $2, cleared ILS Zulu runway $3 approach.
 
 ;*** Centre ***
-.ctryeg Contact Edmonton Centre on $1. Good day.
-.ctryyz Contact Toronto Centre on $1. Good day.
-.ctrmsp Contact Montreal Centre on $1. Good day.
-.con Contact $1, on frequency $2. So long!
 .no Sorry, I do not control $1. Please contact $2 on $3. Bye bye!
-.bye You are leaving my airspace to the $1, $2 Centre is offline, Radar services terminated, Frequency change approved. See ya!
-.byen You are leaving my airspace to the $1, $2 Centre is offline, Surveillance services terminated, Cleared en-route. G'day!
-.byecon You're leaving controlled airspace, radar services termincated, cleared en-route. Give me a call back $1 miles from the $2 $3.
+.bye You are leaving my airspace to the $1, $2 Centre is offline, surveillance services terminated, Cleared en-route. G'day!
+.byecon You're leaving controlled airspace, surveillance services terminated, cleared en-route. Give me a call back $1 miles from the $2 $3.
 .handoff1 $1, it's $2 calling. Manual Handoff for you when ready.
 .handoff2 $1, Squawking $2, FL$3, $4NM from &5, Enroute to $6.
 .star it's a $1 arrival, runway $2.
@@ -33,7 +28,7 @@
 ;*** Clearance Delivery ***
 .track what track are you flying today?
 .ct contact delivery on &1.
-.pdcold .msg $aircraft WINNIPEG PRE-DEPARTURE CLEARANCE | $dep $aircraft | TIME ISSUED $time | CREW MESSAGE $aircraft | TRANSPONDER $squawk | AIRCRAFT $type | CRUISE ALTITUDE $alt | FILED ROUTE $route | USE SID $sid | RUNWAY $deprwy | DESTINATION $arr | CONTACT ATC UPON RECEIVE WITH PDC NUMBER $1 AND ATIS TO CONFIRM CLEARANCE
+.pdcold $aircraft WINNIPEG PRE-DEPARTURE CLEARANCE | $dep $aircraft | TIME ISSUED $time | CREW MESSAGE $aircraft | TRANSPONDER $squawk | AIRCRAFT $type | CRUISE ALTITUDE $alt | FILED ROUTE $route | USE SID $sid | RUNWAY $deprwy | DESTINATION $arr | CONTACT ATC UPON RECEIVE WITH PDC NUMBER $1 AND ATIS TO CONFIRM CLEARANCE
 .clrd Cleared to $arr airport via the $1 departure, flight planned route, depart runway $2, squawk $squawk
 .sidthen Cleared to $arr airport via the $1 departure via $2 then flight planned route, depart runway $3, squawk $squawk
 .nosid cleared to $arr airport, flight planned route, on departure, fly heading $1, climb $2, depart runway $3, squawk $squawk
