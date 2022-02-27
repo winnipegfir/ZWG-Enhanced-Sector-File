@@ -7,6 +7,8 @@ jobs:
   add-reviews:
     runs-on: ubuntu-latest
     steps:
-      - uses: kentaro-m/auto-assign-action@v1.2.1
+      - name: "Assign Team and Persons"
+        uses: rowi1de/auto-assign-review-teams@v1.1.3
         with:
           repo-token: ${{ secrets.REVIEW_TOKEN }}
+          teams: "sector-file-team"
