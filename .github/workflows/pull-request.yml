@@ -2,6 +2,10 @@ name: Handle Pull Request
 on:
   pull_request:
     types: [opened, ready_for_review]
+    
+env:
+  SITU_OWNER: 'ronyan'
+  SITU_REPOSITORY: 'VATCANSitu'
 
 jobs:
   add-reviewers:
