@@ -41,8 +41,25 @@ Click `Open SCT` then `Download Sector Files...`, you should see the following w
 
 ![Sector File Provider](https://i.imgur.com/K70pZhV.png)
 
-This means that the provider is working properly. You might get asked to load a new sector file when it auto-downloads.
+### Steps
+The following steps are **required** to ensure auto-updating works. 
 
-If it isn't working as expected, you can add the provider manually. Ensure you set the URL as `http://files.winnipegfir.ca/` (trailing slash is important). Checking the `A` box on the provider and the provided file is important for getting the files to update automatically.
+1. Click `Browse` on the Winnipeg Sector Provider.
+
+![](https://i.imgur.com/YDs6AoE.png)
+
+2. Find your installation folder (with your .sct file), and click on `WinnipegSectorProvider.txt`. If asked to overwrite, click Yes.
+
+![](https://i.imgur.com/pmXKB6E.png)
+
+3. Click update to save your changes.
+
+![](https://i.imgur.com/ai9j9nu.png)
+
+### Final note about the Euroscope Sector Provider
+
+If it isn't working as expected, you can add the provider manually. Ensure you set the URL as `http://files.winnipegfir.ca/` (trailing slash is important). You need a filename set as well. Checking the `A` box on the provider and the provided file is important for getting the files to update automatically.
 
 Previous releases of the sector file will be provided in case of any issues (can be downloaded from the same menu.)
+
+Any questions about Euroscope's auto updating functionality can be directed to [k.dunning@vatcan.ca](mailto:k.dunning@vatcan.ca) or in the Winnipeg Discord (can be joined on the [Winnipeg website](https://winnipegfir.ca/dashboard)) #sector-file-support.
