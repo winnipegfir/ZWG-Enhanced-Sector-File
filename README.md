@@ -1,5 +1,8 @@
 ![Winnipeg FIR](https://winnipegfir.ca/storage/files/uploads/1638293555.png)
-<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/winnipegfir/ZWG-Enhanced-Sector-File/total">
+[![GitHub issues](https://img.shields.io/github/issues/winnipegfir/ZWG-Enhanced-Sector-File)](https://github.com/winnipegfir/ZWG-Enhanced-Sector-File/issues)
+[![GitHub forks](https://img.shields.io/github/forks/winnipegfir/ZWG-Enhanced-Sector-File)](https://github.com/winnipegfir/ZWG-Enhanced-Sector-File/network)
+[![GitHub stars](https://img.shields.io/github/stars/winnipegfir/ZWG-Enhanced-Sector-File)](https://github.com/winnipegfir/ZWG-Enhanced-Sector-File/stargazers)
+![GitHub releases](https://img.shields.io/github/v/release/winnipegfir/ZWG-Enhanced-Sector-File)
 
 ## What is it?
 The Winnipeg FIR has decided to open-source it's sector-file to allow for contributions from our members! Any aspect of our sector-file (not including NavData) can be changed within this repository and added to our sector file.
