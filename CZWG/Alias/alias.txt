@@ -12,7 +12,7 @@
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;                                                                                                                         ;
-;  ALL RIGHTS RESERVED © AeroNav Association. NAV-DATA © AEROSOFT. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!   ;
+;  ALL RIGHTS RESERVED Â© AeroNav Association. NAV-DATA Â© AEROSOFT. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!   ;
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;  The Global Nav Generator (GNG) and all it sub-modules where created by the AeroNav Association.                        ;
@@ -68,7 +68,7 @@
 .vfr Your VFR flight plan is approved, depart runway $1, squawk $squawk
 .push readback correct. Pushback and start up is at your discretion. Call when ready for taxi.
 .rbsj Readback correct, time $time zulu, Winds $wind($dep), Altimeter is $altim($dep). Released for Departure. Call me once airborne.
-.pdc PDC | $aircraft $dep | $type | $route | USE SID $sid | DEPARTURE RUNWAY $deprwy | DESTINATION $arr | CONTACT ATC WITH IDENTIFIER - $1 | - END -
+.pdc PDC | $aircraft $dep | $type | $route | USE SID $sid | TRANSPONDER $squawk | DEPARTURE RUNWAY $deprwy | DESTINATION $arr | CONTACT ATC WITH IDENTIFIER - $1 | - END -
 
 ;*** Departure Control Radar Conact ***
 .dep departure identified, altitude indicates $calt, climb $temp.
