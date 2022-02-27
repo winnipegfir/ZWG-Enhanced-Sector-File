@@ -7,6 +7,10 @@ env:
   SITU_OWNER: 'ronyan'
   SITU_REPOSITORY: 'VATCANSitu'
 
+env:
+  SITU_OWNER: 'ronyan'
+  SITU_REPOSITORY: 'VATCANSitu'
+
 jobs:
   add-reviewers:
     name: "🤖 Auto assign PR reviewers"
@@ -144,7 +148,7 @@ jobs:
           mv *.ese CZWG_Full_"$VERSION".ese && mv *.sct CZWG_Full_"$VERSION".sct
           
           # Insert 'sector' line into profile
-          sed -i "1s/^/Settings	sector	CZWG_Full_$VERSION.sct\n/" *.prf
+          sed -i "1s/^/Settings	sector	\\CZWG_Full_$VERSION.sct\n/" *.prf
           
           zip -r ${{ runner.temp }}/CZWG_Full_"$VERSION".zip .
           
