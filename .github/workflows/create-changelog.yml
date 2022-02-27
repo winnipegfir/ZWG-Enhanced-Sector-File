@@ -15,6 +15,9 @@ jobs:
         uses: heinrichreimer/github-changelog-generator-action@v2.3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          onlyLastTag: "true"
+          stripHeaders: "true"
+          stripGeneratorNotice: "true"
       - name: "💾 Save to release"
         uses: tubone24/update_release@v1.3.1
         env:
