@@ -8,7 +8,16 @@ jobs:
   changelog:
     runs-on: ubuntu-latest
     steps:
+      - name: "📥 Checkout"
+        uses: actions/checkout@v1
       - name: "✏️ Generate release changelog"
+        id: generate-release-changelog
         uses: heinrichreimer/github-changelog-generator-action@v2.3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }} 
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "💾 Save to release"
+        uses: tubone24/update_release@v1.3.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          body: ${{ steps.generate-release-changelog.outputs.changelog }}
