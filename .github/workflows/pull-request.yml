@@ -167,5 +167,3 @@ jobs:
           name: |
             sector-data
             vatcan-situ-latest
-            vatcan-situ-nightly
-
