@@ -123,10 +123,6 @@ PROFILE:CYWG_APP:150:5
 ATIS2:Thanks for flying with the Winnipeg FIR!
 ATIS3:Questions, comments or feedback? We want to hear it!
 ATIS4:Visit us at winnipegfir.ca.
-PROFILE:CYWG_TML:150:5
-ATIS2:Thanks for flying with the Winnipeg FIR!
-ATIS3:Questions, comments or feedback? We want to hear it!
-ATIS4:Visit us at winnipegfir.ca.
 PROFILE:CYQT_GND:20:3
 ATIS2:Thanks for flying with the Winnipeg FIR!
 ATIS3:Questions, comments or feedback? We want to hear it!
