@@ -1,7 +1,7 @@
 [{
-    "name": "Default",
+    "name": "CZWG",
     "font": {
-        "font_name": "EuroScope",
+        "font_name": "Arial",
         "weight": "Regular",
         "sizes": {
             "one": 11,
@@ -12,9 +12,9 @@
         }
     },
     "filters": {
-        "hide_above_alt": 4000,
-        "hide_above_spd": 250,
-        "radar_range_nm": 30,
+        "hide_above_alt": 10000,
+        "hide_above_spd": 2000,
+        "radar_range_nm": 50,
         "night_alpha_setting": 110,
         "pro_mode": {
             "enable": false,
@@ -24,6 +24,7 @@
                 "2000",
                 "2200",
                 "1200",
+                "1400",
                 "7000"
             ]
         }
@@ -39,42 +40,44 @@
         },
         "groundstatus_colors": {
             "push": {
-                "r": 227,
-                "g": 121,
-                "b": 0
+                "r": 140,
+                "g": 242,
+                "b": 255
             },
             "taxi": {
-                "r": 255,
-                "g": 166,
-                "b": 0
+                "r": 88,
+                "g": 99,
+                "b": 252
             },
             "depa": {
-                "r": 255,
-                "g": 156,
-                "b": 64
+                "r": 135,
+                "g": 255,
+                "b": 133
             }
         },
         "departure": {
             "definition": [
-                ["callsign", "dest", "groundstatus"],
-                ["sctype", "asid", "deprwy"]
+                ["ssr", "sqerror"],
+                ["callsign", "wake", "ssid", "deprwy"],
+                ["flightlevel", "tendency", "gs", "groundstatus"],
+                ["actype", "dest", "gate"]
             ],
             "background_color": {
-                "r": 33,
-                "g": 115,
-                "b": 196,
+                "r": 35,
+                "g": 35,
+                "b": 35,
                 "a": 255
             },
             "background_color_on_runway": {
-                "r": 40,
-                "g": 50,
-                "b": 200,
-                "a": 255
-            },
-            "nofpl_color": {
                 "r": 170,
                 "g": 50,
                 "b": 50,
+                "a": 255
+            },
+            "nofpl_color": {
+                "r": 99,
+                "g": 71,
+                "b": 4,
                 "a": 255
             },
             "nosid_color": {
@@ -84,20 +87,22 @@
                 "a": 255
             },
             "text_color": {
-                "r": 255,
-                "g": 255,
-                "b": 255
+                "r": 51,
+                "g": 196,
+                "b": 232
             }
         },
         "arrival": {
             "definition": [
-                ["callsign", "srvrwy"],
-                ["gate", "actype"]
+                ["ssr", "sqerror"],
+                ["callsign", "wake", "arvrwy"],
+                ["flightlevel", "tendency", "gs"],
+                ["actype", "dest", "gate"]
             ],
             "background_color": {
-                "r": 170,
-                "g": 50,
-                "b": 50,
+                "r": 35,
+                "g": 35,
+                "b": 35,
                 "a": 255
             },
             "background_color_on_runway": {
@@ -107,22 +112,23 @@
                 "a": 255
             },
             "text_color": {
-                "r": 255,
-                "g": 255,
-                "b": 255
+                "r": 237,
+                "g": 215,
+                "b": 133
             }
         },
         "airborne": {
             "use_departure_arrival_coloring": true,
             "definition": [
-                ["callsign", "dep"],
-                ["gs", "tendency", "flightlevel"],
-                ["actype", "dest"]
+                ["ssr", "sqerror"],
+                ["callsign", "wake", "arvrwy"],
+                ["flightlevel", "tendency", "gs"],
+                ["actype", "dest", "gate"]
             ],
             "background_color": {
-                "r": 0,
-                "g": 0,
-                "b": 0,
+                "r": 35,
+                "g": 35,
+                "b": 35,
                 "a": 255
             },
             "background_color_on_runway": {
@@ -215,111 +221,161 @@
         "extended_lines_length": 15,
         "extended_lines_ticks_spacing": 1,
         "extended_lines_color": {
-            "r": 255,
-            "g": 255,
-            "b": 255
+            "r": 28,
+            "g": 173,
+            "b": 139
         },
         "runway_color": {
-            "r": 0,
-            "g": 0,
-            "b": 0
+            "r": 28,
+            "g": 173,
+            "b": 139
         },
         "background_color": {
-            "r": 100,
-            "g": 100,
-            "b": 100
+            "r": 10,
+            "g": 10,
+            "b": 10
         }
     },
     "maps": {
-        "EGKK": {
-          "sids": [{
-                "names": ["CLN1M", "CLN9M", "CLN5P", "DVR9M", "DVR2P", "LAM5M", "LAM5P", "BIG8M", "BIG3P", "#SAM2M", "SAM3P", "SFD5M", "SFD9P", "BOGNA1M", "NOVMA1M", "DVR1M", "WIZAD4M", "LAM6M", "TIGER3M", "DAGGA1M"],
-                "comment": "Old Conventional Unused SIDS",
-			    "color": {
-                    "r": 255,
-                    "g": 50,
-                    "b": 50,
-                    "a": 255
-                }
-            },
-            {
-                "names": ["BOGNA1X", "HARDY1X", "NOVMA1X"],
-                "comment": "26L A2 SIDs",
-                "color": {
-                    "r": 220,
-                    "g": 175,
-                    "b": 80,
-                    "a": 255
-                }
-            },
-            {
-                "names": ["FRANE1X", "LAM2X", "ADMAG2X"],
-                "comment": "26L A3 SIDs",
-                "color": {
-                    "r": 80,
-                    "g": 150,
-                    "b": 255,
-                    "a": 255
-                }
-            },
-            {
-                "names": ["FRANE1Z", "LAM1Z", "ODVIK2Z"],
-                "comment": "08R J4 SIDs",
-                "color": {
-                    "r": 80,
-                    "g": 150,
-                    "b": 255,
-                    "a": 255
-                }
-            },
-            {
-                "names": ["SFD4Z", "IMVUR1Z", "KENET3P"],
-                "comment": "08R J7 SIDs",
-                "color": {
-                    "r": 220,
-                    "g": 175,
-                    "b": 80,
-                    "a": 255
-                }
-            },
-            {
-                "names": ["BIG2X", "BIG2Z"],
-                "comment": "Biggin Hill SIDs",
-                "color": {
-                    "r": 150,
-                    "g": 255,
-                    "b": 150,
-                    "a": 255
-                }
-            },
-            {
-                "names": ["SFD1X", "DAGGA1X", "TIGER1X", "WIZAD1X"],
-                "comment": "Time Restricted and Relief SIDs",
-                "color": {
-                    "r": 160,
-                    "g": 90,
-                    "b": 30,
-                    "a": 255
-                }
-            }],
-            "runways": [
+        "CYWG": {
+            "sids": [
                 {
-                    "runway_name": "08L/26R",
-                    "path": [
-                        ["N051.08.49.700", "W000.12.45.500"],
-                        ["N051.08.48.000", "W000.12.44.900"],
-                        ["N051.09.05.900", "W000.10.36.200"],
-                        ["N051.09.07.500", "W000.10.36.900"]
-                    ]
+                    "names": ["YWG2", "WLLYE1"],
+                    "comment": "Props RNAV",
+                    "color": {
+                        "r": 35,
+                        "g": 60,
+                        "b": 35,
+                        "a": 255
+                    }
                 },
                 {
-                    "runway_name": "08R/26L",
-                    "path": [
-                        ["N051.08.43.500", "W000.12.44.700"],
-                        ["N051.08.41.300", "W000.12.43.900"],
-                        ["N051.09.04.000", "W000.09.55.600"],
-                        ["N051.09.07.200", "W000.09.57.000"]
-                    ]
+                    "names": ["VOGIG2", "MUSIB1", "KARIS1", "DUXUS1"],
+                    "comment": "Jets RNAV",
+                    "color": {
+                        "r": 60,
+                        "g": 35,
+                        "b": 30,
+                        "a": 255
+                    }
+                },
+                {
+                    "names": ["GRZLY2"],
+                    "comment": "Vector",
+                    "color": {
+                        "r": 35,
+                        "g": 35,
+                        "b": 60,
+                        "a": 255
+                    }
+                },
+                {
+                    "names": ["STONY2"],
+                    "comment": "Quiet",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 255
+                    }
+                }
+            ]
+        }, "CYXE": {
+            "sids": [
+                {
+                    "names": ["UDKUV1", "ERDED1", "ESVOX1", "MOVOT1", "NOXOG1"],
+                    "comment": "RNAV",
+                    "color": {
+                        "r": 60,
+                        "g": 60,
+                        "b": 35,
+                        "a": 255
+                    }
+                },
+                {
+                    "names": ["CYXE8"],
+                    "comment": "Vector",
+                    "color": {
+                        "r": 35,
+                        "g": 35,
+                        "b": 60,
+                        "a": 255
+                    }
+                }
+            ]
+        }, "CYQR": {
+            "sids": [
+                {
+                    "names": ["CYQR2"],
+                    "comment": "Vector",
+                    "color": {
+                        "r": 35,
+                        "g": 35,
+                        "b": 60,
+                        "a": 255
+                    }
+                }
+            ]
+        }, "CYMJ": {
+            "sids": [
+                {
+                    "names": ["CYMJ7"],
+                    "comment": "Vector",
+                    "color": {
+                        "r": 35,
+                        "g": 35,
+                        "b": 60,
+                        "a": 255
+                    }
+                }
+            ]
+        }, "CYPG": {
+            "sids": [
+                {
+                    "names": ["CYPG2"],
+                    "comment": "Vector",
+                    "color": {
+                        "r": 35,
+                        "g": 35,
+                        "b": 60,
+                        "a": 255
+                    }
+                }
+            ]
+        }, "CYAV": {
+            "sids": [
+                {
+                    "names": ["CYAV6"],
+                    "comment": "Vector",
+                    "color": {
+                        "r": 35,
+                        "g": 35,
+                        "b": 60,
+                        "a": 255
+                    }
+                }
+            ]
+        }, "CYQT": {
+            "sids": [
+                {
+                    "names": ["NUBOM1", "LESIS1"],
+                    "comment": "RNAV",
+                    "color": {
+                        "r": 60,
+                        "g": 60,
+                        "b": 35,
+                        "a": 255
+                    }
+                },
+                {
+                    "names": ["CYQT8"],
+                    "comment": "Vector",
+                    "color": {
+                        "r": 35,
+                        "g": 35,
+                        "b": 60,
+                        "a": 255
+                    }
                 }
             ]
         }
