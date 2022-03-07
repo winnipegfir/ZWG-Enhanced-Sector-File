@@ -7,10 +7,6 @@ env:
   SITU_OWNER: 'ronyan'
   SITU_REPOSITORY: 'VATCANSitu'
 
-env:
-  SITU_OWNER: 'ronyan'
-  SITU_REPOSITORY: 'VATCANSitu'
-
 jobs:
   add-reviewers:
     name: "🤖 Auto assign PR reviewers"
