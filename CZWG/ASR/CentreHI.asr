@@ -1,8 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\Nate\Desktop\ZWG-Enhanced-Sector-File-main\CZWG.sct
-SECTORTITLE:CZWG.sct
+SECTORFILE:
+SECTORTITLE:
 ARTCC boundary:CZWG Solid Border:
 ARTCC boundary:KZMP - KZSC Border:
 ARTCC boundary:KZMP - ZYZ Border:
