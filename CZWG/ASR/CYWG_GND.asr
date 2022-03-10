@@ -29,9 +29,7 @@ Free Text:CYPG Portage Taxiways\D:freetext
 Free Text:CYPG Portage Taxiways\G:freetext
 Free Text:CYPG Portage Taxiways\R:freetext
 Free Text:CYQR Regina Ramps\10:freetext
-Free Text:CYQR Regina Ramps\10A:freetext
 Free Text:CYQR Regina Ramps\11:freetext
-Free Text:CYQR Regina Ramps\11A:freetext
 Free Text:CYQR Regina Ramps\2A:freetext
 Free Text:CYQR Regina Ramps\2B:freetext
 Free Text:CYQR Regina Ramps\3:freetext
@@ -49,6 +47,7 @@ Free Text:CYQR Regina Taxiways\B:freetext
 Free Text:CYQR Regina Taxiways\B:freetext
 Free Text:CYQR Regina Taxiways\B:freetext
 Free Text:CYQR Regina Taxiways\B1:freetext
+Free Text:CYQR Regina Taxiways\C:freetext
 Free Text:CYQR Regina Taxiways\C:freetext
 Free Text:CYQR Regina Taxiways\K:freetext
 Free Text:CYQR Regina Taxiways\M:freetext
@@ -204,9 +203,9 @@ SHOWSB:0
 BELOW:0
 ABOVE:0
 LEADER:5
-SHOWLEADER:1
+SHOWLEADER:0
 TURNLEADER:0
-HISTORY_DOTS:5
+HISTORY_DOTS:0
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0

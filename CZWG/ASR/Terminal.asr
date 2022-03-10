@@ -5,13 +5,9 @@ SECTORFILE:
 SECTORTITLE:
 Airports:CJB3:symbol
 Airports:CJL5:symbol
-Airports:CJT8:symbol
-Airports:CJU3:symbol
-Airports:CJZ2:symbol
 Airports:CKA8:symbol
 Airports:CKJ7:symbol
 Airports:CKK7:symbol
-Airports:CKL2:symbol
 ARTCC boundary:CZWG Solid Border:
 ARTCC boundary:KZMP - KZSC Border:
 ARTCC boundary:KZMP - ZYZ Border:
@@ -87,100 +83,6 @@ ARTCC low boundary:FIR border WG - YZ Border:
 ARTCC low boundary:FIR border WK Waskesiu:
 ARTCC low boundary:FIR border WW Winnipeg West:
 ARTCC low boundary:FIR border XE Saskatoon:
-Fixes:AGBEM:symbol
-Fixes:ALKOG:symbol
-Fixes:AMBIL:symbol
-Fixes:ANTOS:symbol
-Fixes:APDIM:symbol
-Fixes:APNEN:symbol
-Fixes:APNIX:symbol
-Fixes:ATURU:symbol
-Fixes:AVSUN:symbol
-Fixes:BEFAN:symbol
-Fixes:BESEN:symbol
-Fixes:BOBKU:symbol
-Fixes:BOTUR:symbol
-Fixes:CAREN:symbol
-Fixes:CHEPS:symbol
-Fixes:DATIB:symbol
-Fixes:DEGLO:symbol
-Fixes:DENTU:symbol
-Fixes:DEPLI:symbol
-Fixes:DUKPI:symbol
-Fixes:DUNEM:symbol
-Fixes:DUTRU:symbol
-Fixes:DUXUS:symbol
-Fixes:EBGOX:symbol
-Fixes:EBKIL:symbol
-Fixes:EBLEP:symbol
-Fixes:EBLUN:symbol
-Fixes:ELETO:symbol
-Fixes:ELVUX:symbol
-Fixes:ERDAP:symbol
-Fixes:ESVOX:symbol
-Fixes:FESET:symbol
-Fixes:GABIG:symbol
-Fixes:GABUR:symbol
-Fixes:GORAK:symbol
-Fixes:GOSAR:symbol
-Fixes:GOXAG:symbol
-Fixes:IGTOL:symbol
-Fixes:IGVEX:symbol
-Fixes:IKLOS:symbol
-Fixes:IPRUN:symbol
-Fixes:IPSIV:symbol
-Fixes:IRLON:symbol
-Fixes:KANEV:symbol
-Fixes:KAVKI:symbol
-Fixes:KAXUG:symbol
-Fixes:KEBIV:symbol
-Fixes:KEBRU:symbol
-Fixes:KEBTU:symbol
-Fixes:KELTO:symbol
-Fixes:KEMKA:symbol
-Fixes:KENBI:symbol
-Fixes:KEPGA:symbol
-Fixes:KERBI:symbol
-Fixes:KESGA:symbol
-Fixes:LESIS:symbol
-Fixes:LIBUK:symbol
-Fixes:LIDAN:symbol
-Fixes:LIVBI:symbol
-Fixes:LONBI:symbol
-Fixes:MAVOB:symbol
-Fixes:MIBMO:symbol
-Fixes:MODUL:symbol
-Fixes:MOGOV:symbol
-Fixes:MUSIB:symbol
-Fixes:MUVAN:symbol
-Fixes:NADAG:symbol
-Fixes:NADUP:symbol
-Fixes:NORAK:symbol
-Fixes:NORUN:symbol
-Fixes:NOTER:symbol
-Fixes:NOXAM:symbol
-Fixes:NUBEN:symbol
-Fixes:NUBOM:symbol
-Fixes:OBSAX:symbol
-Fixes:ODGOV:symbol
-Fixes:OLANI:symbol
-Fixes:OMLOT:symbol
-Fixes:OMSOV:symbol
-Fixes:ORORK:symbol
-Fixes:PIBNU:symbol
-Fixes:PIKRA:symbol
-Fixes:RADIP:symbol
-Fixes:RORMA:symbol
-Fixes:SATIL:symbol
-Fixes:SUTUK:symbol
-Fixes:TABAK:symbol
-Fixes:TIGAG:symbol
-Fixes:ULDOL:symbol
-Fixes:VERLI:symbol
-Fixes:VILPA:symbol
-Fixes:VIVUN:symbol
-Fixes:VODUN:symbol
-Fixes:VOGIG:symbol
 Free Text:CYQR Regina Taxiways\A:freetext
 Free Text:CYQR Regina Taxiways\A:freetext
 Free Text:CYQR Regina Taxiways\B:freetext
@@ -369,171 +271,171 @@ Free Text:Obstacles\^:freetext
 Free Text:Obstacles\^:freetext
 Free Text:Obstacles\^:freetext
 Free Text:Obstacles\^:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
-Free Text:SCT2\·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
+Free Text:SCT2\Â·:freetext
 Free Text:VFR Callup Points\+:freetext
 Free Text:VFR Callup Points\+:freetext
 Free Text:VFR Callup Points\+:freetext
@@ -570,9 +472,6 @@ Geo:CYWG Arrows:
 Geo:CYWG TCU Corridors:
 Geo:CYXE Airways:
 Geo:CYXE Arrows:
-NDBs:ZHT:symbol
-NDBs:ZWN:symbol
-NDBs:ZWW:symbol
 Regions:CYQR Regina:polygon
 Regions:CYQT Thunder Bay:polygon
 Regions:CYXE Saskatoon:polygon
@@ -597,13 +496,13 @@ Runways:CYXE 15-33:centerline
 Sids:CYQT TCU:
 Sids:CYXE TCU:
 SHOWC:1
-SHOWSB:1
+SHOWSB:0
 BELOW:0
 ABOVE:0
 LEADER:-3
 SHOWLEADER:0
 TURNLEADER:0
-HISTORY_DOTS:7
+HISTORY_DOTS:0
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
