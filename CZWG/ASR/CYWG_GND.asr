@@ -1,8 +1,8 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\Nate\Desktop\ZWG-Enhanced-Sector-File-main\CZWG.sct
-SECTORTITLE:CZWG.sct
+SECTORFILE:
+SECTORTITLE:
 Free Text:CYAV St. Andrews Taxiways\A:freetext
 Free Text:CYAV St. Andrews Taxiways\B:freetext
 Free Text:CYAV St. Andrews Taxiways\B:freetext
