@@ -1,6 +1,6 @@
 #### EuroSounds
 
-EuroSounds provided to the Winnipeg FIR from [Andrew Ogden](https://github.com/andrewogden1678).
+EuroSounds provided to the Winnipeg FIR from [Andrew Ogden](https://github.com/aogden41).
 
 Visit https://ganderoceanic.ca/eurosounds for more information.
 
