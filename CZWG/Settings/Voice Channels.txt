@@ -58,6 +58,6 @@ AG:WPG_WH_CTR Winnipeg Centre:134.950:novoice:WPG_WH_CTR
 AG:WPG_WK_CTR Winnipeg Centre:134.320:novoice:WPG_WK_CTR
 AG:WPG_WL_CTR Winnipeg Centre:123.820:novoice:WPG_WL_CTR
 AG:WPG_WW_CTR Winnipeg Centre:132.250:novoice:WPG_WW_CTR
-AG:WPG_YN_CTR Winnipeg Centre:132.800:novoice:WPG_YN_CTR
+AG:WPG_YN_CTR Winnipeg Centre:132.800:novoice:WPG_YN_CTR ;NOTE: Temporary freq until the real one is found
 AG:WPG_YW_CTR Winnipeg Centre:135.220:novoice:WPG_YW_CTR
 END
