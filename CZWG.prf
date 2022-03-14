@@ -3,8 +3,8 @@ Settings	alias	\CZWG\Alias\alias.txt
 Settings	airlines \CZWG\ICAO\ICAO_Airlines.txt
 Settings	aircraft \CZWG\ICAO\ICAO_Airports.txt
 Settings	airports \CZWG\ICAO\ICAO_Aircraft.txt
-Settings	airways \CZWG\NavData\isec.txt
-Settings    airportcoords    \CZWG\NavData\icao.txt
+Settings	airways	\CZWG\NavData\isec.txt
+Settings	airportcoords \CZWG\NavData\icao.txt
 Settings	SettingsfileARR	\CZWG\Settings\Arrival List.txt
 Settings	SettingsfileCONFLICT	\CZWG\Settings\Conflict List.txt
 Settings	SettingsfileDEP	\CZWG\Settings\Departure List.txt
