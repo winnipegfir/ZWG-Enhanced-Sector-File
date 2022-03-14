@@ -67,7 +67,7 @@ jobs:
           sed -n "/\[HIGH AIRWAY\]/,/^\s*$/p" /tmp/sector-data/*.sct  >> *.sct
 
           # Update ese
-          "[SIDSSTARS]" >> *.sct
+          echo "[SIDSSTARS]" >> *.sct
           sed -n '/^\(SID:\|STAR:\)/p'  /tmp/sector-data/*.sct                              >> *.sct
           sed -n '/^\[AIRSPACE\]/,${p;/^\[RADAR\]/q}' /tmp/sector-data/*.sct | head -n 2    >> *.sct
 
