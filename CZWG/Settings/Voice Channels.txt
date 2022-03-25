@@ -23,11 +23,13 @@ AG:CYWG_DEL Winnipeg Delivery:121.300:novoice:CYWG_DEL
 AG:CYWG_DEP Winnipeg Departure:121.000:novoice:CYWG_DEP
 AG:CYWG_E_DEP Winnipeg Departure:119.900:novoice:CYWG_E_DEP
 AG:CYWG_GND Winnipeg Ground:121.900:novoice:CYWG_GND
+AG:CYWG_D_GND Winnipeg Iceman:122.925:novoice:CYWG_D_GND
 AG:CYWG_TWR Winnipeg Tower:118.300:novoice:CYWG_TWR
 AG:CYXE_APP Saskatoon Terminal:119.900:novoice:CYXE_APP
 AG:CYXE_ATIS:128.400:novoice:CYXE_ATIS
 AG:CYXE_GND Saskatoon Ground:121.900:novoice:CYXE_GND
 AG:CYXE_TWR Saskatoon Tower:118.300:novoice:CYXE_TWR
+AG:CYFO_APP Flin Flon TRACON:123.850:novoice:CYFO_APP
 AG:WPG_CL_CTR Winnipeg Centre:119.700:novoice:WPG_CL_CTR
 AG:WPG_CTR Winnipeg Centre:124.000:novoice:WPG_CTR
 AG:WPG_BT_CTR Winnipeg Centre:135.775:novoice:WPG_BT_CTR
