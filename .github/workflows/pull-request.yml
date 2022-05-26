@@ -76,8 +76,6 @@ jobs:
           # Update ese
           echo -e "\n[SIDSSTARS]" >> *.ese
           sed -n '/^\(SID:\|STAR:\)/p'  /tmp/sector-data/*.ese                                 >> *.ese
-          echo -e "\n" >> *.ese
-          ( sed -n '/^\[AIRSPACE\]/,${p;/^\[RADAR\]/q}' /tmp/sector-data/*.ese | head -n -10 ) >> *.ese
 
           # Update name in [INFO]
           gawk -i inplace '/\[INFO\]/{ n=NR+1 } NR==n{ $0="CZWG ${{ needs.prepare.outputs.airac_version }} ${{ needs.prepare.outputs.release_tag }}" }1' *.sct
