@@ -3711,13 +3711,7 @@ CYXE STAR 33 MAVOB6                      N052.01.00.001 W107.28.03.000 N051.59.3
 
 
 [ARTCC HIGH]
-CZWG High Border (FL290+)                N053.28.00.000 W080.00.00.000 N062.45.00.000 W080.00.00.000 COLOR_FIRBorder
-                                         N062.45.00.000 W080.00.00.000 N064.02.00.000 W074.00.00.000 COLOR_FIRBorder
-                                         N064.02.00.000 W074.00.00.000 N064.45.00.000 W080.00.00.000 COLOR_FIRBorder
-                                         N064.45.00.000 W080.00.00.000 N063.00.00.000 W091.00.00.000 COLOR_FIRBorder
-                                         N063.00.00.000 W091.00.00.000 N061.00.00.000 W098.00.00.000 COLOR_FIRBorder
-                                         N061.00.00.000 W098.00.00.000 N055.12.27.440 W107.39.26.010 COLOR_FIRBorder
-                                         N055.12.27.440 W107.39.26.010 N054.46.00.000 W108.25.00.000 COLOR_FIRBorder
+CZWG High Border (FL290+)                N055.12.27.440 W107.39.26.010 N054.46.00.000 W108.25.00.000 COLOR_FIRBorder
                                          N054.46.00.000 W108.25.00.000 N054.46.00.000 W108.41.40.000 COLOR_FIRBorder
                                          N054.46.00.000 W108.41.40.000 N054.42.52.519 W108.39.28.466 COLOR_FIRBorder
                                          N054.42.52.519 W108.39.28.466 N054.37.49.397 W108.37.11.222 COLOR_FIRBorder
@@ -3766,11 +3760,6 @@ CZWG High Border (FL290+)                N053.28.00.000 W080.00.00.000 N062.45.0
                                          N049.00.00.000 W097.43.00.000 N049.00.00.000 W105.00.00.000 COLOR_FIRBorder
                                          N049.00.00.000 W105.00.00.000 N049.00.00.000 W110.00.00.000 COLOR_FIRBorder
 
-FIR border ER - RU Severn/Rupert         N048.47.31.000 W085.20.12.000 N047.05.00.000 W087.00.00.000 COLOR_FIRBorder
-                                         N049.55.00.000 W084.11.00.000 N048.47.31.000 W085.20.12.000 COLOR_FIRBorder
-                                         N049.55.00.000 W084.11.00.000 N050.12.33.399 W085.13.52.352 COLOR_FIRBorder
-                                         N050.12.33.399 W085.13.52.352 N053.28.00.000 W080.00.00.000 COLOR_FIRBorder
-
 FIR border GM - CL Gimli/Clearlake       N052.27.00.000 W101.00.00.000 N052.47.00.000 W099.07.00.000 COLOR_FIRBorder
                                          N052.47.00.000 W099.07.00.000 N052.20.00.000 W095.00.00.000 COLOR_FIRBorder
                                          N052.20.00.000 W095.00.00.000 N049.54.00.000 W097.14.00.000 COLOR_FIRBorder
@@ -3781,14 +3770,9 @@ FIR border DR Broadview                  N051.22.00.000 W105.00.00.000 N051.30.0
                                          N053.00.00.000 W102.00.00.000 N052.27.00.000 W101.00.00.000 COLOR_FIRBorder
                                          N052.27.00.000 W101.00.00.000 N049.00.00.000 W101.00.00.000 COLOR_FIRBorder
 
-FIR border ER Severn                     N052.00.00.000 W093.00.00.000 N057.30.00.000 W090.45.00.000 COLOR_FIRBorder
-
 FIR border HD - FL Dryden/Falcon Lake    N052.20.00.000 W095.00.00.000 N051.20.00.000 W089.20.00.000 COLOR_FIRBorder
                                          N051.20.00.000 W089.20.00.000 N048.45.00.000 W091.05.00.000 COLOR_FIRBorder
                                          N048.45.00.000 W091.05.00.000 N048.34.15.000 W091.50.00.000 COLOR_FIRBorder
-
-FIR border HU Hudson                     N058.30.00.000 W080.00.00.000 N057.30.00.000 W090.45.00.000 COLOR_FIRBorder
-                                         N057.30.00.000 W090.45.00.000 N061.00.00.000 W098.00.00.000 COLOR_FIRBorder
 
 FIR border LN Lumsden Border             N051.22.00.000 W109.35.25.000 N051.22.00.000 W105.00.00.000 COLOR_FIRBorder
                                          N051.22.00.000 W105.00.00.000 N050.40.00.998 W104.53.22.992 COLOR_FIRBorder
@@ -3796,7 +3780,9 @@ FIR border LN Lumsden Border             N051.22.00.000 W109.35.25.000 N051.22.0
 
 FIR border PA Prince Albert              N053.00.00.000 W102.00.00.000 N055.12.27.440 W107.39.26.010 COLOR_FIRBorder
 
-FIR border YW - SU Armstrong/Superior    N051.20.00.000 W089.20.00.000 N050.12.33.399 W085.13.52.352 COLOR_FIRBorder
+FIR border YW - SU Armstrong/Superior    N051.20.00.000 W089.20.00.000 N050.22.24.284 W085.40.59.555 COLOR_FIRBorder
+                                         N050.22.24.284 W085.40.59.555 N050.14.00.000 W085.12.30.000 COLOR_FIRBorder
+                                         N050.14.00.000 W085.12.30.000 N049.55.00.000 W084.11.00.000 COLOR_FIRBorder
 
 
 [ARTCC]
@@ -3879,10 +3865,6 @@ KZMP - ZYZ Border                        N047.05.00.000 W087.00.00.000 N047.01.5
                                          N045.46.56.531 W083.29.52.296 N045.19.60.000 W082.29.60.000 COLOR_White
 
 ZEG - KZSC Border                        N049.00.00.000 W110.00.00.000 N049.00.00.000 W114.40.00.000 COLOR_White
-
-ZEG - ZUL Border                         N064.02.00.000 W074.00.00.000 N064.08.38.750 W073.27.12.530 COLOR_White
-                                         N064.08.38.750 W073.27.12.530 N064.35.49.350 W070.46.10.340 COLOR_White
-                                         N064.35.49.350 W070.46.10.340 N065.00.00.000 W068.00.00.000 COLOR_White
 
 ZUL - ZYZ Border                         N048.47.31.000 W085.20.12.000 N048.05.39.000 W082.27.42.000 COLOR_White
                                          N053.28.00.000 W080.00.00.000 N048.59.60.000 W079.00.00.000 COLOR_White

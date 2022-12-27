@@ -1,8 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
+SECTORFILE:C:\Users\Dunning\Downloads\ZWG-Enhanced-Sector-File\CZWG.sct
+SECTORTITLE:CZWG.sct
 Airports:CYBR:symbol
 Airports:CYDN:symbol
 Airports:CYFO:symbol
@@ -311,7 +311,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:357.00000
 TAGFAMILY:CSiT
-WINDOWAREA:46.391241:-123.560043:66.863521:-63.642744
+WINDOWAREA:43.318096:-138.557680:68.908446:-63.067815
 PLUGIN:VATCANSitu:altFilterHigh:0
 PLUGIN:VATCANSitu:altFilterLow:8
 PLUGIN:VATCANSitu:DisplayTypeName:IFR

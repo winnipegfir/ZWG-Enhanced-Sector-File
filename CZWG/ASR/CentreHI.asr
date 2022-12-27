@@ -1,21 +1,17 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
+SECTORFILE:C:\Users\Dunning\Downloads\ZWG-Enhanced-Sector-File\CZWG.sct
+SECTORTITLE:CZWG.sct
 ARTCC boundary:CZWG Solid Border:
 ARTCC boundary:KZMP - KZSC Border:
 ARTCC boundary:KZMP - ZYZ Border:
 ARTCC boundary:ZEG - KZSC Border:
-ARTCC boundary:ZEG - ZUL Border:
 ARTCC boundary:ZUL - ZYZ Border:
 ARTCC high boundary:CZWG High Border (FL290+):
 ARTCC high boundary:FIR border DR Broadview:
-ARTCC high boundary:FIR border ER - RU Severn/Rupert:
-ARTCC high boundary:FIR border ER Severn:
 ARTCC high boundary:FIR border GM - CL Gimli/Clearlake:
 ARTCC high boundary:FIR border HD - FL Dryden/Falcon Lake:
-ARTCC high boundary:FIR border HU Hudson:
 ARTCC high boundary:FIR border LN Lumsden Border:
 ARTCC high boundary:FIR border PA Prince Albert:
 ARTCC high boundary:FIR border YW - SU Armstrong/Superior:
@@ -44,7 +40,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:CSiT
-WINDOWAREA:43.822143:-128.877733:68.690620:-58.845607
+WINDOWAREA:43.953578:-121.071240:68.822055:-47.710853
 PLUGIN:VATCANSitu:altFilterHigh:0
 PLUGIN:VATCANSitu:altFilterLow:8
 PLUGIN:VATCANSitu:DisplayTypeName:IFR
