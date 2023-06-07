@@ -9,28 +9,14 @@ ARTCC boundary:KZMP - ZYZ Border:
 ARTCC boundary:ZEG - KZSC Border:
 ARTCC boundary:ZEG - ZUL Border:
 ARTCC boundary:ZUL - ZYZ Border:
-ARTCC high boundary:CZWG High Border (FL290+):
-ARTCC high boundary:FIR border DR Broadview:
-ARTCC high boundary:FIR border ER - RU Severn/Rupert:
-ARTCC high boundary:FIR border ER Severn:
-ARTCC high boundary:FIR border GM - CL Gimli/Clearlake:
-ARTCC high boundary:FIR border HD - FL Dryden/Falcon Lake:
-ARTCC high boundary:FIR border HU Hudson:
-ARTCC high boundary:FIR border LN Lumsden Border:
-ARTCC high boundary:FIR border PA Prince Albert:
-ARTCC high boundary:FIR border YW - SU Armstrong/Superior:
-ARTCC low boundary:CZWG Low Border (-FL290):
-ARTCC low boundary:FIR border GP Great Plains:
-ARTCC low boundary:FIR border NL North Low:
-ARTCC low boundary:FIR border QK Kenora:
-ARTCC low boundary:FIR border SP Marathon:
-ARTCC low boundary:FIR border TL Trout Lake:
-ARTCC low boundary:FIR border VC La Ronge:
-ARTCC low boundary:FIR border WE Winnipeg East:
-ARTCC low boundary:FIR border WE Winnipeg East TML:
-ARTCC low boundary:FIR border WG - YZ Border:
-ARTCC low boundary:FIR border WK Waskesiu:
-ARTCC low boundary:FIR border WW Winnipeg West:
+ARTCC high boundary:Armstrong / Superior:
+ARTCC high boundary:Battleford / Prince Albert:
+ARTCC high boundary:Broadview / Yorkton:
+ARTCC high boundary:Clear Lake / Gimli:
+ARTCC high boundary:Dryden / Falcon Lake:
+ARTCC high boundary:Lumsden /Swift Current:
+ARTCC high boundary:WPG High (290+):
+ARTCC low boundary:WPG Low (SFC-290):
 SHOWC:1
 SHOWSB:0
 BELOW:0
