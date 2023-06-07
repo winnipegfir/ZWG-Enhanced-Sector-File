@@ -125,19 +125,18 @@ ARTCC low boundary:Airspace F CYR Restricted Airspace (F412):
 ARTCC low boundary:Airspace F CYR Restricted Airspace F224:
 ARTCC low boundary:Airspace F CYR Restricted Area (F230):
 ARTCC low boundary:CYWG Airspace B TCA_B:
-ARTCC low boundary:CZWG Low Border (-FL290):
-ARTCC low boundary:FIR border GP Great Plains:
-ARTCC low boundary:FIR border NL North Low:
-ARTCC low boundary:FIR border QK Kenora:
 ARTCC low boundary:FIR border QT Thunder Bay:
-ARTCC low boundary:FIR border SP Marathon:
-ARTCC low boundary:FIR border TL Trout Lake:
-ARTCC low boundary:FIR border VC La Ronge:
-ARTCC low boundary:FIR border WE Winnipeg East:
-ARTCC low boundary:FIR border WG - YZ Border:
-ARTCC low boundary:FIR border WK Waskesiu:
-ARTCC low boundary:FIR border WW Winnipeg West:
 ARTCC low boundary:FIR border XE Saskatoon:
+ARTCC low boundary:Great Plains:
+ARTCC low boundary:Kenora:
+ARTCC low boundary:La Ronge:
+ARTCC low boundary:Marathon:
+ARTCC low boundary:North Low:
+ARTCC low boundary:Trout Lake:
+ARTCC low boundary:Waskesiu:
+ARTCC low boundary:Winnipeg East:
+ARTCC low boundary:Winnipeg West:
+ARTCC low boundary:WPG Low (SFC-290):
 Fixes:AMBIL:symbol
 Fixes:ANTOS:symbol
 Fixes:BEFAN:symbol
