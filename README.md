@@ -1,4 +1,4 @@
-![Winnipeg FIR](https://winnipegfir.ca/storage/files/uploads/1638293555.png)
+![Winnipeg FIR](https://winnipegfir.ca/storage/files/uploads/1667585131.png)
 [![GitHub issues](https://img.shields.io/github/issues/winnipegfir/ZWG-Enhanced-Sector-File)](https://github.com/winnipegfir/ZWG-Enhanced-Sector-File/issues)
 [![GitHub forks](https://img.shields.io/github/forks/winnipegfir/ZWG-Enhanced-Sector-File)](https://github.com/winnipegfir/ZWG-Enhanced-Sector-File/network)
 [![GitHub stars](https://img.shields.io/github/stars/winnipegfir/ZWG-Enhanced-Sector-File)](https://github.com/winnipegfir/ZWG-Enhanced-Sector-File/stargazers)
