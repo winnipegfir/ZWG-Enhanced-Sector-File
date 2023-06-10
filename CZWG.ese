@@ -1,4 +1,5 @@
 ;================================================  Positions-Section  ================================================;
+[POSITIONS]
 CYAV_GND:St. Andrews Ground:121.800:VG::CYAV:GND:::4101:4177:N050.03.37.000:W097.01.95.000
 CYAV_TWR:St. Andrews Tower:118.500:VT::CYAV:TWR:::4101:4177:N050.03.37.000:W097.01.95.000
 CYFO_GND:Flin Flon Ground:121.900:FG::CYFO:TWR:::0000:0000:N054.40.41.030 W101.40.54.771
