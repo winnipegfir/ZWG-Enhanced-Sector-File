@@ -1,8 +1,12 @@
 DisplayTypeName:Standard ES radar screen
-DisplayTypeNeedRadarContent:0
+DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
 SECTORFILE:
 SECTORTITLE:
+Free Text:CYAV St. Andrews Ramps\Apron 1:freetext
+Free Text:CYAV St. Andrews Ramps\Apron 2:freetext
+Free Text:CYAV St. Andrews Ramps\Apron 3:freetext
+Free Text:CYAV St. Andrews Ramps\Apron 4:freetext
 Free Text:CYAV St. Andrews Taxiways\A:freetext
 Free Text:CYAV St. Andrews Taxiways\B:freetext
 Free Text:CYAV St. Andrews Taxiways\B:freetext
@@ -23,6 +27,8 @@ Free Text:CYMJ Moose Jaw Taxiways\C:freetext
 Free Text:CYMJ Moose Jaw Taxiways\D:freetext
 Free Text:CYMJ Moose Jaw Taxiways\D:freetext
 Free Text:CYMJ Moose Jaw Taxiways\F:freetext
+Free Text:CYPG Portage Ramps\Apron 1:freetext
+Free Text:CYPG Portage Ramps\Apron 2:freetext
 Free Text:CYPG Portage Taxiways\B:freetext
 Free Text:CYPG Portage Taxiways\D:freetext
 Free Text:CYPG Portage Taxiways\D:freetext
@@ -52,6 +58,21 @@ Free Text:CYQR Regina Taxiways\C:freetext
 Free Text:CYQR Regina Taxiways\K:freetext
 Free Text:CYQR Regina Taxiways\M:freetext
 Free Text:CYQR Regina Taxiways\P:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 1:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 10:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 11:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 12:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 13:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 1A:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 1B:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 2:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 3:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 4:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 5:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 6:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 7:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 8:freetext
+Free Text:CYQT Thunder Bay Ramps\Apron 9:freetext
 Free Text:CYQT Thunder Bay Taxiways\A:freetext
 Free Text:CYQT Thunder Bay Taxiways\A:freetext
 Free Text:CYQT Thunder Bay Taxiways\A:freetext
@@ -80,19 +101,53 @@ Free Text:CYWG Winnipeg Ramps\21:freetext
 Free Text:CYWG Winnipeg Ramps\2A:freetext
 Free Text:CYWG Winnipeg Ramps\3:freetext
 Free Text:CYWG Winnipeg Ramps\3:freetext
+Free Text:CYWG Winnipeg Ramps\30:freetext
+Free Text:CYWG Winnipeg Ramps\31:freetext
+Free Text:CYWG Winnipeg Ramps\32:freetext
+Free Text:CYWG Winnipeg Ramps\33:freetext
+Free Text:CYWG Winnipeg Ramps\34:freetext
+Free Text:CYWG Winnipeg Ramps\35:freetext
 Free Text:CYWG Winnipeg Ramps\3A:freetext
 Free Text:CYWG Winnipeg Ramps\4:freetext
 Free Text:CYWG Winnipeg Ramps\4:freetext
+Free Text:CYWG Winnipeg Ramps\41:freetext
+Free Text:CYWG Winnipeg Ramps\42:freetext
+Free Text:CYWG Winnipeg Ramps\43:freetext
+Free Text:CYWG Winnipeg Ramps\45:freetext
 Free Text:CYWG Winnipeg Ramps\4A:freetext
 Free Text:CYWG Winnipeg Ramps\4A:freetext
 Free Text:CYWG Winnipeg Ramps\5:freetext
+Free Text:CYWG Winnipeg Ramps\50:freetext
+Free Text:CYWG Winnipeg Ramps\51:freetext
+Free Text:CYWG Winnipeg Ramps\52:freetext
+Free Text:CYWG Winnipeg Ramps\53:freetext
+Free Text:CYWG Winnipeg Ramps\54:freetext
+Free Text:CYWG Winnipeg Ramps\55:freetext
 Free Text:CYWG Winnipeg Ramps\6:freetext
+Free Text:CYWG Winnipeg Ramps\60:freetext
+Free Text:CYWG Winnipeg Ramps\61:freetext
 Free Text:CYWG Winnipeg Ramps\7:freetext
 Free Text:CYWG Winnipeg Ramps\8:freetext
 Free Text:CYWG Winnipeg Ramps\9:freetext
 Free Text:CYWG Winnipeg Ramps\Air Canada:freetext
 Free Text:CYWG Winnipeg Ramps\Air Canada Cargo:freetext
 Free Text:CYWG Winnipeg Ramps\Airfield Maintenance & Emergency Response:freetext
+Free Text:CYWG Winnipeg Ramps\Apron I:freetext
+Free Text:CYWG Winnipeg Ramps\Apron I:freetext
+Free Text:CYWG Winnipeg Ramps\Apron I:freetext
+Free Text:CYWG Winnipeg Ramps\Apron I:freetext
+Free Text:CYWG Winnipeg Ramps\Apron I:freetext
+Free Text:CYWG Winnipeg Ramps\Apron II:freetext
+Free Text:CYWG Winnipeg Ramps\Apron IV:freetext
+Free Text:CYWG Winnipeg Ramps\Apron IX:freetext
+Free Text:CYWG Winnipeg Ramps\Apron V:freetext
+Free Text:CYWG Winnipeg Ramps\Apron VI:freetext
+Free Text:CYWG Winnipeg Ramps\Apron VII:freetext
+Free Text:CYWG Winnipeg Ramps\Apron VII A:freetext
+Free Text:CYWG Winnipeg Ramps\Apron VIII:freetext
+Free Text:CYWG Winnipeg Ramps\Apron VIII:freetext
+Free Text:CYWG Winnipeg Ramps\Apron X:freetext
+Free Text:CYWG Winnipeg Ramps\Apron XII:freetext
 Free Text:CYWG Winnipeg Ramps\Aviation Museum:freetext
 Free Text:CYWG Winnipeg Ramps\Blast Wall:freetext
 Free Text:CYWG Winnipeg Ramps\Calm Air:freetext
@@ -159,6 +214,12 @@ Free Text:CYXE Saskatoon Ramps\7:freetext
 Free Text:CYXE Saskatoon Ramps\8:freetext
 Free Text:CYXE Saskatoon Ramps\8A:freetext
 Free Text:CYXE Saskatoon Ramps\9:freetext
+Free Text:CYXE Saskatoon Ramps\Apron 1:freetext
+Free Text:CYXE Saskatoon Ramps\Apron 2:freetext
+Free Text:CYXE Saskatoon Ramps\Apron 3:freetext
+Free Text:CYXE Saskatoon Ramps\Apron 4:freetext
+Free Text:CYXE Saskatoon Ramps\Apron 5:freetext
+Free Text:CYXE Saskatoon Ramps\Apron 6:freetext
 Free Text:CYXE Saskatoon Taxiways\A:freetext
 Free Text:CYXE Saskatoon Taxiways\A:freetext
 Free Text:CYXE Saskatoon Taxiways\A:freetext
@@ -167,15 +228,23 @@ Free Text:CYXE Saskatoon Taxiways\B:freetext
 Free Text:CYXE Saskatoon Taxiways\B:freetext
 Free Text:CYXE Saskatoon Taxiways\C:freetext
 Free Text:CYXE Saskatoon Taxiways\F:freetext
+Geo:CYAV Groundlayout Lines:
 Geo:CYAV Hold Lines:
+Geo:CYMJ Groundlayout Lines:
 Geo:CYMJ Hold Lines:
+Geo:CYPG Groundlayout Lines:
 Geo:CYPG Hold Lines:
+Geo:CYQR Groundlayout Lines:
 Geo:CYQR Hold Lines:
+Geo:CYQT Groundlayout Lines:
 Geo:CYQT Hold Lines:
+Geo:CYWG Groundlayout Lines:
 Geo:CYWG Hold Lines:
+Geo:CYXE Groundlayout Lines:
 Geo:CYXE Hold Lines:
 Regions:CYAV St. Andrews:polygon
 Regions:CYMJ Moose Jaw:polygon
+Regions:CYPG Portage la Prairie:polygon
 Regions:CYQR Regina:polygon
 Regions:CYQT Thunder Bay:polygon
 Regions:CYWG Winnipeg:polygon
@@ -202,13 +271,13 @@ SHOWC:1
 SHOWSB:0
 BELOW:0
 ABOVE:0
-LEADER:5
+LEADER:3
 SHOWLEADER:0
 TURNLEADER:0
 HISTORY_DOTS:0
-SIMULATION_MODE:1
+SIMULATION_MODE:5
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:82.00000
 TAGFAMILY:NARDS
-WINDOWAREA:49.889507:-97.278300:49.927807:-97.203591
+WINDOWAREA:49.888493:-97.289762:49.926793:-97.181905
