@@ -3,12 +3,10 @@ DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
 SECTORFILE:
 SECTORTITLE:
-ARTCC boundary:CZWG Solid Border:
 ARTCC boundary:KZMP - KZSC Border:
 ARTCC boundary:KZMP - ZYZ Border:
 ARTCC boundary:ZEG - KZSC Border:
-ARTCC boundary:ZEG - ZUL Border:
-ARTCC boundary:ZUL - ZYZ Border:
+ARTCC boundary:ZUL - ZYZ Border High:
 ARTCC high boundary:Armstrong / Superior:
 ARTCC high boundary:Battleford / Prince Albert:
 ARTCC high boundary:Broadview / Yorkton:
@@ -17,6 +15,55 @@ ARTCC high boundary:Dryden / Falcon Lake:
 ARTCC high boundary:Lumsden /Swift Current:
 ARTCC high boundary:WPG High (290+):
 ARTCC low boundary:WPG Low (SFC-290):
+VORs:CMX:symbol
+VORs:CTB:symbol
+VORs:DLH:symbol
+VORs:DVL:symbol
+VORs:GFK:symbol
+VORs:GGW:symbol
+VORs:GPZ:symbol
+VORs:HML:symbol
+VORs:HVR:symbol
+VORs:IDJ:symbol
+VORs:INL:symbol
+VORs:ISN:symbol
+VORs:IWD:symbol
+VORs:MOT:symbol
+VORs:ROX:symbol
+VORs:SAW:symbol
+VORs:SSM:symbol
+VORs:UOD:symbol
+VORs:VBI:symbol
+VORs:VLN:symbol
+VORs:VLR:symbol
+VORs:YBR:symbol
+VORs:YDN:symbol
+VORs:YDR:symbol
+VORs:YEA:symbol
+VORs:YEG:symbol
+VORs:YGQ:symbol
+VORs:YMJ:symbol
+VORs:YMM:symbol
+VORs:YMO:symbol
+VORs:YPA:symbol
+VORs:YPG:symbol
+VORs:YQD:symbol
+VORs:YQL:symbol
+VORs:YQT:symbol
+VORs:YQV:symbol
+VORs:YRL:symbol
+VORs:YRT:symbol
+VORs:YSM:symbol
+VORs:YSP:symbol
+VORs:YTH:symbol
+VORs:YTS:symbol
+VORs:YVC:symbol
+VORs:YWG:symbol
+VORs:YXZ:symbol
+VORs:YYC:symbol
+VORs:YYL:symbol
+VORs:YYN:symbol
+VORs:YYQ:symbol
 SHOWC:1
 SHOWSB:0
 BELOW:0

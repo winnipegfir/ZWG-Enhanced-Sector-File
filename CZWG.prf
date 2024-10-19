@@ -41,6 +41,4 @@ Sounds	Sound17	\CZWG\Sounds\pointout.wav
 Sounds	Sound18	\CZWG\Sounds\startup.wav
 Plugins	Plugin0	\CZWG\Plugins\VATCANSitu-latest.dll
 Plugins	Plugin0Display0	Standard ES radar screen
-Plugins	Plugin1	\CZWG\Plugins\vSMR.dll
-Plugins	Plugin1Display0	SMR radar display
 Plugins	Plugin1Display1	Standard ES radar screen
