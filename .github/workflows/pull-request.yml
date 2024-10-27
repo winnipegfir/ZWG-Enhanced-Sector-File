@@ -8,17 +8,6 @@ env:
   SITU_REPOSITORY: "VATCANSitu"
 
 jobs:
-  add-reviewers:
-    name: "🤖 Auto assign PR reviewers"
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: "Assign 'sector-file-team' to PR"
-        uses: rowi1de/auto-assign-review-teams@v1.1.3
-        with:
-          repo-token: ${{ secrets.REVIEW_TOKEN }}
-          teams: "sector-file-team"
-
   prepare:
     name: "🏗️ Prepare"
     runs-on: ubuntu-latest
@@ -57,7 +46,7 @@ jobs:
       - name: Download and extract sector data
         run: |
           curl -s -H "User-Agent: EuroScope" -o temp.7z ${{ needs.prepare.outputs.data_url }}
-          7z x temp.7z -y -o/tmp/sector-data >> /dev/null
+          7z x temp.7z -y -o /tmp/sector-data
           rm temp.7z
 
       - name: Update NavData folder

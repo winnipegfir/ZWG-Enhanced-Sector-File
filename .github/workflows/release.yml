@@ -50,7 +50,7 @@ jobs:
       - name: Download and extract sector data
         run: |
           curl -s -H "User-Agent: EuroScope" -o temp.7z ${{ needs.prepare.outputs.data_url }}
-          7z x temp.7z -y -o/tmp/sector-data >> /dev/null
+          7z x temp.7z -y -o /tmp/sector-data
           rm temp.7z
 
       - name: Update NavData folder
