@@ -32,19 +32,19 @@ jobs:
       - id: variables
         name: Export variables
         run: |
-          echo "::set-output name=data_url::$( sed -n 's/SECTOR_URL://p' SectorProvider.txt )"
-          echo "::set-output name=airac_version::$( grep -Po '(?<=SECTOR_VERSION:([0-9]{14})-).[[:digit:]]+(?=-)' SectorProvider.txt | cut -c 1-4 )"
-          echo "::set-output name=airac_update_version::$( grep -Po '(?<=SECTOR_VERSION:([0-9]{14})-).[[:digit:]]+(?=-)' SectorProvider.txt | cut -c 5-6 )"
+          echo "data_url=$( sed -n 's/SECTOR_URL://p' SectorProvider.txt )" >> $GITHUB_ENV
+          echo "airac_version=$( grep -Po '(?<=SECTOR_VERSION:([0-9]{14})-).[[:digit:]]+(?=-)' SectorProvider.txt | cut -c 1-4 )" >> $GITHUB_ENV
+          echo "airac_update_version=$( grep -Po '(?<=SECTOR_VERSION:([0-9]{14})-).[[:digit:]]+(?=-)' SectorProvider.txt | cut -c 5-6 )" >> $GITHUB_ENV
 
-          echo "::set-output name=situ_urls::$( cd $GITHUB_WORKSPACE/.github/workflows && python3 -c 'import os; import functions; print(functions.get_latest_release_download(os.environ["SITU_OWNER"], os.environ["SITU_REPOSITORY"]))' )"
+          echo "situ_urls=$( cd $GITHUB_WORKSPACE/.github/workflows && python3 -c 'import os; import functions; print(functions.get_latest_release_download(os.environ["SITU_OWNER"], os.environ["SITU_REPOSITORY"]))' )" >> $GITHUB_ENV
 
     outputs:
-      release_tag: PR-TESTING
+      release_tag: ${{ steps.tag-name.outputs.tag }}
 
-      data_url: ${{ steps.variables.outputs.data_url }}
-      airac_version: ${{ steps.variables.outputs.airac_version }}
-      airac_update_version: ${{ steps.variables.outputs.airac_update_version }}
-      situ_urls: ${{ steps.variables.outputs.situ_urls }}
+      data_url: ${{ env.data_url }}
+      airac_version: ${{ env.airac_version }}
+      airac_update_version: ${{ env.airac_update_version }}
+      situ_urls: ${{ env.situ_urls }}
 
   update-navdata:
     name: "🔃 Update NavData"
