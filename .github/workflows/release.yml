@@ -47,14 +47,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download and extract sector data
+      - name: Download sector data
         run: |
           curl -s -H "User-Agent: EuroScope" -o temp.7z ${{ needs.prepare.outputs.data_url }}
+          
+      - name: Extract sector data
+        run: |
           7z x temp.7z -y -o /tmp/sector-data
-          rm temp.7z
 
       - name: Update NavData folder
         run: |
+          rm temp.7z
           cp -TR /tmp/sector-data/CZWG/ICAO CZWG/ICAO
           cp -TR /tmp/sector-data/CZWG/NavData CZWG/NavData
 
