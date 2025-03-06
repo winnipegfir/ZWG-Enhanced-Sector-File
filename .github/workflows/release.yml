@@ -34,7 +34,7 @@ jobs:
     outputs:
       release_tag: ${{ steps.tag-name.outputs.tag }}
 
-      $data_url: ${{ env.data_url }}
+      data_url: ${{ env.data_url }}
       airac_version: ${{ env.airac_version }}
       airac_update_version: ${{ env.airac_update_version }}
       situ_urls: ${{ env.situ_urls }}
