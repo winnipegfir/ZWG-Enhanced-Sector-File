@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: olegtarasov/get-tag@v2
+      - uses: olegtarasov/get-tag@v2.1.4
         id: tag-name
 
       - name: Get latest AeroNav data provider
