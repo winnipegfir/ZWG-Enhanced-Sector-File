@@ -24,7 +24,7 @@ jobs:
 
       - id: variables
         name: Export variables
-        run: |
+        run: | 
           echo "data_url=$( sed -n 's/SECTOR_URL://p' SectorProvider.txt )" >> $GITHUB_ENV
           echo "airac_version=$( grep -Po '(?<=SECTOR_VERSION:([0-9]{14})-).[[:digit:]]+(?=-)' SectorProvider.txt | cut -c 1-4 )" >> $GITHUB_ENV
           echo "airac_update_version=$( grep -Po '(?<=SECTOR_VERSION:([0-9]{14})-).[[:digit:]]+(?=-)' SectorProvider.txt | cut -c 5-6 )" >> $GITHUB_ENV
@@ -34,7 +34,7 @@ jobs:
     outputs:
       release_tag: ${{ steps.tag-name.outputs.tag }}
 
-      data_url: ${{ env.data_url }}
+      $data_url: ${{ env.data_url }}
       airac_version: ${{ env.airac_version }}
       airac_update_version: ${{ env.airac_update_version }}
       situ_urls: ${{ env.situ_urls }}
@@ -61,14 +61,14 @@ jobs:
       - name: Prepare and insert new data
         run: |
           # Update .sct file
-          sed -n "/\[VOR\]/,/^\s*$/p" /tmp/sector-data/*.sct          >> *.sct
-          sed -n "/\[NDB\]/,/^\s*$/p" /tmp/sector-data/*.sct          >> *.sct
-          sed -n "/\[FIXES\]/,/^\s*$/p" /tmp/sector-data/*.sct        >> *.sct
-          sed -n "/\[HIGH AIRWAY\]/,/^\s*$/p" /tmp/sector-data/*.sct  >> *.sct
+          # sed -n "/\[VOR\]/,/^\s*$/p" /tmp/sector-data/*.sct          >> *.sct
+          # sed -n "/\[NDB\]/,/^\s*$/p" /tmp/sector-data/*.sct          >> *.sct
+          # sed -n "/\[FIXES\]/,/^\s*$/p" /tmp/sector-data/*.sct        >> *.sct
+          # sed -n "/\[HIGH AIRWAY\]/,/^\s*$/p" /tmp/sector-data/*.sct  >> *.sct
 
           # Update ese
-          echo -e "\n[SIDSSTARS]" >> *.ese
-          sed -n '/^\(SID:\|STAR:\)/p'  /tmp/sector-data/*.ese                                 >> *.ese
+          # echo -e "\n[SIDSSTARS]" >> *.ese
+          # sed -n '/^\(SID:\|STAR:\)/p'  /tmp/sector-data/*.ese                                 >> *.ese
 
           # Update name in [INFO]
           gawk -i inplace '/\[INFO\]/{ n=NR+1 } NR==n{ $0="CZWG ${{ needs.prepare.outputs.airac_version }} ${{ needs.prepare.outputs.release_tag }}" }1' *.sct
