@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Get latest AeroNav data provider
-        run: curl -s http://files.aero-nav.com/AeroNav_CZWG_by_Aerosoft_NavDataPro.txt | grep -A3 'SECTOR_NAME:CZWG NAV_Data' > SectorProvider.txt
+        run: curl -s http://files.aero-nav.com/AeroNav_CZWG_by_Navigraph.txt | grep -A3 'SECTOR_NAME:NAV_Data' > SectorProvider.txt
 
       - id: variables
         name: Export variables
