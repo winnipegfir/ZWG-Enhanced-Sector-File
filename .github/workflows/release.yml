@@ -19,25 +19,62 @@ jobs:
       - uses: olegtarasov/get-tag@v2.1.4
         id: tag-name
 
-      - name: Get latest AeroNav data provider
-        run: curl -s http://files.aero-nav.com/AeroNav_CZWG_by_Aerosoft_NavDataPro.txt | grep -A3 'SECTOR_NAME:CZWG NAV_Data' > SectorProvider.txt
+      - name: Get latest CZWG sector file info from GNG
+        id: gng_data
+        run: |
+          echo "Fetching CZWG sector file information from GNG..."
+          
+          # Fetch the CZWG page with authentication
+          PAGE_HTML=$(curl -s -H "Cookie: aeronavUsersession=${{ secrets.AERONAV_SESSION_COOKIE }}" "https://files.aero-nav.com/CZWG")
+          
+          # Save for debugging (cookie is not in this file)
+          echo "$PAGE_HTML" > czwg_page.html
+          
+          # Extract the NAV_Data .7z download URL from the HTML
+          # Pattern: /TESTING/CZWG/NAV_Data_TIMESTAMP-AIRAC-VERSION.7z
+          DATA_URL=$(echo "$PAGE_HTML" | grep -oP '/TESTING/CZWG/NAV_Data_[^"]+\.7z' | head -1)
+          
+          if [ -z "$DATA_URL" ]; then
+            echo "ERROR: Could not find NAV_Data download URL"
+            echo "Page content preview:"
+            echo "$PAGE_HTML" | head -50
+            exit 1
+          fi
+          
+          # Make URL absolute
+          DATA_URL="https://files.aero-nav.com${DATA_URL}"
+          
+          echo "Found data URL: $DATA_URL"
+          
+          # Extract AIRAC from filename: NAV_Data_20260524053402-260501-1.7z
+          # Pattern: NAV_Data_TIMESTAMP-AIRAC-VERSION.7z
+          AIRAC_FULL=$(echo "$DATA_URL" | grep -oP '\d{12,14}-(\d{6})-\d+' | grep -oP '\d{6}' | head -1)
+          
+          if [ -z "$AIRAC_FULL" ]; then
+            echo "Warning: Could not extract AIRAC from URL, trying page content..."
+            AIRAC_FULL=$(echo "$PAGE_HTML" | grep -oP 'CZWG NAV_Data.*?(\d{4})\s*/\s*(\d{2})' | grep -oP '\d{4}\s*/\s*\d{2}' | head -1 | tr -d ' /')
+          fi
+          
+          echo "AIRAC: $AIRAC_FULL"
+          
+          # Export variables
+          echo "data_url=$DATA_URL" >> $GITHUB_OUTPUT
+          echo "airac_version=$AIRAC_FULL" >> $GITHUB_OUTPUT
+          echo "airac_update_version=01" >> $GITHUB_OUTPUT
+          
+          echo "✓ Successfully extracted CZWG data from GNG"
 
       - id: variables
-        name: Export variables
-        run: | 
-          echo "data_url=$( sed -n 's/SECTOR_URL://p' SectorProvider.txt )" >> $GITHUB_ENV
-          echo "airac_version=$( grep -Po '(?<=SECTOR_VERSION:([0-9]{14})-).[[:digit:]]+(?=-)' SectorProvider.txt | cut -c 1-4 )" >> $GITHUB_ENV
-          echo "airac_update_version=$( grep -Po '(?<=SECTOR_VERSION:([0-9]{14})-).[[:digit:]]+(?=-)' SectorProvider.txt | cut -c 5-6 )" >> $GITHUB_ENV
-
-          echo "situ_urls=$( cd $GITHUB_WORKSPACE/.github/workflows && python3 -c 'import os; import functions; print(functions.get_latest_release_download(os.environ["SITU_OWNER"], os.environ["SITU_REPOSITORY"]))' )" >> $GITHUB_ENV
+        name: Export additional variables
+        run: |
+          echo "situ_urls=$( cd $GITHUB_WORKSPACE/.github/workflows && python3 -c 'import os; import functions; print(functions.get_latest_release_download(os.environ["SITU_OWNER"], os.environ["SITU_REPOSITORY"]))' )" >> $GITHUB_OUTPUT
 
     outputs:
       release_tag: ${{ steps.tag-name.outputs.tag }}
-
-      data_url: ${{ env.data_url }}
-      airac_version: ${{ env.airac_version }}
-      airac_update_version: ${{ env.airac_update_version }}
-      situ_urls: ${{ env.situ_urls }}
+      data_url: ${{ steps.gng_data.outputs.data_url }}
+      airac_version: ${{ steps.gng_data.outputs.airac_version }}
+      airac_update_version: ${{ steps.gng_data.outputs.airac_update_version }}
+      situ_urls: ${{ steps.variables.outputs.situ_urls }}
 
   update-navdata:
     name: "🔃 Update NavData"
@@ -49,30 +86,55 @@ jobs:
 
       - name: Download sector data
         run: |
-          curl -v --retry 5 --retry-delay 5 -L -s -H "User-Agent: EuroScope" -o temp.7z "${{ needs.prepare.outputs.data_url }}"
+          echo "Downloading from: ${{ needs.prepare.outputs.data_url }}"
+          
+          # Download with authentication cookie
+          curl -v --retry 5 --retry-delay 5 -L \
+            -H "Cookie: aeronavUsersession=${{ secrets.AERONAV_SESSION_COOKIE }}" \
+            -H "User-Agent: Mozilla/5.0" \
+            -o temp.7z \
+            "${{ needs.prepare.outputs.data_url }}"
+          
+          # Verify download
+          if [ ! -f temp.7z ] || [ ! -s temp.7z ]; then
+            echo "ERROR: Failed to download sector data or file is empty"
+            exit 1
+          fi
+          
+          ls -lh temp.7z
           
       - name: Extract sector data
         run: |
-          7z x temp.7z -y -o /tmp/sector-data
+          7z x temp.7z -y -o/tmp/sector-data
+          
+          # List what we extracted
+          echo "Extracted files:"
+          find /tmp/sector-data -type f | head -20
 
       - name: Update NavData folder
         run: |
           rm temp.7z
-          cp -TR /tmp/sector-data/CZWG/ICAO CZWG/ICAO
-          cp -TR /tmp/sector-data/CZWG/NavData CZWG/NavData
+          
+          # Copy NavData - adjust paths based on actual structure
+          if [ -d "/tmp/sector-data/CZWG/ICAO" ]; then
+            cp -TR /tmp/sector-data/CZWG/ICAO CZWG/ICAO
+          fi
+          
+          if [ -d "/tmp/sector-data/CZWG/NavData" ]; then
+            cp -TR /tmp/sector-data/CZWG/NavData CZWG/NavData
+          fi
+          
+          # If the structure is different, try alternative paths
+          if [ -d "/tmp/sector-data/ICAO" ]; then
+            cp -TR /tmp/sector-data/ICAO CZWG/ICAO
+          fi
+          
+          if [ -d "/tmp/sector-data/NavData" ]; then
+            cp -TR /tmp/sector-data/NavData CZWG/NavData
+          fi
 
       - name: Prepare and insert new data
         run: |
-          # Update .sct file
-          # sed -n "/\[VOR\]/,/^\s*$/p" /tmp/sector-data/*.sct          >> *.sct
-          # sed -n "/\[NDB\]/,/^\s*$/p" /tmp/sector-data/*.sct          >> *.sct
-          # sed -n "/\[FIXES\]/,/^\s*$/p" /tmp/sector-data/*.sct        >> *.sct
-          # sed -n "/\[HIGH AIRWAY\]/,/^\s*$/p" /tmp/sector-data/*.sct  >> *.sct
-
-          # Update ese
-          # echo -e "\n[SIDSSTARS]" >> *.ese
-          # sed -n '/^\(SID:\|STAR:\)/p'  /tmp/sector-data/*.ese                                 >> *.ese
-
           # Update name in [INFO]
           gawk -i inplace '/\[INFO\]/{ n=NR+1 } NR==n{ $0="CZWG ${{ needs.prepare.outputs.airac_version }} ${{ needs.prepare.outputs.release_tag }}" }1' *.sct
 
@@ -106,7 +168,7 @@ jobs:
 
   build-situ-source:
     name: "⚒️ Build VATCAN Situ from source"
-    runs-on: windows-2019
+    runs-on: windows-2022
 
     steps:
       - uses: actions/checkout@v4
@@ -184,7 +246,7 @@ jobs:
           zip -r ${{ runner.temp }}/CZWG_Update_"$VERSION".zip .
 
       - name: Upload files to release
-        uses: shogo82148/actions-upload-release-asset@v2
+        uses: shogo82148/actions-upload-release-asset@v1
         with:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: ${{runner.temp}}/*.zip
@@ -249,7 +311,7 @@ jobs:
           7z a -mx=0 ${{ runner.temp }}/CZWG_Update_"$VERSION".7z CZWG/Sounds
 
       - name: Upload files to release
-        uses: shogo82148/actions-upload-release-asset@v2
+        uses: shogo82148/actions-upload-release-asset@v1
         with:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: ${{runner.temp}}/*.7z
