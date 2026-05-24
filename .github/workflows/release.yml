@@ -7,6 +7,8 @@ on:
 env:
   SITU_OWNER: "ronyan"
   SITU_REPOSITORY: "VATCANSitu"
+  # Update this path when you commit a new NAV_Data file
+  NAVDATA_FILE: "navdata/NAV_Data.7z"
 
 jobs:
   prepare:
@@ -19,56 +21,35 @@ jobs:
       - uses: olegtarasov/get-tag@v2.1.4
         id: tag-name
 
-      - name: Get latest CZWG sector file info from GNG
-        id: gng_data
+      - name: Extract AIRAC from NAV_Data filename
+        id: airac_info
         run: |
-          echo "Fetching CZWG sector file information from GNG..."
+          # Get the filename from the path
+          FILENAME=$(basename "${{ env.NAVDATA_FILE }}")
+          echo "NAV_Data filename: $FILENAME"
           
-          # Fetch the CZWG page with authentication
-          PAGE_HTML=$(curl -s -H "Cookie: aeronavUsersession=${{ secrets.AERONAV_SESSION_COOKIE }}" "https://files.aero-nav.com/CZWG")
-          
-          # Debug: Check page size and content
-          echo "Page HTML length: ${#PAGE_HTML} characters"
-          echo "Looking for NAV_Data in page..."
-          echo "$PAGE_HTML" | grep -c "NAV_Data" || echo "NAV_Data not found in page!"
-          
-          # Save for debugging (cookie is not in this file)
-          echo "$PAGE_HTML" > czwg_page.html
-          echo "Full page saved to czwg_page.html"
-          
-          # Extract the NAV_Data .7z download URL from the HTML
-          # Look for href="/CZWG/NAV_Data_...7z"
-          DATA_URL=$(echo "$PAGE_HTML" | grep -oP 'href="(/CZWG/NAV_Data_[^"]+\.7z)"' | grep -oP '/CZWG/NAV_Data_[^"]+\.7z' | head -1)
-          
-          if [ -z "$DATA_URL" ]; then
-            echo "ERROR: Could not find NAV_Data download URL"
-            echo "Page content preview:"
-            echo "$PAGE_HTML" | head -50
-            exit 1
-          fi
-          
-          # Make URL absolute
-          DATA_URL="https://files.aero-nav.com${DATA_URL}"
-          
-          echo "Found data URL: $DATA_URL"
-          
-          # Extract AIRAC from filename: NAV_Data_20260524053402-260501-1.7z
+          # Extract AIRAC from filename pattern: NAV_Data_20260524053402-260501-1.7z
           # Pattern: NAV_Data_TIMESTAMP-AIRAC-VERSION.7z
-          AIRAC_FULL=$(echo "$DATA_URL" | grep -oP '\d{12,14}-(\d{6})-\d+' | grep -oP '\d{6}' | head -1)
+          AIRAC_FULL=$(echo "$FILENAME" | grep -oP '\d{12,14}-(\d{6})-\d+' | grep -oP '\d{6}' | head -1)
           
           if [ -z "$AIRAC_FULL" ]; then
-            echo "Warning: Could not extract AIRAC from URL, trying page content..."
-            AIRAC_FULL=$(echo "$PAGE_HTML" | grep -oP 'CZWG NAV_Data.*?(\d{4})\s*/\s*(\d{2})' | grep -oP '\d{4}\s*/\s*\d{2}' | head -1 | tr -d ' /')
+            echo "Warning: Could not extract AIRAC from filename"
+            echo "Using default AIRAC from release tag"
+            # Try to extract from tag if it follows a pattern like 2605-01
+            AIRAC_FULL=$(echo "${{ steps.tag-name.outputs.tag }}" | grep -oP '\d{4}' | head -1)
+            if [ -z "$AIRAC_FULL" ]; then
+              echo "ERROR: Could not determine AIRAC version"
+              exit 1
+            fi
           fi
           
           echo "AIRAC: $AIRAC_FULL"
           
           # Export variables
-          echo "data_url=$DATA_URL" >> $GITHUB_OUTPUT
           echo "airac_version=$AIRAC_FULL" >> $GITHUB_OUTPUT
           echo "airac_update_version=01" >> $GITHUB_OUTPUT
           
-          echo "✓ Successfully extracted CZWG data from GNG"
+          echo "✓ Successfully extracted AIRAC info"
 
       - id: variables
         name: Export additional variables
@@ -77,9 +58,8 @@ jobs:
 
     outputs:
       release_tag: ${{ steps.tag-name.outputs.tag }}
-      data_url: ${{ steps.gng_data.outputs.data_url }}
-      airac_version: ${{ steps.gng_data.outputs.airac_version }}
-      airac_update_version: ${{ steps.gng_data.outputs.airac_update_version }}
+      airac_version: ${{ steps.airac_info.outputs.airac_version }}
+      airac_update_version: ${{ steps.airac_info.outputs.airac_update_version }}
       situ_urls: ${{ steps.variables.outputs.situ_urls }}
 
   update-navdata:
@@ -90,28 +70,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download sector data
+      - name: Verify NAV_Data file exists
         run: |
-          echo "Downloading from: ${{ needs.prepare.outputs.data_url }}"
-          
-          # Download with authentication cookie
-          curl -v --retry 5 --retry-delay 5 -L \
-            -H "Cookie: aeronavUsersession=${{ secrets.AERONAV_SESSION_COOKIE }}" \
-            -H "User-Agent: Mozilla/5.0" \
-            -o temp.7z \
-            "${{ needs.prepare.outputs.data_url }}"
-          
-          # Verify download
-          if [ ! -f temp.7z ] || [ ! -s temp.7z ]; then
-            echo "ERROR: Failed to download sector data or file is empty"
+          if [ ! -f "${{ env.NAVDATA_FILE }}" ]; then
+            echo "ERROR: NAV_Data file not found at ${{ env.NAVDATA_FILE }}"
+            echo "Please commit the NAV_Data .7z file to your repository"
             exit 1
           fi
           
-          ls -lh temp.7z
-          
+          echo "✓ Found NAV_Data file"
+          ls -lh "${{ env.NAVDATA_FILE }}"
+
       - name: Extract sector data
         run: |
-          7z x temp.7z -y -o/tmp/sector-data
+          echo "Extracting NAV_Data from ${{ env.NAVDATA_FILE }}..."
+          7z x "${{ env.NAVDATA_FILE }}" -y -o/tmp/sector-data
           
           # List what we extracted
           echo "Extracted files:"
@@ -119,30 +92,36 @@ jobs:
 
       - name: Update NavData folder
         run: |
-          rm temp.7z
-          
           # Copy NavData - adjust paths based on actual structure
           if [ -d "/tmp/sector-data/CZWG/ICAO" ]; then
+            echo "Copying ICAO data..."
             cp -TR /tmp/sector-data/CZWG/ICAO CZWG/ICAO
           fi
           
           if [ -d "/tmp/sector-data/CZWG/NavData" ]; then
+            echo "Copying NavData..."
             cp -TR /tmp/sector-data/CZWG/NavData CZWG/NavData
           fi
           
           # If the structure is different, try alternative paths
           if [ -d "/tmp/sector-data/ICAO" ]; then
+            echo "Copying ICAO data (alternative path)..."
             cp -TR /tmp/sector-data/ICAO CZWG/ICAO
           fi
           
           if [ -d "/tmp/sector-data/NavData" ]; then
+            echo "Copying NavData (alternative path)..."
             cp -TR /tmp/sector-data/NavData CZWG/NavData
           fi
+          
+          echo "✓ NavData updated successfully"
 
       - name: Prepare and insert new data
         run: |
           # Update name in [INFO]
           gawk -i inplace '/\[INFO\]/{ n=NR+1 } NR==n{ $0="CZWG ${{ needs.prepare.outputs.airac_version }} ${{ needs.prepare.outputs.release_tag }}" }1' *.sct
+          
+          echo "✓ Sector file updated with AIRAC info"
 
       - name: Upload sector data
         uses: actions/upload-artifact@v4
@@ -230,6 +209,7 @@ jobs:
         run: |
           rm -rf .git
           rm -rf .github
+          rm -rf navdata
 
       - name: Compress files
         env:
@@ -293,6 +273,7 @@ jobs:
         run: |
           rm -rf .git
           rm -rf .github
+          rm -rf navdata
 
       - name: Compress files
         env:
