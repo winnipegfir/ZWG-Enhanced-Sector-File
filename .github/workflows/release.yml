@@ -31,8 +31,8 @@ jobs:
           echo "$PAGE_HTML" > czwg_page.html
           
           # Extract the NAV_Data .7z download URL from the HTML
-          # Pattern: /TESTING/CZWG/NAV_Data_TIMESTAMP-AIRAC-VERSION.7z
-          DATA_URL=$(echo "$PAGE_HTML" | grep -oP '/TESTING/CZWG/NAV_Data_[^"]+\.7z' | head -1)
+          # Pattern: /CZWG/NAV_Data_TIMESTAMP-AIRAC-VERSION.7z
+          DATA_URL=$(echo "$PAGE_HTML" | grep -oP '/CZWG/NAV_Data_[^"]+\.7z' | head -1)
           
           if [ -z "$DATA_URL" ]; then
             echo "ERROR: Could not find NAV_Data download URL"
