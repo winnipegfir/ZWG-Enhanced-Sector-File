@@ -7,8 +7,8 @@ on:
 env:
   SITU_OWNER: "ronyan"
   SITU_REPOSITORY: "VATCANSitu"
-  # Update this path when you commit a new NAV_Data file
-  NAVDATA_FILE: "navdata/NAV_Data.7z"
+  # Update this path when you commit a new NAVData file
+  NAVDATA_FILE: "navdata/NAVData.7z"
 
 jobs:
   prepare:
@@ -21,15 +21,15 @@ jobs:
       - uses: olegtarasov/get-tag@v2.1.4
         id: tag-name
 
-      - name: Extract AIRAC from NAV_Data filename
+      - name: Extract AIRAC from NAVData filename
         id: airac_info
         run: |
           # Get the filename from the path
           FILENAME=$(basename "${{ env.NAVDATA_FILE }}")
-          echo "NAV_Data filename: $FILENAME"
+          echo "NAVData filename: $FILENAME"
           
-          # Extract AIRAC from filename pattern: NAV_Data_20260524053402-260501-1.7z
-          # Pattern: NAV_Data_TIMESTAMP-AIRAC-VERSION.7z
+          # Extract AIRAC from filename pattern: NAVData_20260524053402-260501-1.7z
+          # Pattern: NAVData_TIMESTAMP-AIRAC-VERSION.7z
           AIRAC_FULL=$(echo "$FILENAME" | grep -oP '\d{12,14}-(\d{6})-\d+' | grep -oP '\d{6}' | head -1)
           
           if [ -z "$AIRAC_FULL" ]; then
@@ -70,20 +70,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Verify NAV_Data file exists
+      - name: Verify NAVData file exists
         run: |
           if [ ! -f "${{ env.NAVDATA_FILE }}" ]; then
-            echo "ERROR: NAV_Data file not found at ${{ env.NAVDATA_FILE }}"
-            echo "Please commit the NAV_Data .7z file to your repository"
+            echo "ERROR: NAVData file not found at ${{ env.NAVDATA_FILE }}"
+            echo "Please commit the NAVData .7z file to your repository"
             exit 1
           fi
           
-          echo "✓ Found NAV_Data file"
+          echo "✓ Found NAVData file"
           ls -lh "${{ env.NAVDATA_FILE }}"
 
       - name: Extract sector data
         run: |
-          echo "Extracting NAV_Data from ${{ env.NAVDATA_FILE }}..."
+          echo "Extracting NAVData from ${{ env.NAVDATA_FILE }}..."
           7z x "${{ env.NAVDATA_FILE }}" -y -o/tmp/sector-data
           
           # List what we extracted
