@@ -27,12 +27,18 @@ jobs:
           # Fetch the CZWG page with authentication
           PAGE_HTML=$(curl -s -H "Cookie: aeronavUsersession=${{ secrets.AERONAV_SESSION_COOKIE }}" "https://files.aero-nav.com/CZWG")
           
+          # Debug: Check page size and content
+          echo "Page HTML length: ${#PAGE_HTML} characters"
+          echo "Looking for NAV_Data in page..."
+          echo "$PAGE_HTML" | grep -c "NAV_Data" || echo "NAV_Data not found in page!"
+          
           # Save for debugging (cookie is not in this file)
           echo "$PAGE_HTML" > czwg_page.html
+          echo "Full page saved to czwg_page.html"
           
           # Extract the NAV_Data .7z download URL from the HTML
-          # Pattern: /CZWG/NAV_Data_TIMESTAMP-AIRAC-VERSION.7z
-          DATA_URL=$(echo "$PAGE_HTML" | grep -oP '/CZWG/NAV_Data_[^"]+\.7z' | head -1)
+          # Look for href="/CZWG/NAV_Data_...7z"
+          DATA_URL=$(echo "$PAGE_HTML" | grep -oP 'href="(/CZWG/NAV_Data_[^"]+\.7z)"' | grep -oP '/CZWG/NAV_Data_[^"]+\.7z' | head -1)
           
           if [ -z "$DATA_URL" ]; then
             echo "ERROR: Could not find NAV_Data download URL"
